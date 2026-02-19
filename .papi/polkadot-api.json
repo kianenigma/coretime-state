@@ -1,0 +1,24 @@
+{
+  "version": 0,
+  "descriptorPath": ".papi/descriptors",
+  "entries": {
+    "dot": {
+      "chain": "polkadot",
+      "metadata": ".papi/metadata/dot.scale",
+      "genesis": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+      "codeHash": "0xea937e06567742acd4321eb8acc4911a389130405c8ce6a9a6f81e3557d66740"
+    },
+    "dotCoretime": {
+      "chain": "polkadot_coretime",
+      "metadata": ".papi/metadata/dotCoretime.scale",
+      "genesis": "0xefb56e30d9b4a24099f88820987d0f45fb645992416535d87650d98e00f46fc4",
+      "codeHash": "0xd1f5b09101944a723ad59199c3340b8edb4fa932a32b8704b0f8451ce419f606"
+    },
+    "dotPeople": {
+      "chain": "polkadot_people",
+      "metadata": ".papi/metadata/dotPeople.scale",
+      "genesis": "0x67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
+      "codeHash": "0x25cd8ba734c11875b1b9bf5387d3a685564cc981f48415148c255ea689d60bde"
+    }
+  }
+}
