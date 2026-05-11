@@ -27,7 +27,16 @@ export interface BrokerInfo {
 }
 
 export interface Stats {
+	/** Cores managed by the coretime/broker pallet (ParaScheduler.CoreDescriptors length). */
 	totalCores: number;
+	/** All cores on the relay chain (ParachainHost.availability_cores length). */
+	relayCores: number;
+	/** Relay cores currently doing nothing (availability_cores entries of type Free). */
+	relayFreeCores: number;
+	/** Relay cores currently occupied by a candidate (availability_cores type Occupied). */
+	relayOccupiedCores: number;
+	/** Relay cores with a scheduled-but-not-yet-occupied candidate (availability_cores type Scheduled). */
+	relayScheduledCores: number;
 	taskCores: number;
 	poolCores: number;
 	idleCores: number;

@@ -1,5 +1,5 @@
 import { StorageDescriptor, PlainDescriptor, TxDescriptor, RuntimeDescriptor, Enum, ApisFromDef, QueryFromPalletsDef, TxFromPalletsDef, EventsFromPalletsDef, ErrorsFromPalletsDef, ConstFromPalletsDef, ViewFnsFromPalletsDef, SS58String, FixedSizeBinary, Binary, FixedSizeArray } from "polkadot-api";
-import { I5sesotjlssv2d, Iffmde3ekjedi9, I4mddgoa69c0a2, I5j15c9dfmg5b9, I95g6i7ilua7lq, Ieniouoqkq4icf, Phase, Ibgl04rn6nbfm6, I4q39t5hn830vp, I1v7jbnil3tjns, I8jgj1nhcr2dg8, Ifn6q3equiq9qi, Ia3sb0vgvovhtg, Iav8k1edbj86k7, Itom7fk49o0c9, I4i91h98n3cv1b, I4iumukclgj8ej, Iqnbvitf7a7l3, I48i407regf59r, I6r5cbv8ttrb09, I1q8tnt1cluu5j, I8ds64oj6581v0, Ia7pdug7cdsg8g, I7bhsbas6oufr6, I9bin2jc70qt6q, TransactionPaymentReleases, Ia2lhg7l2hilo3, Ifi4da1gej1fri, Ifvgo9568rpmqc, I82jm9g7pufuel, Ic5m5lp1oioo8r, I6cs1itejju2vv, Icgljjb6j82uhn, Ib77b0fp1a6mjr, I5g2vv0ckl2m8b, Ifup3lg9ro8a0f, I5qfubnuvrnqn6, I8t3u2dv73ahbd, I7vlvrrl2pnbgk, Ie0rpl5bahldfk, XcmPalletVersionMigrationStage, I7e5oaj2qi4kl1, Ie849h3gncgvok, Iat62vud7hlod2, Ict03eedr8de9s, Ibkm2gcn4pji30, XcmVersionedLocation, Idh2ug6ou4a8og, Iejeo53sea6n4q, I53esa2ms463bk, Ib4jhb8tt3uung, Iag146hmjgqfgj, I8uo3fpd3bcc6f, I647tmr91f8n5g, I9p9lq3rej5bhc, Idrqj2ciheom9h, I704rpeu2gigqg, I27kh9vlj2hj16, I2uqrsj0afntbd, I79vd47rrrh0jl, I85i5336l26o5a, I3blejcb10m5c9, I4amfhnpegtv8t, I1vf976h89f2ls, Ia7varbguadod5, I81fgiotlbkabs, Ifsa7722foeg4l, I6a7jeqava2tob, Iarmmkrn32a2vr, I6e7fsqs7vbr1g, In7a38730s6qs, If15el53dd76v9, I9s0ave7t0vnrk, I4fo08joqmcqnm, XcmV5Junctions, Iasb8k6ash5mjn, I8ofcg5rbj0g2c, I4adgbll7gku4i, I6pjjpfvhvcfru, I9pj91mj79qekl, I39uah9nss64h9, Ik64dknsq7k08, Ib51vk42m1po4n, Ial23jn8hp0aen, Ifpj261e8s63m3, Idcr6u6361oad9, I4ktuaksf5i1gk, I9bqtpv2ii35mp, I9j7pagd6d4bda, I2h9pmio37r7fb, Ibmr18suc9ikh9, I9iq22t0burs89, I5u8olqbbvfnvf, I5utcetro501ir, Ifccifqltb5obi, Iadtsfv699cq8b, Ialpmgmhr3gk5r, I4cbvqmqadhrea, I3sdol54kg5jaq, I8fougodaj6di6, I81vt5eq60l4b6, I3vh014cqgmrfd, Ia5cotcvi888ln, I21jsa919m88fd, Iegif7m3upfe1k, I9kt8c221c83ln, Ic76kfh5ebqkpl, Icscpmubum33bq, I21d2olof7eb60, Ibgm4rnf22lal1, Ie68np0vpihith, I9bnv6lu0crf1q, Iauhjqifrdklq7, Ie1uso9m8rt5cf, I40pqum1mu8qg3, I1r4c2ghbtvjuc, Idu7te3vl0t4t3, Ifb0rtcebd7h8g, I3dfo846nv0uvj, I2p4iokg0l68qu, I748h1shg6b03a, I3ts2k6vt7fbm6, Ibsudffi7qlst8, Ideaemvoneh309, I3d9o9d7epp66v, I6lqh1vgb4mcja, I8sblju3g3sv86, I83oifkl5gf7v7, Iad1o67krgn48a, I20693ttkj61v9, I2eb501t8s6hsq, Ianmuoljk2sk1u, Ief0bkjlf1u1k8, I4v4jc8ak5c8j7, Ieifvmse8ekofd, Iepja8rcbuaao2, I10gda06ia6n74, I6bqnueuk5semj, I268qbbcqfpqi0, Iaiqv5prlisjkg, Ia3ebg5qshpkmr, Iagnp6gsiemekd, I2uc90glvkisre, I7tcaqpipfe64i, I6eqlfpqd4sp3a, Ib2n01qni7h5uk, Idscf6boak49q1, I4s60s3v5pfj6u, Ibtsa3docbr9el, I629ak383ovl28, I5cuv5a5cclsfd, Ie3qk84fi8j51k, I6td68h84ru5u7, Ickqtr6vqgluk1, Ihqcf8k5b8c95, Idehabrqi23sc0, Ia82mnkmeo2rhc, Ibq5ginbnbeiuf, Icbccs0ug47ilf, I855j4i3kr8ko1, If6297btvbn4bm, Idd7hd99u0ho0n, Iafscmv8tjf0ou, I100l07kaehdlp, I6gnbnvip5vvdi, Icv68aq8841478, Ic262ibdoec56a, Iflcfm9b6nlmdd, Ijrsf4mnp3eka, Id5fm4p8lj5qgi, I8tjvj9uq4b7hi, I3qt1hgg4djhgb, I4fooe9dun9o0t, Iph9c4rn81ub2, Ier2cke86dqbr2, I39t01nnod9109, I6v8sm60vvkmk7, I1qmtmbe5so8r3, Ih99m6ehpcar7, Idgorhsbgdq2ap, I9ubb2kqevnu6t, I2hq50pu2kdjpo, I9acqruh7322g2, I137t1cld92pod, I61d51nv4cou88, If8u5kl4h8070m, Ibmuil6p3vl83l, I7lul91g50ae87, Icl7nl1rfeog3i, Iasr6pj6shs0fl, I2uqmls7kcdnii, Idg69klialbkb8, I7r6b7145022pp, I30pg328m00nr3, Icmrn7bogp28cs, I7m9b5plj4h5ot, I9onhk772nfs4f, I3l6bnksrmt56r, Idh09k0l2pmdcg, I7uoiphbm0tj4r, I512p1n7qt24l8, I6s1nbislhk619, I3gghqnh2mj0is, I6iv852roh6t3h, I9oc2o6itbiopq, Ibslgga81p36aa, I1rvj4ubaplho0, Ia3uu7lqcc1q1i, I7crucfnonitkn, I7tmrp94r9sq4n, I5m51tc9t4j0rn, Iavhsfjo1obnal, I8bm5j89g6nf2c, I1caihlop7qgrg, Iep27ialq4a7o7, Iasu5jvoqr43mv, I9u95gkcat3d7j, I5qolde99acmd1, I8gtde5abn1g9a, I4sa5jshkufeug, I8tg5u06avpiij, I2ur0oeqg495j8, Idf02iigou8dpt, I1bhd210c3phjj, Iaf2rbm5li8ck4, Ib118uuss8au5p, Idfdoi7vpo971s, Icjdv7ehtt4mjk, I7fa966sr93enr, Icinrphfs7c1gh, Ib27rtfpnn4vta, If5j64blk6vsus, Ie7jbpif7cf5o3, Idj7j1g3t3rr57, Ickukqupg34u5t, I9l243q1j0e2us, I44ckreh9i933v, I2o3evaj5726u9, I201plm6irk5mk, Idmeitgo0fl3id, I7dkrdcvab1juf, If5tfto9lepmm8, Ifla9c8bp7r3l9, Im8dpq6bqg07f, I5mulkk8c7che3, I5r8t4iaend96p, Ibnfvus63r3sgm, I1rps369nood5j, Iaqet9jc3ihboe, Ic952bubvq4k7d, I2v50gu3s1aqk6, Iabpgqcjikia83, Ioqfto355rj4r, If7uv525tdvv7a, I2an1fs2eiebjp, TransactionValidityTransactionSource, I9ask1o4tfvcvs, Icerf8h8pdu8ss, I4gil44d08grh, I7u915mvkdsb08, I6spmpef2c7svf, Iei2mvq0mjvt81, Iftvbctbo05fu4, XcmVersionedXcm, Ic0c3req3mlc1l, XcmVersionedAssetId, I7ocn4njqde3v5, Iek7ha36da9mf5, I9g869l9vmunib, Icb3np1vktddnq, I4l519u9j49gc9, Ieh6nis3hdbtgi, XcmVersionedAsset, Icujp6hmv35vbn, I4tjame31218k9, I5gif8vomct5i8, Ic1d4u2opv3fst, Ie9sr1iqcg3cgm, I1mqgk2tmnn9i2, I6lr8sctk0bi4e, I9e159njru852d } from "./common-types";
+import { I5sesotjlssv2d, Iffmde3ekjedi9, I4mddgoa69c0a2, I5gftbpt30k5bu, I95g6i7ilua7lq, Ieniouoqkq4icf, Phase, Ibgl04rn6nbfm6, I4q39t5hn830vp, I8re9183nrhr3n, I1v7jbnil3tjns, I8jgj1nhcr2dg8, Ifn6q3equiq9qi, Ia3sb0vgvovhtg, Iav8k1edbj86k7, Itom7fk49o0c9, I4i91h98n3cv1b, I4iumukclgj8ej, Iqnbvitf7a7l3, I48i407regf59r, I6r5cbv8ttrb09, I9gacsa7nt0s25, I1q8tnt1cluu5j, I8ds64oj6581v0, Ia7pdug7cdsg8g, I7bhsbas6oufr6, I9bin2jc70qt6q, TransactionPaymentReleases, Ia2lhg7l2hilo3, Ifi4da1gej1fri, Ifvgo9568rpmqc, I82jm9g7pufuel, Ic5m5lp1oioo8r, I6cs1itejju2vv, Icgljjb6j82uhn, I9pvau8qut93lg, I5g2vv0ckl2m8b, Ifup3lg9ro8a0f, I5qfubnuvrnqn6, I8t3u2dv73ahbd, I7vlvrrl2pnbgk, Ie0rpl5bahldfk, XcmPalletVersionMigrationStage, I7e5oaj2qi4kl1, Ie849h3gncgvok, Iat62vud7hlod2, Ict03eedr8de9s, Ibkm2gcn4pji30, XcmVersionedLocation, Idh2ug6ou4a8og, Iejeo53sea6n4q, I53esa2ms463bk, Ib4jhb8tt3uung, Iag146hmjgqfgj, I8uo3fpd3bcc6f, I647tmr91f8n5g, I9p9lq3rej5bhc, Idrqj2ciheom9h, I704rpeu2gigqg, I27kh9vlj2hj16, I2uqrsj0afntbd, I79vd47rrrh0jl, I85i5336l26o5a, I3blejcb10m5c9, I4amfhnpegtv8t, I1vf976h89f2ls, Ia7varbguadod5, I81fgiotlbkabs, Ifsa7722foeg4l, I6a7jeqava2tob, Iarmmkrn32a2vr, I6e7fsqs7vbr1g, In7a38730s6qs, Ibtil0ss5munbk, I9s0ave7t0vnrk, I4fo08joqmcqnm, XcmV5Junctions, Iasb8k6ash5mjn, I8ofcg5rbj0g2c, I4adgbll7gku4i, I6pjjpfvhvcfru, I9pj91mj79qekl, I39uah9nss64h9, Ik64dknsq7k08, Ib51vk42m1po4n, Ial23jn8hp0aen, Ifpj261e8s63m3, Idcr6u6361oad9, I4ktuaksf5i1gk, I9bqtpv2ii35mp, I9j7pagd6d4bda, I2h9pmio37r7fb, Ibmr18suc9ikh9, I9iq22t0burs89, I5u8olqbbvfnvf, I5utcetro501ir, Ifccifqltb5obi, Iadtsfv699cq8b, Ialpmgmhr3gk5r, I4cbvqmqadhrea, I3sdol54kg5jaq, I8fougodaj6di6, I81vt5eq60l4b6, I3vh014cqgmrfd, Ia5cotcvi888ln, I21jsa919m88fd, Iegif7m3upfe1k, I9kt8c221c83ln, Ic76kfh5ebqkpl, Icscpmubum33bq, I21d2olof7eb60, Ibgm4rnf22lal1, Ie68np0vpihith, I9bnv6lu0crf1q, Iauhjqifrdklq7, Ie1uso9m8rt5cf, I40pqum1mu8qg3, I1r4c2ghbtvjuc, I4jnp7ru3vttnn, Ieuealokf454v2, I1p8pplsigfvlh, I417llkg1oc0ug, Ivp3saopk8bg1, I2lmrp1ep8r47p, Iegfvr91465bkl, Ideaemvoneh309, I3d9o9d7epp66v, I6lqh1vgb4mcja, I1h9ebl3g75g8d, I83oifkl5gf7v7, Iad1o67krgn48a, I20693ttkj61v9, I2eb501t8s6hsq, Ianmuoljk2sk1u, I4tvejoj02ka65, I4v4jc8ak5c8j7, Ieifvmse8ekofd, Iepja8rcbuaao2, I10gda06ia6n74, I6bqnueuk5semj, I268qbbcqfpqi0, Iaiqv5prlisjkg, Ia3ebg5qshpkmr, Iagnp6gsiemekd, I2uc90glvkisre, I7tcaqpipfe64i, I6eqlfpqd4sp3a, Ib2n01qni7h5uk, Idscf6boak49q1, I4s60s3v5pfj6u, Ibtsa3docbr9el, I629ak383ovl28, I5cuv5a5cclsfd, Ie3qk84fi8j51k, I6td68h84ru5u7, Ickqtr6vqgluk1, Ihqcf8k5b8c95, Idehabrqi23sc0, Ia82mnkmeo2rhc, Ibq5ginbnbeiuf, Icbccs0ug47ilf, I855j4i3kr8ko1, If6297btvbn4bm, Idd7hd99u0ho0n, Iafscmv8tjf0ou, I100l07kaehdlp, I6gnbnvip5vvdi, Icv68aq8841478, Ic262ibdoec56a, Iflcfm9b6nlmdd, Ijrsf4mnp3eka, Id5fm4p8lj5qgi, I8tjvj9uq4b7hi, I3qt1hgg4djhgb, I4fooe9dun9o0t, Ipc96b675vau1, Ifqi1snmg1eqha, I2r55jl5mh3adj, Iph9c4rn81ub2, Ier2cke86dqbr2, I39t01nnod9109, I6v8sm60vvkmk7, I1qmtmbe5so8r3, Ih99m6ehpcar7, Idgorhsbgdq2ap, I9ubb2kqevnu6t, I2hq50pu2kdjpo, I9acqruh7322g2, I137t1cld92pod, I61d51nv4cou88, If8u5kl4h8070m, Ibmuil6p3vl83l, I7lul91g50ae87, Icl7nl1rfeog3i, Iasr6pj6shs0fl, I2uqmls7kcdnii, Idg69klialbkb8, I7r6b7145022pp, I30pg328m00nr3, Icmrn7bogp28cs, I7m9b5plj4h5ot, I9onhk772nfs4f, I3l6bnksrmt56r, Idh09k0l2pmdcg, I7uoiphbm0tj4r, I512p1n7qt24l8, I6s1nbislhk619, I3gghqnh2mj0is, I6iv852roh6t3h, I9oc2o6itbiopq, Ibslgga81p36aa, I1rvj4ubaplho0, Ia3uu7lqcc1q1i, I7crucfnonitkn, I7tmrp94r9sq4n, I5m51tc9t4j0rn, Iavhsfjo1obnal, I8bm5j89g6nf2c, I1caihlop7qgrg, Iep27ialq4a7o7, Iasu5jvoqr43mv, I9u95gkcat3d7j, I5qolde99acmd1, I8gtde5abn1g9a, I402his32q336o, I8tg5u06avpiij, I2ur0oeqg495j8, Idf02iigou8dpt, I1bhd210c3phjj, Iaf2rbm5li8ck4, Ib118uuss8au5p, Idfdoi7vpo971s, Icjdv7ehtt4mjk, I7fa966sr93enr, Icinrphfs7c1gh, Ib27rtfpnn4vta, If5j64blk6vsus, Ie7jbpif7cf5o3, Idj7j1g3t3rr57, Ickukqupg34u5t, I9l243q1j0e2us, I44ckreh9i933v, I2o3evaj5726u9, I201plm6irk5mk, Idmeitgo0fl3id, I7dkrdcvab1juf, If5tfto9lepmm8, Ifla9c8bp7r3l9, Im8dpq6bqg07f, I5mulkk8c7che3, I9cne53h7vg3o3, Id1mft8cuf1k15, I5r8t4iaend96p, I1rqv2vg8jro1n, I1rps369nood5j, Iaqet9jc3ihboe, Ic952bubvq4k7d, I2v50gu3s1aqk6, Iabpgqcjikia83, Ioqfto355rj4r, If7uv525tdvv7a, I2an1fs2eiebjp, TransactionValidityTransactionSource, I9ask1o4tfvcvs, I4ph3d1eepnmr1, Icerf8h8pdu8ss, I4gil44d08grh, I7u915mvkdsb08, I6spmpef2c7svf, Iei2mvq0mjvt81, Iftvbctbo05fu4, XcmVersionedXcm, Ic0c3req3mlc1l, XcmVersionedAssetId, I7ocn4njqde3v5, Iek7ha36da9mf5, I9g869l9vmunib, I4v7tuba8k4lv4, I3pbsur5gftk1, Ieh6nis3hdbtgi, XcmVersionedAsset, Icujp6hmv35vbn, I4tjame31218k9, I5gif8vomct5i8, Ic1d4u2opv3fst, Ie9sr1iqcg3cgm, I1mqgk2tmnn9i2, I6lr8sctk0bi4e, I9e159njru852d } from "./common-types";
 type AnonymousEnum<T extends {}> = T & {
     __anonymous: true;
 };
@@ -29,9 +29,11 @@ type IStorage = {
          */
         BlockWeight: StorageDescriptor<[], Anonymize<Iffmde3ekjedi9>, false, never>;
         /**
-         * Total length (in bytes) for all extrinsics put together, for the current block.
+         * Total size (in bytes) of the current block.
+         *
+         * Tracks the size of the header and all extrinsics.
          */
-        AllExtrinsicsLen: StorageDescriptor<[], number, true, never>;
+        BlockSize: StorageDescriptor<[], number, true, never>;
         /**
          * Map of block numbers to block hashes.
          */
@@ -61,7 +63,7 @@ type IStorage = {
          * Events have a large in-memory size. Box the events to not go out-of-memory
          * just in case someone still reads them from within the runtime.
          */
-        Events: StorageDescriptor<[], Anonymize<I5j15c9dfmg5b9>, false, never>;
+        Events: StorageDescriptor<[], Anonymize<I5gftbpt30k5bu>, false, never>;
         /**
          * The number of events in the `Events<T>` list.
          */
@@ -83,6 +85,10 @@ type IStorage = {
          * Stores the `spec_version` and `spec_name` of when the last runtime upgrade happened.
          */
         LastRuntimeUpgrade: StorageDescriptor<[], Anonymize<Ieniouoqkq4icf>, true, never>;
+        /**
+         * Number of blocks till the pending code upgrade is applied.
+         */
+        BlocksTillUpgrade: StorageDescriptor<[], number, true, never>;
         /**
          * True if we have upgraded so that `type RefCount` is `u32`. False (default) if not.
          */
@@ -113,6 +119,21 @@ type IStorage = {
     };
     ParachainSystem: {
         /**
+         * The current block weight mode.
+         *
+         * This is used to determine what is the maximum allowed block weight, for more information see
+         * [`block_weight`].
+         *
+         * Killed in [`Self::on_initialize`] and set by the [`block_weight`] logic.
+         */
+        BlockWeightMode: StorageDescriptor<[], Anonymize<I8re9183nrhr3n>, true, never>;
+        /**
+         * The core count available to the parachain in the previous block.
+         *
+         * This is mainly used for offchain functionality to calculate the correct target block weight.
+         */
+        PreviousCoreCount: StorageDescriptor<[], number, true, never>;
+        /**
          * Latest included block descendants the runtime accepted. In other words, these are
          * ancestors of the currently executing block which have not been included in the observed
          * relay-chain state.
@@ -132,8 +153,8 @@ type IStorage = {
          * applied.
          *
          * As soon as the relay chain gives us the go-ahead signal, we will overwrite the
-         * [`:code`][sp_core::storage::well_known_keys::CODE] which will result the next block process
-         * with the new validation code. This concludes the upgrade process.
+         * [`:pending_code`][sp_core::storage::well_known_keys::PENDING_CODE] which will result the
+         * next block to be processed with the new validation code. This concludes the upgrade process.
          */
         PendingValidationCode: StorageDescriptor<[], Binary, false, never>;
         /**
@@ -146,8 +167,8 @@ type IStorage = {
         NewValidationCode: StorageDescriptor<[], Binary, true, never>;
         /**
          * The [`PersistedValidationData`] set for this block.
-         * This value is expected to be set only once per block and it's never stored
-         * in the trie.
+         *
+         * This value is expected to be set only once by the [`Pallet::set_validation_data`] inherent.
          */
         ValidationData: StorageDescriptor<[], Anonymize<Ifn6q3equiq9qi>, true, never>;
         /**
@@ -251,13 +272,19 @@ type IStorage = {
         /**
          * Upward messages that were sent in a block.
          *
-         * This will be cleared in `on_initialize` of each new block.
+         * This will be cleared in `on_initialize` for each new block.
          */
         UpwardMessages: StorageDescriptor<[], Anonymize<Itom7fk49o0c9>, false, never>;
         /**
-         * Upward messages that are still pending and not yet send to the relay chain.
+         * Upward messages that are still pending and not yet sent to the relay chain.
          */
         PendingUpwardMessages: StorageDescriptor<[], Anonymize<Itom7fk49o0c9>, false, never>;
+        /**
+         * Upward signals that are still pending and not yet sent to the relay chain.
+         *
+         * This will be cleared in `on_finalize` for each block.
+         */
+        PendingUpwardSignals: StorageDescriptor<[], Anonymize<Itom7fk49o0c9>, false, never>;
         /**
          * The factor to multiply the base delivery fee by for UMP.
          */
@@ -283,6 +310,12 @@ type IStorage = {
          * See `Pallet::set_custom_validation_head_data` for more information.
          */
         CustomValidationHeadData: StorageDescriptor<[], Binary, true, never>;
+        /**
+         * Tracks cumulative `UMP` and `HRMP` messages sent across blocks in the current `PoV`.
+         *
+         * Across different candidates/PoVs the budgets are tracked by [`AggregatedUnincludedSegment`].
+         */
+        PoVMessagesTracker: StorageDescriptor<[], Anonymize<I9gacsa7nt0s25>, true, never>;
     };
     Timestamp: {
         /**
@@ -448,6 +481,13 @@ type IStorage = {
          * The owner of a key. The key is the `KeyTypeId` + the encoded key.
          */
         KeyOwner: StorageDescriptor<[Key: Anonymize<I82jm9g7pufuel>], SS58String, true, never>;
+        /**
+         * Accounts whose keys were set via `SessionInterface` (external path) without
+         * incrementing the consumer reference or placing a key deposit. `do_purge_keys`
+         * only decrements consumers for accounts that were registered through the local
+         * session pallet.
+         */
+        ExternallySetKeys: StorageDescriptor<[Key: SS58String], null, true, never>;
     };
     Aura: {
         /**
@@ -498,7 +538,7 @@ type IStorage = {
          * case of the need to send a high-priority signal message this block.
          * The bool is true if there is a signal message waiting to be sent.
          */
-        OutboundXcmpStatus: StorageDescriptor<[], Anonymize<Ib77b0fp1a6mjr>, false, never>;
+        OutboundXcmpStatus: StorageDescriptor<[], Anonymize<I9pvau8qut93lg>, false, never>;
         /**
          * The messages outbound in a given XCMP channel.
          */
@@ -642,6 +682,12 @@ type IStorage = {
          * The Polkadot Core reservations (generally tasked with the maintenance of System Chains).
          */
         Reservations: StorageDescriptor<[], Anonymize<I704rpeu2gigqg>, false, never>;
+        /**
+         * Force reservations that need to be inserted into the workplan at the next sale rotation.
+         *
+         * They are automatically freed at the next sale rotation.
+         */
+        ForceReservations: StorageDescriptor<[], Anonymize<I704rpeu2gigqg>, false, never>;
         /**
          * The Polkadot Core legacy leases.
          */
@@ -988,14 +1034,16 @@ type ICalls = {
     Session: {
         /**
          * Sets the session key(s) of the function caller to `keys`.
+         *
          * Allows an account to set its session key prior to becoming a validator.
          * This doesn't take effect until the next session.
          *
-         * The dispatch origin of this function must be signed.
-         *
-         * ## Complexity
-         * - `O(1)`. Actual cost depends on the number of length of `T::Keys::key_ids()` which is
-         * fixed.
+         * - `origin`: The dispatch origin of this function must be signed.
+         * - `keys`: The new session keys to set. These are the public keys of all sessions keys
+         * setup in the runtime.
+         * - `proof`: The proof that `origin` has access to the private keys of `keys`. See
+         * [`impl_opaque_keys`](sp_runtime::impl_opaque_keys) for more information about the
+         * proof format.
          */
         set_keys: TxDescriptor<Anonymize<I81vt5eq60l4b6>>;
         /**
@@ -1007,10 +1055,6 @@ type ICalls = {
          * convertible to a validator ID using the chain's typical addressing system (this usually
          * means being a controller account) or directly convertible into a validator ID (which
          * usually means being a stash account).
-         *
-         * ## Complexity
-         * - `O(1)` in number of key types. Actual cost depends on the number of length of
-         * `T::Keys::key_ids()` which is fixed.
          */
         purge_keys: TxDescriptor<undefined>;
     };
@@ -1382,7 +1426,7 @@ type ICalls = {
          * and the error of the failed call. If all were successful, then the `BatchCompleted`
          * event is deposited.
          */
-        batch: TxDescriptor<Anonymize<Idu7te3vl0t4t3>>;
+        batch: TxDescriptor<Anonymize<I4jnp7ru3vttnn>>;
         /**
          * Send a call through an indexed pseudonym of the sender.
          *
@@ -1398,7 +1442,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Signed_.
          */
-        as_derivative: TxDescriptor<Anonymize<Ifb0rtcebd7h8g>>;
+        as_derivative: TxDescriptor<Anonymize<Ieuealokf454v2>>;
         /**
          * Send a batch of dispatch calls and atomically execute them.
          * The whole transaction will rollback and fail if any of the calls failed.
@@ -1414,7 +1458,7 @@ type ICalls = {
          * ## Complexity
          * - O(C) where C is the number of calls to be batched.
          */
-        batch_all: TxDescriptor<Anonymize<Idu7te3vl0t4t3>>;
+        batch_all: TxDescriptor<Anonymize<I4jnp7ru3vttnn>>;
         /**
          * Dispatches a function call with a provided origin.
          *
@@ -1423,7 +1467,7 @@ type ICalls = {
          * ## Complexity
          * - O(1).
          */
-        dispatch_as: TxDescriptor<Anonymize<I3dfo846nv0uvj>>;
+        dispatch_as: TxDescriptor<Anonymize<I1p8pplsigfvlh>>;
         /**
          * Send a batch of dispatch calls.
          * Unlike `batch`, it allows errors and won't interrupt.
@@ -1439,7 +1483,7 @@ type ICalls = {
          * ## Complexity
          * - O(C) where C is the number of calls to be batched.
          */
-        force_batch: TxDescriptor<Anonymize<Idu7te3vl0t4t3>>;
+        force_batch: TxDescriptor<Anonymize<I4jnp7ru3vttnn>>;
         /**
          * Dispatch a function call with a specified weight.
          *
@@ -1448,7 +1492,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Root_.
          */
-        with_weight: TxDescriptor<Anonymize<I2p4iokg0l68qu>>;
+        with_weight: TxDescriptor<Anonymize<I417llkg1oc0ug>>;
         /**
          * Dispatch a fallback call in the event the main call fails to execute.
          * May be called from any origin except `None`.
@@ -1474,7 +1518,7 @@ type ICalls = {
          * - Some use cases might involve submitting a `batch` type call in either main, fallback
          * or both.
          */
-        if_else: TxDescriptor<Anonymize<I748h1shg6b03a>>;
+        if_else: TxDescriptor<Anonymize<Ivp3saopk8bg1>>;
         /**
          * Dispatches a function call with a provided origin.
          *
@@ -1482,7 +1526,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Root_.
          */
-        dispatch_as_fallible: TxDescriptor<Anonymize<I3dfo846nv0uvj>>;
+        dispatch_as_fallible: TxDescriptor<Anonymize<I1p8pplsigfvlh>>;
     };
     Multisig: {
         /**
@@ -1499,12 +1543,14 @@ type ICalls = {
          * ## Complexity
          * O(Z + C) where Z is the length of the call and C its execution weight.
          */
-        as_multi_threshold_1: TxDescriptor<Anonymize<I3ts2k6vt7fbm6>>;
+        as_multi_threshold_1: TxDescriptor<Anonymize<I2lmrp1ep8r47p>>;
         /**
          * Register approval for a dispatch to be made from a deterministic composite account if
          * approved by a total of `threshold - 1` of `other_signatories`.
          *
-         * If there are enough, then dispatch the call.
+         * **If the approval threshold is met (including the sender's approval), this will
+         * immediately execute the call.** This is the only way to execute a multisig call -
+         * `approve_as_multi` will never trigger execution.
          *
          * Payment: `DepositBase` will be reserved if this is the first approval, plus
          * `threshold` times `DepositFactor`. It is returned once this dispatch happens or
@@ -1520,8 +1566,9 @@ type ICalls = {
          * transaction index) of the first approval transaction.
          * - `call`: The call to be executed.
          *
-         * NOTE: Unless this is the final approval, you will generally want to use
-         * `approve_as_multi` instead, since it only requires a hash of the call.
+         * NOTE: For intermediate approvals (not the final approval), you should generally use
+         * `approve_as_multi` instead, since it only requires a hash of the call and is more
+         * efficient.
          *
          * Result is equivalent to the dispatched result if `threshold` is exactly `1`. Otherwise
          * on success, result is `Ok` and the result from the interior call, if it was executed,
@@ -1541,10 +1588,17 @@ type ICalls = {
          * - Storage: inserts one item, value size bounded by `MaxSignatories`, with a deposit
          * taken for its lifetime of `DepositBase + threshold * DepositFactor`.
          */
-        as_multi: TxDescriptor<Anonymize<Ibsudffi7qlst8>>;
+        as_multi: TxDescriptor<Anonymize<Iegfvr91465bkl>>;
         /**
          * Register approval for a dispatch to be made from a deterministic composite account if
          * approved by a total of `threshold - 1` of `other_signatories`.
+         *
+         * **This function will NEVER execute the call, even if the approval threshold is
+         * reached.** It only registers approval. To actually execute the call, `as_multi` must
+         * be called with the full call data by any of the signatories.
+         *
+         * This function is more efficient than `as_multi` for intermediate approvals since it
+         * only requires the call hash, not the full call data.
          *
          * Payment: `DepositBase` will be reserved if this is the first approval, plus
          * `threshold` times `DepositFactor`. It is returned once this dispatch happens or
@@ -1560,7 +1614,8 @@ type ICalls = {
          * transaction index) of the first approval transaction.
          * - `call_hash`: The hash of the call to be executed.
          *
-         * NOTE: If this is the final approval, you will want to use `as_multi` instead.
+         * NOTE: To execute the call after approvals are gathered, any signatory must call
+         * `as_multi` with the full call data. This function cannot execute the call.
          *
          * ## Complexity
          * - `O(S)`.
@@ -1628,7 +1683,7 @@ type ICalls = {
          * - `force_proxy_type`: Specify the exact proxy type to be used and checked for this call.
          * - `call`: The call to be made by the `real` account.
          */
-        proxy: TxDescriptor<Anonymize<I8sblju3g3sv86>>;
+        proxy: TxDescriptor<Anonymize<I1h9ebl3g75g8d>>;
         /**
          * Register a proxy account for the sender that is able to make calls on its behalf.
          *
@@ -1757,7 +1812,7 @@ type ICalls = {
          * - `force_proxy_type`: Specify the exact proxy type to be used and checked for this call.
          * - `call`: The call to be made by the `real` account.
          */
-        proxy_announced: TxDescriptor<Anonymize<Ief0bkjlf1u1k8>>;
+        proxy_announced: TxDescriptor<Anonymize<I4tvejoj02ka65>>;
         /**
          * Poke / Adjust deposits made for proxies and announcements based on current values.
          * This can be used by accounts to possibly lower their locked amount.
@@ -2004,6 +2059,28 @@ type ICalls = {
          */
         remove_assignment: TxDescriptor<Anonymize<I4s60s3v5pfj6u>>;
         /**
+         * Forcefully remove a potential renewal record from chain.
+         *
+         * Note that only the specified potential renewal will be removed while any related auto
+         * renewals will stay intact and will fail.
+         *
+         * - `origin`: Must be Root or pass `AdminOrigin`.
+         * - `core`: Core which the target potential renewal record refers to.
+         * - `when`: Timeslice which the target potential renewal record refers to.
+         */
+        remove_potential_renewal: TxDescriptor<Anonymize<I3blejcb10m5c9>>;
+        /**
+         * Transfer a Bulk Coretime Region to a new owner, ignoring the previous owner.
+         *
+         * This can also be used to recover regions that have been "burned" (e.g., from an
+         * XCM reserve transfer).
+         *
+         * - `origin`: Must be Root or pass `AdminOrigin`.
+         * - `region_id`: The Region whose ownership should change.
+         * - `new_owner`: The new owner for the Region.
+         */
+        force_transfer: TxDescriptor<Anonymize<Ia3ebg5qshpkmr>>;
+        /**
         
          */
         swap_leases: TxDescriptor<Anonymize<Idehabrqi23sc0>>;
@@ -2118,9 +2195,17 @@ type IEvent = {
          */
         Minted: PlainDescriptor<Anonymize<Id5fm4p8lj5qgi>>;
         /**
+         * Some credit was balanced and added to the TotalIssuance.
+         */
+        MintedCredit: PlainDescriptor<Anonymize<I3qt1hgg4djhgb>>;
+        /**
          * Some amount was burned from an account.
          */
         Burned: PlainDescriptor<Anonymize<Id5fm4p8lj5qgi>>;
+        /**
+         * Some debt has been dropped from the Total Issuance.
+         */
+        BurnedDebt: PlainDescriptor<Anonymize<I3qt1hgg4djhgb>>;
         /**
          * Some amount was suspended from an account (it can be restored later).
          */
@@ -2161,6 +2246,26 @@ type IEvent = {
          * The `TotalIssuance` was forcefully changed.
          */
         TotalIssuanceForced: PlainDescriptor<Anonymize<I4fooe9dun9o0t>>;
+        /**
+         * Some balance was placed on hold.
+         */
+        Held: PlainDescriptor<Anonymize<Ipc96b675vau1>>;
+        /**
+         * Held balance was burned from an account.
+         */
+        BurnedHeld: PlainDescriptor<Anonymize<Ipc96b675vau1>>;
+        /**
+         * A transfer of `amount` on hold from `source` to `dest` was initiated.
+         */
+        TransferOnHold: PlainDescriptor<Anonymize<Ifqi1snmg1eqha>>;
+        /**
+         * The `transferred` balance is placed on hold at the `dest` account.
+         */
+        TransferAndHold: PlainDescriptor<Anonymize<I2r55jl5mh3adj>>;
+        /**
+         * Some balance was released from hold.
+         */
+        Released: PlainDescriptor<Anonymize<Ipc96b675vau1>>;
         /**
          * An unexpected/defensive event was triggered.
          */
@@ -2494,7 +2599,7 @@ type IEvent = {
          * A pure account has been created by new proxy with given
          * disambiguation index and proxy type.
          */
-        PureCreated: PlainDescriptor<Anonymize<I4sa5jshkufeug>>;
+        PureCreated: PlainDescriptor<Anonymize<I402his32q336o>>;
         /**
          * A pure proxy was killed by its spawner.
          */
@@ -2663,6 +2768,14 @@ type IEvent = {
          * auto-renewal.
          */
         AutoRenewalLimitReached: PlainDescriptor<undefined>;
+        /**
+         * Failed to assign a force reservation due to no free cores available.
+         */
+        ForceReservationFailed: PlainDescriptor<Anonymize<I9cne53h7vg3o3>>;
+        /**
+         * Potential renewal was forcefully removed.
+         */
+        PotentialRenewalRemoved: PlainDescriptor<Anonymize<Id1mft8cuf1k15>>;
     };
 };
 type IError = {
@@ -3324,7 +3437,7 @@ type IConstants = {
         /**
          * The maximum length of a block (in bytes).
          */
-        BlockLength: PlainDescriptor<Anonymize<If15el53dd76v9>>;
+        BlockLength: PlainDescriptor<Anonymize<Ibtil0ss5munbk>>;
         /**
          * Maximum number of block number to block hash mappings to keep (oldest pruned first).
          */
@@ -3458,7 +3571,8 @@ type IConstants = {
     Aura: {
         /**
          * The slot duration Aura should run with, expressed in milliseconds.
-         * The effective value of this type should not change while the chain is running.
+         *
+         * The effective value of this type can be changed with a runtime upgrade.
          *
          * For backwards compatibility either use [`MinimumPeriodTimesTwo`] or a const.
          */
@@ -3645,7 +3759,7 @@ type IViewFns = {
         /**
          * Check if a `RuntimeCall` is allowed for a given `ProxyType`.
          */
-        check_permissions: RuntimeDescriptor<[call: Anonymize<Ibnfvus63r3sgm>, proxy_type: Anonymize<I1rps369nood5j>], boolean>;
+        check_permissions: RuntimeDescriptor<[call: Anonymize<I1rqv2vg8jro1n>, proxy_type: Anonymize<I1rps369nood5j>], boolean>;
         /**
          * Check if one `ProxyType` is a subset of another `ProxyType`.
          */
@@ -3812,7 +3926,7 @@ type IRuntimeCalls = {
          *
          * Returns the concatenated SCALE encoded public keys.
          */
-        generate_session_keys: RuntimeDescriptor<[seed: Anonymize<Iabpgqcjikia83>], Binary>;
+        generate_session_keys: RuntimeDescriptor<[owner: Binary, seed: Anonymize<Iabpgqcjikia83>], Anonymize<I4ph3d1eepnmr1>>;
         /**
          * Decode the given public session keys.
          *
@@ -3866,11 +3980,11 @@ type IRuntimeCalls = {
         /**
          * Query information of a dispatch class, weight, and fee of a given encoded `Call`.
          */
-        query_call_info: RuntimeDescriptor<[call: Anonymize<Ibnfvus63r3sgm>, len: number], Anonymize<I6spmpef2c7svf>>;
+        query_call_info: RuntimeDescriptor<[call: Anonymize<I1rqv2vg8jro1n>, len: number], Anonymize<I6spmpef2c7svf>>;
         /**
          * Query fee details of a given encoded `Call`.
          */
-        query_call_fee_details: RuntimeDescriptor<[call: Anonymize<Ibnfvus63r3sgm>, len: number], Anonymize<Iei2mvq0mjvt81>>;
+        query_call_fee_details: RuntimeDescriptor<[call: Anonymize<I1rqv2vg8jro1n>, len: number], Anonymize<Iei2mvq0mjvt81>>;
         /**
          * Query the output of the current `WeightToFee` given some input.
          */
@@ -3920,6 +4034,8 @@ type IRuntimeCalls = {
          */
         query_weight_to_asset_fee: RuntimeDescriptor<[weight: Anonymize<I4q39t5hn830vp>, asset: XcmVersionedAssetId], Anonymize<I7ocn4njqde3v5>>;
         /**
+         * Query delivery fees V2.
+         *
          * Get delivery fees for sending a specific `message` to a `destination`.
          * These always come in a specific asset, defined by the chain.
          *
@@ -3929,7 +4045,7 @@ type IRuntimeCalls = {
          * * `destination`: The destination to send the message to. Different destinations may use
          * different senders that charge different fees.
          */
-        query_delivery_fees: RuntimeDescriptor<[destination: XcmVersionedLocation, message: XcmVersionedXcm], Anonymize<Iek7ha36da9mf5>>;
+        query_delivery_fees: RuntimeDescriptor<[destination: XcmVersionedLocation, message: XcmVersionedXcm, asset_id: XcmVersionedAssetId], Anonymize<Iek7ha36da9mf5>>;
     };
     /**
      * API for dry-running extrinsics and XCM programs to get the programs that need to be passed to the fees API.
@@ -3946,11 +4062,11 @@ type IRuntimeCalls = {
         /**
          * Dry run call V2.
          */
-        dry_run_call: RuntimeDescriptor<[origin: Anonymize<I9g869l9vmunib>, call: Anonymize<Ibnfvus63r3sgm>, result_xcms_version: number], Anonymize<Icb3np1vktddnq>>;
+        dry_run_call: RuntimeDescriptor<[origin: Anonymize<I9g869l9vmunib>, call: Anonymize<I1rqv2vg8jro1n>, result_xcms_version: number], Anonymize<I4v7tuba8k4lv4>>;
         /**
          * Dry run XCM program
          */
-        dry_run_xcm: RuntimeDescriptor<[origin_location: XcmVersionedLocation, xcm: XcmVersionedXcm], Anonymize<I4l519u9j49gc9>>;
+        dry_run_xcm: RuntimeDescriptor<[origin_location: XcmVersionedLocation, xcm: XcmVersionedXcm], Anonymize<I3pbsur5gftk1>>;
     };
     /**
      * API for useful conversions between XCM `Location` and `AccountId`.
@@ -4063,8 +4179,9 @@ type IRuntimeCalls = {
         preset_names: RuntimeDescriptor<[], Anonymize<I6lr8sctk0bi4e>>;
     };
 };
-type IAsset = PlainDescriptor<void>;
 export type DotCoretimeDispatchError = Anonymize<I9e159njru852d>;
+type IAsset = PlainDescriptor<void>;
+export type DotCoretimeExtensions = {};
 type PalletsTypedef = {
     __storage: IStorage;
     __tx: ICalls;
@@ -4080,6 +4197,7 @@ export type DotCoretime = {
     } & Promise<any>;
     metadataTypes: Promise<Uint8Array>;
     asset: IAsset;
+    extensions: DotCoretimeExtensions;
     getMetadata: () => Promise<Uint8Array>;
     genesis: string | undefined;
 };
@@ -4092,20 +4210,124 @@ export type DotCoretimeEvents = EventsFromPalletsDef<PalletsTypedef>;
 export type DotCoretimeErrors = ErrorsFromPalletsDef<PalletsTypedef>;
 export type DotCoretimeConstants = ConstFromPalletsDef<PalletsTypedef>;
 export type DotCoretimeViewFns = ViewFnsFromPalletsDef<PalletsTypedef>;
-export type DotCoretimeCallData = Anonymize<Ibnfvus63r3sgm> & {
+export type DotCoretimeCallData = Anonymize<I1rqv2vg8jro1n> & {
     value: {
         type: string;
     };
 };
-export type DotCoretimeWhitelistEntry = PalletKey | ApiKey<IRuntimeCalls> | `query.${NestedKey<PalletsTypedef['__storage']>}` | `tx.${NestedKey<PalletsTypedef['__tx']>}` | `event.${NestedKey<PalletsTypedef['__event']>}` | `error.${NestedKey<PalletsTypedef['__error']>}` | `const.${NestedKey<PalletsTypedef['__const']>}` | `view.${NestedKey<PalletsTypedef['__view']>}`;
-type PalletKey = `*.${keyof (IStorage & ICalls & IEvent & IError & IConstants & IRuntimeCalls & IViewFns)}`;
-type NestedKey<D extends Record<string, Record<string, any>>> = "*" | {
-    [P in keyof D & string]: `${P}.*` | {
-        [N in keyof D[P] & string]: `${P}.${N}`;
-    }[keyof D[P] & string];
-}[keyof D & string];
-type ApiKey<D extends Record<string, Record<string, any>>> = "api.*" | {
-    [P in keyof D & string]: `api.${P}.*` | {
-        [N in keyof D[P] & string]: `api.${P}.${N}`;
-    }[keyof D[P] & string];
+type AllInteractions = {
+    storage: {
+        System: ['Account', 'ExtrinsicCount', 'InherentsApplied', 'BlockWeight', 'BlockSize', 'BlockHash', 'ExtrinsicData', 'Number', 'ParentHash', 'Digest', 'Events', 'EventCount', 'EventTopics', 'LastRuntimeUpgrade', 'BlocksTillUpgrade', 'UpgradedToU32RefCount', 'UpgradedToTripleRefCount', 'ExecutionPhase', 'AuthorizedUpgrade', 'ExtrinsicWeightReclaimed'];
+        ParachainSystem: ['BlockWeightMode', 'PreviousCoreCount', 'UnincludedSegment', 'AggregatedUnincludedSegment', 'PendingValidationCode', 'NewValidationCode', 'ValidationData', 'DidSetValidationCode', 'LastRelayChainBlockNumber', 'UpgradeRestrictionSignal', 'UpgradeGoAhead', 'RelayStateProof', 'RelevantMessagingState', 'HostConfiguration', 'LastDmqMqcHead', 'LastHrmpMqcHeads', 'ProcessedDownwardMessages', 'LastProcessedDownwardMessage', 'HrmpWatermark', 'LastProcessedHrmpMessage', 'HrmpOutboundMessages', 'UpwardMessages', 'PendingUpwardMessages', 'PendingUpwardSignals', 'UpwardDeliveryFeeFactor', 'AnnouncedHrmpMessagesPerCandidate', 'ReservedXcmpWeightOverride', 'ReservedDmpWeightOverride', 'CustomValidationHeadData', 'PoVMessagesTracker'];
+        Timestamp: ['Now', 'DidUpdate'];
+        ParachainInfo: ['ParachainId'];
+        Balances: ['TotalIssuance', 'InactiveIssuance', 'Account', 'Locks', 'Reserves', 'Holds', 'Freezes'];
+        TransactionPayment: ['NextFeeMultiplier', 'StorageVersion', 'TxPaymentCredit'];
+        Authorship: ['Author'];
+        CollatorSelection: ['Invulnerables', 'CandidateList', 'LastAuthoredBlock', 'DesiredCandidates', 'CandidacyBond'];
+        Session: ['Validators', 'CurrentIndex', 'QueuedChanged', 'QueuedKeys', 'DisabledValidators', 'NextKeys', 'KeyOwner', 'ExternallySetKeys'];
+        Aura: ['Authorities', 'CurrentSlot'];
+        AuraExt: ['Authorities', 'RelaySlotInfo'];
+        XcmpQueue: ['InboundXcmpSuspended', 'OutboundXcmpStatus', 'OutboundXcmpMessages', 'SignalMessages', 'QueueConfig', 'QueueSuspended', 'DeliveryFeeFactor'];
+        PolkadotXcm: ['QueryCounter', 'Queries', 'AssetTraps', 'SafeXcmVersion', 'SupportedVersion', 'VersionNotifiers', 'VersionNotifyTargets', 'VersionDiscoveryQueue', 'CurrentMigration', 'RemoteLockedFungibles', 'LockedFungibles', 'XcmExecutionSuspended', 'ShouldRecordXcm', 'RecordedXcm', 'AuthorizedAliases'];
+        MessageQueue: ['BookStateFor', 'ServiceHead', 'Pages'];
+        Multisig: ['Multisigs'];
+        Proxy: ['Proxies', 'Announcements'];
+        Broker: ['Configuration', 'Reservations', 'ForceReservations', 'Leases', 'Status', 'SaleInfo', 'PotentialRenewals', 'Regions', 'Workplan', 'Workload', 'InstaPoolContribution', 'InstaPoolIo', 'InstaPoolHistory', 'CoreCountInbox', 'AutoRenewals', 'RevenueInbox'];
+    };
+    tx: {
+        System: ['remark', 'set_heap_pages', 'set_code', 'set_code_without_checks', 'set_storage', 'kill_storage', 'kill_prefix', 'remark_with_event', 'authorize_upgrade', 'authorize_upgrade_without_checks', 'apply_authorized_upgrade'];
+        ParachainSystem: ['set_validation_data', 'sudo_send_upward_message'];
+        Timestamp: ['set'];
+        Balances: ['transfer_allow_death', 'force_transfer', 'transfer_keep_alive', 'transfer_all', 'force_unreserve', 'upgrade_accounts', 'force_set_balance', 'force_adjust_total_issuance', 'burn'];
+        CollatorSelection: ['set_invulnerables', 'set_desired_candidates', 'set_candidacy_bond', 'register_as_candidate', 'leave_intent', 'add_invulnerable', 'remove_invulnerable', 'update_bond', 'take_candidate_slot'];
+        Session: ['set_keys', 'purge_keys'];
+        XcmpQueue: ['suspend_xcm_execution', 'resume_xcm_execution', 'update_suspend_threshold', 'update_drop_threshold', 'update_resume_threshold'];
+        PolkadotXcm: ['send', 'teleport_assets', 'reserve_transfer_assets', 'execute', 'force_xcm_version', 'force_default_xcm_version', 'force_subscribe_version_notify', 'force_unsubscribe_version_notify', 'limited_reserve_transfer_assets', 'limited_teleport_assets', 'force_suspension', 'transfer_assets', 'claim_assets', 'transfer_assets_using_type_and_then', 'add_authorized_alias', 'remove_authorized_alias', 'remove_all_authorized_aliases'];
+        MessageQueue: ['reap_page', 'execute_overweight'];
+        Utility: ['batch', 'as_derivative', 'batch_all', 'dispatch_as', 'force_batch', 'with_weight', 'if_else', 'dispatch_as_fallible'];
+        Multisig: ['as_multi_threshold_1', 'as_multi', 'approve_as_multi', 'cancel_as_multi', 'poke_deposit'];
+        Proxy: ['proxy', 'add_proxy', 'remove_proxy', 'remove_proxies', 'create_pure', 'kill_pure', 'announce', 'remove_announcement', 'reject_announcement', 'proxy_announced', 'poke_deposit'];
+        Broker: ['configure', 'reserve', 'unreserve', 'set_lease', 'start_sales', 'purchase', 'renew', 'transfer', 'partition', 'interlace', 'assign', 'pool', 'claim_revenue', 'purchase_credit', 'drop_region', 'drop_contribution', 'drop_history', 'drop_renewal', 'request_core_count', 'notify_core_count', 'notify_revenue', 'enable_auto_renew', 'disable_auto_renew', 'force_reserve', 'remove_lease', 'remove_assignment', 'remove_potential_renewal', 'force_transfer', 'swap_leases'];
+    };
+    events: {
+        System: ['ExtrinsicSuccess', 'ExtrinsicFailed', 'CodeUpdated', 'NewAccount', 'KilledAccount', 'Remarked', 'UpgradeAuthorized', 'RejectedInvalidAuthorizedUpgrade'];
+        ParachainSystem: ['ValidationFunctionStored', 'ValidationFunctionApplied', 'ValidationFunctionDiscarded', 'DownwardMessagesReceived', 'DownwardMessagesProcessed', 'UpwardMessageSent'];
+        Balances: ['Endowed', 'DustLost', 'Transfer', 'BalanceSet', 'Reserved', 'Unreserved', 'ReserveRepatriated', 'Deposit', 'Withdraw', 'Slashed', 'Minted', 'MintedCredit', 'Burned', 'BurnedDebt', 'Suspended', 'Restored', 'Upgraded', 'Issued', 'Rescinded', 'Locked', 'Unlocked', 'Frozen', 'Thawed', 'TotalIssuanceForced', 'Held', 'BurnedHeld', 'TransferOnHold', 'TransferAndHold', 'Released', 'Unexpected'];
+        TransactionPayment: ['TransactionFeePaid'];
+        CollatorSelection: ['NewInvulnerables', 'InvulnerableAdded', 'InvulnerableRemoved', 'NewDesiredCandidates', 'NewCandidacyBond', 'CandidateAdded', 'CandidateBondUpdated', 'CandidateRemoved', 'CandidateReplaced', 'InvalidInvulnerableSkipped'];
+        Session: ['NewSession', 'NewQueued', 'ValidatorDisabled', 'ValidatorReenabled'];
+        XcmpQueue: ['XcmpMessageSent'];
+        PolkadotXcm: ['Attempted', 'Sent', 'SendFailed', 'ProcessXcmError', 'UnexpectedResponse', 'ResponseReady', 'Notified', 'NotifyOverweight', 'NotifyDispatchError', 'NotifyDecodeFailed', 'InvalidResponder', 'InvalidResponderVersion', 'ResponseTaken', 'AssetsTrapped', 'VersionChangeNotified', 'SupportedVersionChanged', 'NotifyTargetSendFail', 'NotifyTargetMigrationFail', 'InvalidQuerierVersion', 'InvalidQuerier', 'VersionNotifyStarted', 'VersionNotifyRequested', 'VersionNotifyUnrequested', 'FeesPaid', 'AssetsClaimed', 'VersionMigrationFinished', 'AliasAuthorized', 'AliasAuthorizationRemoved', 'AliasesAuthorizationsRemoved'];
+        CumulusXcm: ['InvalidFormat', 'UnsupportedVersion', 'ExecutedDownward'];
+        MessageQueue: ['ProcessingFailed', 'Processed', 'OverweightEnqueued', 'PageReaped'];
+        Utility: ['BatchInterrupted', 'BatchCompleted', 'BatchCompletedWithErrors', 'ItemCompleted', 'ItemFailed', 'DispatchedAs', 'IfElseMainSuccess', 'IfElseFallbackCalled'];
+        Multisig: ['NewMultisig', 'MultisigApproval', 'MultisigExecuted', 'MultisigCancelled', 'DepositPoked'];
+        Proxy: ['ProxyExecuted', 'PureCreated', 'PureKilled', 'Announced', 'ProxyAdded', 'ProxyRemoved', 'DepositPoked'];
+        Broker: ['Purchased', 'Renewable', 'Renewed', 'Transferred', 'Partitioned', 'Interlaced', 'Assigned', 'AssignmentRemoved', 'Pooled', 'CoreCountRequested', 'CoreCountChanged', 'ReservationMade', 'ReservationCancelled', 'SaleInitialized', 'Leased', 'LeaseRemoved', 'LeaseEnding', 'SalesStarted', 'RevenueClaimBegun', 'RevenueClaimItem', 'RevenueClaimPaid', 'CreditPurchased', 'RegionDropped', 'ContributionDropped', 'RegionUnpooled', 'HistoryInitialized', 'HistoryDropped', 'HistoryIgnored', 'ClaimsReady', 'CoreAssigned', 'PotentialRenewalDropped', 'AutoRenewalEnabled', 'AutoRenewalDisabled', 'AutoRenewalFailed', 'AutoRenewalLimitReached', 'ForceReservationFailed', 'PotentialRenewalRemoved'];
+    };
+    errors: {
+        System: ['InvalidSpecName', 'SpecVersionNeedsToIncrease', 'FailedToExtractRuntimeVersion', 'NonDefaultComposite', 'NonZeroRefCount', 'CallFiltered', 'MultiBlockMigrationsOngoing', 'NothingAuthorized', 'Unauthorized'];
+        ParachainSystem: ['OverlappingUpgrades', 'ProhibitedByPolkadot', 'TooBig', 'ValidationDataNotAvailable', 'HostConfigurationNotAvailable', 'NotScheduled'];
+        Balances: ['VestingBalance', 'LiquidityRestrictions', 'InsufficientBalance', 'ExistentialDeposit', 'Expendability', 'ExistingVestingSchedule', 'DeadAccount', 'TooManyReserves', 'TooManyHolds', 'TooManyFreezes', 'IssuanceDeactivated', 'DeltaZero'];
+        CollatorSelection: ['TooManyCandidates', 'TooFewEligibleCollators', 'AlreadyCandidate', 'NotCandidate', 'TooManyInvulnerables', 'AlreadyInvulnerable', 'NotInvulnerable', 'NoAssociatedValidatorId', 'ValidatorNotRegistered', 'InsertToCandidateListFailed', 'RemoveFromCandidateListFailed', 'DepositTooLow', 'UpdateCandidateListFailed', 'InsufficientBond', 'TargetIsNotCandidate', 'IdenticalDeposit', 'InvalidUnreserve'];
+        Session: ['InvalidProof', 'NoAssociatedValidatorId', 'DuplicatedKey', 'NoKeys', 'NoAccount'];
+        XcmpQueue: ['BadQueueConfig', 'AlreadySuspended', 'AlreadyResumed', 'TooManyActiveOutboundChannels', 'TooBig'];
+        PolkadotXcm: ['Unreachable', 'SendFailure', 'Filtered', 'UnweighableMessage', 'DestinationNotInvertible', 'Empty', 'CannotReanchor', 'TooManyAssets', 'InvalidOrigin', 'BadVersion', 'BadLocation', 'NoSubscription', 'AlreadySubscribed', 'CannotCheckOutTeleport', 'LowBalance', 'TooManyLocks', 'AccountNotSovereign', 'FeesNotMet', 'LockNotFound', 'InUse', 'InvalidAssetUnknownReserve', 'InvalidAssetUnsupportedReserve', 'TooManyReserves', 'LocalExecutionIncomplete', 'TooManyAuthorizedAliases', 'ExpiresInPast', 'AliasNotFound', 'LocalExecutionIncompleteWithError'];
+        MessageQueue: ['NotReapable', 'NoPage', 'NoMessage', 'AlreadyProcessed', 'Queued', 'InsufficientWeight', 'TemporarilyUnprocessable', 'QueuePaused', 'RecursiveDisallowed'];
+        Utility: ['TooManyCalls'];
+        Multisig: ['MinimumThreshold', 'AlreadyApproved', 'NoApprovalsNeeded', 'TooFewSignatories', 'TooManySignatories', 'SignatoriesOutOfOrder', 'SenderInSignatories', 'NotFound', 'NotOwner', 'NoTimepoint', 'WrongTimepoint', 'UnexpectedTimepoint', 'MaxWeightTooLow', 'AlreadyStored'];
+        Proxy: ['TooMany', 'NotFound', 'NotProxy', 'Unproxyable', 'Duplicate', 'NoPermission', 'Unannounced', 'NoSelfProxy'];
+        Broker: ['UnknownRegion', 'NotOwner', 'PivotTooLate', 'PivotTooEarly', 'ExteriorPivot', 'VoidPivot', 'CompletePivot', 'CorruptWorkplan', 'NoSales', 'Overpriced', 'Unavailable', 'SoldOut', 'WrongTime', 'NotAllowed', 'Uninitialized', 'TooEarly', 'NothingToDo', 'TooManyReservations', 'TooManyLeases', 'LeaseNotFound', 'UnknownRevenue', 'UnknownContribution', 'IncompleteAssignment', 'StillValid', 'NoHistory', 'UnknownReservation', 'UnknownRenewal', 'AlreadyExpired', 'InvalidConfig', 'NoClaimTimeslices', 'NoPermission', 'TooManyAutoRenewals', 'NonTaskAutoRenewal', 'SovereignAccountNotFound', 'AutoRenewalNotEnabled', 'AssignmentNotFound', 'CreditPurchaseTooSmall'];
+    };
+    constants: {
+        System: ['BlockWeights', 'BlockLength', 'BlockHashCount', 'DbWeight', 'Version', 'SS58Prefix'];
+        ParachainSystem: ['SelfParaId'];
+        Timestamp: ['MinimumPeriod'];
+        Balances: ['ExistentialDeposit', 'MaxLocks', 'MaxReserves', 'MaxFreezes'];
+        TransactionPayment: ['OperationalFeeMultiplier'];
+        CollatorSelection: ['PotId', 'MaxCandidates', 'MinEligibleCollators', 'MaxInvulnerables', 'KickThreshold', 'pot_account'];
+        Session: ['KeyDeposit'];
+        Aura: ['SlotDuration'];
+        XcmpQueue: ['MaxInboundSuspended', 'MaxActiveOutboundChannels', 'MaxPageSize'];
+        PolkadotXcm: ['UniversalLocation', 'AdvertisedXcmVersion', 'MaxLockers', 'MaxRemoteLockConsumers'];
+        MessageQueue: ['HeapSize', 'MaxStale', 'ServiceWeight', 'IdleMaxServiceWeight'];
+        Utility: ['batched_calls_limit'];
+        Multisig: ['DepositBase', 'DepositFactor', 'MaxSignatories'];
+        Proxy: ['ProxyDepositBase', 'ProxyDepositFactor', 'MaxProxies', 'MaxPending', 'AnnouncementDepositBase', 'AnnouncementDepositFactor'];
+        Broker: ['PalletId', 'TimeslicePeriod', 'MaxLeasedCores', 'MaxReservedCores', 'MaxAutoRenewals', 'MinimumCreditPurchase'];
+    };
+    viewFns: {
+        Proxy: ['check_permissions', 'is_superset'];
+    };
+    apis: {
+        AuraApi: ['slot_duration', 'authorities'];
+        RelayParentOffsetApi: ['relay_parent_offset'];
+        AuraUnincludedSegmentApi: ['can_build_upon'];
+        Core: ['version', 'execute_block', 'initialize_block'];
+        Metadata: ['metadata', 'metadata_at_version', 'metadata_versions'];
+        BlockBuilder: ['apply_extrinsic', 'finalize_block', 'inherent_extrinsics', 'check_inherents'];
+        TaggedTransactionQueue: ['validate_transaction'];
+        OffchainWorkerApi: ['offchain_worker'];
+        SessionKeys: ['generate_session_keys', 'decode_session_keys'];
+        RuntimeViewFunction: ['execute_view_function'];
+        AccountNonceApi: ['account_nonce'];
+        TransactionPaymentApi: ['query_info', 'query_fee_details', 'query_weight_to_fee', 'query_length_to_fee'];
+        TransactionPaymentCallApi: ['query_call_info', 'query_call_fee_details', 'query_weight_to_fee', 'query_length_to_fee'];
+        XcmPaymentApi: ['query_acceptable_payment_assets', 'query_xcm_weight', 'query_weight_to_asset_fee', 'query_delivery_fees'];
+        DryRunApi: ['dry_run_call', 'dry_run_xcm'];
+        LocationToAccountApi: ['convert_location'];
+        TrustedQueryApi: ['is_trusted_reserve', 'is_trusted_teleporter'];
+        AuthorizedAliasersApi: ['authorized_aliasers', 'is_authorized_alias'];
+        CollectCollationInfo: ['collect_collation_info'];
+        GetParachainInfo: ['parachain_id'];
+        GenesisBuilder: ['build_state', 'get_preset', 'preset_names'];
+    };
+};
+export type DotCoretimeWhitelistEntry = PalletKey | `query.${NestedKey<AllInteractions['storage']>}` | `tx.${NestedKey<AllInteractions['tx']>}` | `event.${NestedKey<AllInteractions['events']>}` | `error.${NestedKey<AllInteractions['errors']>}` | `const.${NestedKey<AllInteractions['constants']>}` | `view.${NestedKey<AllInteractions['viewFns']>}` | `api.${NestedKey<AllInteractions['apis']>}`;
+type PalletKey = `*.${({
+    [K in keyof AllInteractions]: K extends 'apis' ? never : keyof AllInteractions[K];
+})[keyof AllInteractions]}`;
+type NestedKey<D extends Record<string, string[]>> = "*" | {
+    [P in keyof D & string]: `${P}.*` | `${P}.${D[P][number]}`;
 }[keyof D & string];

@@ -1,5 +1,5 @@
 import { StorageDescriptor, PlainDescriptor, TxDescriptor, RuntimeDescriptor, Enum, ApisFromDef, QueryFromPalletsDef, TxFromPalletsDef, EventsFromPalletsDef, ErrorsFromPalletsDef, ConstFromPalletsDef, ViewFnsFromPalletsDef, SS58String, FixedSizeBinary, Binary, FixedSizeArray } from "polkadot-api";
-import { I5sesotjlssv2d, Iffmde3ekjedi9, I4mddgoa69c0a2, Iddj46s5gjp94f, I95g6i7ilua7lq, Ieniouoqkq4icf, Phase, Ibgl04rn6nbfm6, I4q39t5hn830vp, Icuu8u3hn81q96, I56u24ncejr5kt, I9jd27rnpm8ttv, PreimageOldRequestStatus, PreimageRequestStatus, I4pact7n2e9a0i, I3geksg000c171, BabeDigestsNextConfigDescriptor, Ic5m5lp1oioo8r, Idq7or56ds2f13, I4s6vifaf8k998, I8jnd4d8ip6djo, Ifip05kcrl65am, Iff9heri56m1mb, I1q8tnt1cluu5j, I8ds64oj6581v0, Ia7pdug7cdsg8g, I3f3fvvqal84bk, I2l1ctuihi2mfd, TransactionPaymentReleases, Ia2lhg7l2hilo3, Ic12aht5vh2sen, StakingRewardDestination, I9o7ssi9vmhmgr, Ic3m9d6tdl6gi2, Ib3j7gb0jgs38u, Ifekshcrgkl12g, I7svnfko10tq2e, I6flrronqs3l6n, I97fulj5h3ik95, Ia8896dq44k9m4, Icgljjb6j82uhn, Iff9p3c7k6pfoi, StakingForcing, Iafq6t4rgheait, I4ojmnsk1dchql, Iinkhfdlka9ch, I2kj4j6mp68hf8, I6ouflveob4eli, I2bqvqrg0sbrdj, I23nq3fsgtejt, Idt624nf41g34e, I9kr8cseidc66h, I82jm9g7pufuel, GrandpaStoredState, I7pe2me3i3vtn9, Iegmj7n48sc3am, I3s9vvjt0el98d, ConvictionVotingVoteVoting, If9jidduiuq7vv, Ifd1asa9e54e73, I2phecamkn3pej, ClaimsStatementKind, Ifble4juuml5ig, Version, I8oad3rb9oe9n1, I9p9lq3rej5bhc, Iag146hmjgqfgj, I8uo3fpd3bcc6f, Ict0fmb8krq1lk, Ibofbvvaehln4e, ElectionProviderMultiPhasePhase, Ictkaqdbfabuek, Ia7o65280hur3p, Iasd2iat48n080, Ic8d01sg6acf60, Irl37q7erstrb, I8s6n43okuj2b1, Ic5t26f9cp3tvk, I39k39h6vu4hbq, Idphjddn2h69vc, Idhh9vuu2bderg, If6qa32dj75gu1, I7oo2mprv1qd1s, NominationPoolsClaimPermission, I2eh80qovrl7h2, I542q009qbgt8k, I4e5ujckjq61g8, Idned7t7knml6b, I9vjdmm7sufoc, Ianpaq0u393le8, Ieeoaak2l9u1uj, I4nlcvb30egvqm, Idinvj2ldfa0k7, I78k2970vpbt1t, I2d4k4cqluhq5i, I91e9aiuocql92, Ia1viqq9k85bv1, Iarlj3qd8u1v13, Idp9imcf15rli1, I4vk12npmr8ll0, ParachainsParasParaLifecycle, I79cs1p3m59mo7, I5ql12lunltfbi, UpgradeGoAhead, UpgradeRestriction, I2duhnt686rv0q, I7ulu3h1ibu60i, I6ljjd4b5fa4ov, Ibhmrlkcu01imb, I50mrcbubp554e, Id43g4eveajpkl, I7iua3ehrgl4va, Iev3u09i2vqn93, I9olhgo2o08h7b, I9m4rd2a7lc9md, I80rnntpog8qp6, I87u7jalc0lhah, I4p5t2krb1gmvp, I4arjljr6dpflb, Ids3ua6tfbgvj0, I4akf1ifqeclef, Ido5stnsbghtpd, I3ndpvu09rj685, Iafqnechp3omqg, I9dasmua8326io, I3g90iebhds6kb, I3av628q6dt6mq, Ifmaahl40gom3g, I70iuri2ilha1f, I6gun5k9fbb4s0, If354jrdedj0pj, Ib17t3992hb64n, I215mkl885p4da, I5qfubnuvrnqn6, I8t3u2dv73ahbd, I7vlvrrl2pnbgk, Ie0rpl5bahldfk, XcmPalletVersionMigrationStage, I7e5oaj2qi4kl1, Ie849h3gncgvok, Iat62vud7hlod2, Ict03eedr8de9s, Ici7ejds60vj52, XcmVersionedLocation, I260m120dp9sbk, ParachainsInclusionAggregateMessageOrigin, I53esa2ms463bk, I1lfimt2mpej64, I2q3ri6itcjj5u, I2fb54desdqd9n, Idjett00s2gd, I1t55ojifgnq64, I7157o1o3fqkfv, I71f70f10aojd4, Idsa6q9es8ufjv, I2fbmombro6ugg, TraitsScheduleDispatchTime, I7hcg2ag6ofoah, I7hcgvpgj6f5cg, In7a38730s6qs, If15el53dd76v9, I9s0ave7t0vnrk, I4fo08joqmcqnm, Ibafpkl9hhno69, I35p85j063s0il, XcmV5Junctions, Iasb8k6ash5mjn, I8ofcg5rbj0g2c, I4adgbll7gku4i, I6pjjpfvhvcfru, I9pj91mj79qekl, I39uah9nss64h9, Ik64dknsq7k08, Ib51vk42m1po4n, Ievqg4vesuv9r, I5n4sebgkfr760, I96j7mof2a406s, Ifs1i5fk9cqvr6, Ic7athauk3dsf2, Ia887kpua9h5sc, Ieg3fd8p4pkt10, I8kg5ll427kfqq, I467333262q1l9, I82nfqfkd48n10, I1jm8m1rh9e20v, I3o5j3bli1pd8e, I50ppnqasq4tjq, I9fin09kkg0jaj, Idcr6u6361oad9, I666bl2fqjkejo, I6o1er683vod1j, I5bq561t4gpfva, I4ktuaksf5i1gk, I9bqtpv2ii35mp, I9j7pagd6d4bda, I2h9pmio37r7fb, Ibmr18suc9ikh9, I9iq22t0burs89, I5u8olqbbvfnvf, I5utcetro501ir, I2eip8tc75dpje, I564va64vtidbq, Ie5v6njpckr05b, I328av3j0bgmjb, I4tuqm9ato907i, Iagi89qt4h1lqg, I9dgmcnuamt5p8, I3vh014cqgmrfd, Ifhs60omlhvt3, If34udpd5e57vi, I39t01nnod9109, Ie5vbnd9198quk, I3h6murn8bd4v5, I6k6jf8ncesuu3, I3qhk481i120pk, If1qr0kbbl298c, Idl3umm12u5pa, I5ont0141q9ss5, Ie6j49utvii126, I3v6ks33uluhnj, I3kiiim1cds68i, I4k60mkh2r6jjg, Ic5njrpnvi3f8g, I5oi8saufice6j, I7ne83r38c2sqq, I2hviml3snvhhn, Icnrv1mfbd3in1, Icm9m0qeemu66d, I3pnhorh539dti, Idnsr2pndm36h0, Ia1pvdcbhuqf8m, I8steo882k7qns, I4pa4q37gj6fua, I5f178ab6b89t3, I4nakhtbsk3c5s, Iamkbnfs43opkv, Icbio0e1f0034b, I8c0vkqjjipnuj, I1adbcfi5uc62r, Ibf6ucefn8fh49, I790r1utmcgn1i, I6uag8j5aql8q, Isq3k9rh2c0l4, I1dqiovk0tpoah, I1ntko0oih7v1a, I2tf5qmg09624f, Id9uqtigc0il3v, Iaa2o6cgjdpdn5, Iam6hrl7ptd85l, Ict9ivhr2c5hv0, I8t4vv03357lk9, Ie54pskjjfju1q, I2ilq93u3pnacc, Idhl3ivdtt03id, Ibni04tk4glm1q, I6tdd8rddmb56s, Icr253nf2skgu5, Ib1tr5ljcskalg, I7l4hu9floq5js, I5860vql6ga92, I2eb501t8s6hsq, Ianmuoljk2sk1u, Id1tt0orlbqqa1, I3fl3imvtqli21, Iab79tpm5uvc3p, Ideaemvoneh309, I3d9o9d7epp66v, I6lqh1vgb4mcja, I2a839vbf5817q, Ia9p5bg6p18r0i, I42bqh279uf7oa, I4p6v96cffstms, I90n6nnkpdahrh, I8mk5kjgn02hi8, Ieqvq91sbe02ko, I2gr10p66od9ch, I9mcq66cm3gibo, I31k9f0jol8ko4, I80q14um2s2ckg, I5qs1t1erfi7u8, I9et13knvdvgpb, Id9js0aucdivjk, I1vj3e1a62je3o, I6c1t14l6giceg, Ieg1oc56mamrl5, I2vu5vj7173ik9, I6galqkn58q3bl, I36uoc8t9liv80, Ibunghsg9qa7f7, I8qnouj2c0igph, Ic30e2k517a3ns, I47a2tsd2o2b1c, Ifc9k1s0e9nv8e, I4ihj26hl75e5p, I2dl8ekhm2t22h, I13us5e5h5645o, I931cottvong90, I7sujb8gfvuo7n, I1ors0vru14it3, I40s11r8nagn2g, I6bjj87fr5g9nl, I8cbluptqo8kbp, I81cc4plffa1dm, I3ihan8icf0c5k, I7ibh0fckqou49, I9j0ul7nh7b8jv, I84bjfgtkoop2c, I1epdupsg8a7gd, Id581arok0b1nj, I9jsikd1ghmc7l, I2f6mha3v4ooda, Iasqjdhasi408s, I6krn2lsleo87n, Iaid4btmkr5thp, I559fv6um7nmhd, I5m2irgeihn4i4, I1k3urvkqqshbc, I2ff0ffsh15vej, I1orfg86bkg123, Iaus4cb3drhu9q, Ivnsat10lv9d6, Ibncli8qttt2c2, I33rft6ag34efs, I9tmok5kceg2bg, I3i9vj5744rff1, I85icj2qbjeqbe, Ibuhbp68e6tkct, Idrevppfiubhve, I9s2h36kr71vk9, I4lkbiubo9ogq9, Id1baei7m8gkhk, I96ftepqm4vs7m, Ic3430470j4mbv, Ic3n7nqb6fffo0, I2ecddbrt3sjqn, Iaa7g3f5tlv3gf, I7mf0sij342109, Ibvirp862qkkup, Ic5b47dj4coa3r, Idehabrqi23sc0, Idfpo6162k0hq, I19hvnphoaj44l, I1ng31ej27mh4k, I85qkvekflgteq, I1qt5nua7ua655, Ia1u3jll6a06ae, I7cl9esn1l72m7, Id68sq6o2gm8qi, Iafscmv8tjf0ou, Ibtsa3docbr9el, Id5fm4p8lj5qgi, I2gpmmfdqv3cdc, I7psec5e6ghc64, I2psb0sladd863, I585tk8khua0gk, I3ut99di214ru2, Iemkp87d26vsbh, I4ahfrt5dscf6q, Ia5cotcvi888ln, I21jsa919m88fd, Iegif7m3upfe1k, I9kt8c221c83ln, Ic76kfh5ebqkpl, Icscpmubum33bq, I21d2olof7eb60, Ibgm4rnf22lal1, Ie68np0vpihith, I9bnv6lu0crf1q, Iauhjqifrdklq7, Ie1uso9m8rt5cf, Ibv4ep0hngvn9e, Ieoqregtp7b00, I9c4d50jrp7as1, Ifplevr9hp8jo3, I3pirohb0sp3ic, Iemqna2uucuei9, Idrvp50hbkv2k2, Ie11u326g2gsj3, I3i8ninv69go02, I28eootujvr945, Iasr6pj6shs0fl, I30pg328m00nr3, I5sgsmd01vj1nq, I6kmjpgojp035v, I9gel4bv68gacj, I65eh22mbe78un, I6j3ej8fb1sdg, Ia82mnkmeo2rhc, Ic3khjej8ptsmj, Icbccs0ug47ilf, I855j4i3kr8ko1, I1rue8hafcrumm, Ientudk7ce9tf2, Ia3c82eadg79bj, Ienusoeb625ftq, Ic9g5lvl9iddc5, Icv68aq8841478, Ic262ibdoec56a, Iflcfm9b6nlmdd, Ijrsf4mnp3eka, I8tjvj9uq4b7hi, I4cbvqmqadhrea, I3qt1hgg4djhgb, I4fooe9dun9o0t, Iph9c4rn81ub2, Ier2cke86dqbr2, I1au3fq4n84nv3, Iejaj7m7qka9tr, Idnak900lt5lm8, I27n7lbd66730p, I2hq50pu2kdjpo, Ifk8eme5o7mukf, Iau4cgm6ih61cf, Ith132hqfb27q, Ic19as7nbst738, I54umskavgc9du, I2ip7o9e2tc5sf, I5egvk6hadac5h, I1td4upnup9gqv, Iempvdlhc5ih6g, I9acqruh7322g2, I5768ac424h061, I8iksqi3eani0a, I16enopmju1p0q, I43kq8qudg7pq9, I76riseemre533, I38bmcrmh852rk, I4hcillge8de5f, I2cftk5tgrglaa, Iek7v4hrgnq6iv, I2na29tt2afp0j, I9qfchhljqsjjl, I7kij8p9kchdjo, I229ijht536qdu, I62nte77gksm0f, I9cg2delv92pvq, Ilhp45uime5tp, I4f1hv034jf1dt, Ib94bmeca0d48d, Ie3hcrrq6r18fs, Ih04jp733tqqa, Ievr89968437gm, I5g6mh97m41ugk, I7on7qa9giajpc, I855a5c0ljaqie, Ie3crtqmbpfl9j, Iamng908a7suk4, Ics7h6tjc8uajs, I2ur0oeqg495j8, Iejcjkg8bsr2ik, I1bhd210c3phjj, Iep27ialq4a7o7, Iasu5jvoqr43mv, I6mgne04leq9oe, I5qolde99acmd1, I8gtde5abn1g9a, Id9idaj83175f9, Ie1semicfuv5uu, If25fjs9o37co1, I70sc1pdo8vtos, Ibck5e4jpm96l8, I60p8l86a8cm59, I3m3sk2lgcabvp, I5pf572duh4oeg, I4mol6k10mv0io, Iec90vukseit9e, I7j4m7a3pkvsf4, Ic2n50kpnu5mae, I37454vatvmm1l, Iblau1qa7u7fet, I1ti389kf8t6oi, If4nnre373amul, I55kbor0ocqk6h, Idsj9cg7j96kpc, Ido4u9drncfaml, Ie8c7ctks8ur2p, I6c6fpqmnqijqd, I6mik29s5073td, I2m0sqmb75cnpb, I49agc5b62mehu, Iatq9jda4hq6pg, I2g87evcjlgmqi, I93ajn7brqs8df, Ib2q8vnsr19t9b, If6q1q7op2gvqf, Iasutj76sba8ld, Ic0he9tlf9ll0u, Id2aanom2jncf1, Ia9t7uh39caaer, Ib22de21ajklii, I4s0gvfhejmdp2, I9njsgm2qsgnil, Ic8i89mfkmn3n7, I37r4bdai8o9mp, I4iqn2mh49tci5, Id2bej717ckub0, I545vo2e86o5i4, I3i09nus3ku37s, I2e447aa6a0imh, I82n7gg49bvucn, I58qkru548f7dl, Ibs22tt76qp5bi, Idn2ghub1o4i40, I48u78djt89dod, Ib85m5kfbepu2t, Idaml5bdhsfcsl, Ieec0cu336gteb, I815d5k4ij85nv, Ifi98fgi9o46v7, Ic0oj9tok33uap, I3tdutpfjuk32j, I1esdujrkdacpb, I9g1d820jf9m2s, I8ve4g3egaln6a, I22ot402tm3tqf, If4hvqaeoqq5us, Iaiqv5prlisjkg, Iagqcb06kbevb1, Iec8defeh924b6, I61d51nv4cou88, If8u5kl4h8070m, Ibmuil6p3vl83l, I7lul91g50ae87, Icl7nl1rfeog3i, I2uqmls7kcdnii, Idg69klialbkb8, I7r6b7145022pp, Icmrn7bogp28cs, I7m9b5plj4h5ot, I9onhk772nfs4f, I3l6bnksrmt56r, Idh09k0l2pmdcg, I7uoiphbm0tj4r, I512p1n7qt24l8, I6s1nbislhk619, I3gghqnh2mj0is, I6iv852roh6t3h, I9oc2o6itbiopq, I218fa3heih67o, I1tf93k54ltg1v, I6ove5at7hfiur, I9c0urppp07b8b, Idrugh2blv81ia, Icqoqh756gekpf, I6m7oiqnfqf1g5, Ibgpq09i3qrsi, I6fomjr8ghrs40, I4udn5ndu0dko2, Ifpff50mo8ndh6, I3f9qerj1fhlkp, I6njehsr2u1k26, Ie7ig2lmbqnfkv, I78eij0bvl7dhc, I67kf0a73jrb5s, I3gfvfi6vikc5t, Ictkqqlhdjt761, Ie2db4l6126rkt, I5r8t4iaend96p, I7adrgaqb51jb9, Iba6ec6u9n2dc1, Iaqet9jc3ihboe, Ic952bubvq4k7d, I2v50gu3s1aqk6, Iabpgqcjikia83, I5c9v8o5fqjj61, If7uv525tdvv7a, Itom7fk49o0c9, I2an1fs2eiebjp, TransactionValidityTransactionSource, I9ask1o4tfvcvs, I5985kfq7sspta, I1v2gv5pb5e508, OccupiedCoreAssumption, I9kavsa730sjfr, Ifn3gc8nc1jruq, Ic1d4u2opv3fst, I92i81n5kpcgte, Ifb5bd3f9a1lu8, I2pf0b05mc7sdr, I9aev4k6tfeeom, Ialuks4a6iupcs, I36e6rra3ikq65, Idv6tqqnmb3i1j, Iekan13fn586c2, Idrp5a1qbbi2au, I943rhn463avqr, I2eq6ah7t620fb, Iavuvfkop6318c, Ieskfd0vl6pk5b, I56054ohcnjknc, Ifogo2hpqpe6b4, Ifiofttj73fsk1, I25plekc1moieu, I3eao7ea0kppv8, I7rj2bnb76oko1, I4o356o7eq06ms, I46e127tr8ma2h, I38ee9is0n4jn9, Ie88mmnuvmuvp5, I9puqgoda8ofk4, Iems84l8lk2v0c, I1r5ke30ueqo0r, I68ii5ik8avr9o, Icerf8h8pdu8ss, I4gil44d08grh, I7u915mvkdsb08, I6spmpef2c7svf, Iei2mvq0mjvt81, Iftvbctbo05fu4, XcmVersionedXcm, Ic0c3req3mlc1l, XcmVersionedAssetId, I7ocn4njqde3v5, Iek7ha36da9mf5, I39p61kmiacrk5, I8lh215sp6v8ja, I4i5qjd1ln9ccm, Ieh6nis3hdbtgi, Ie9sr1iqcg3cgm, I1mqgk2tmnn9i2, I6lr8sctk0bi4e, I3d6plfnrma7mu } from "./common-types";
+import { I5sesotjlssv2d, Iffmde3ekjedi9, I4mddgoa69c0a2, I50e3olilk8krm, I95g6i7ilua7lq, Ieniouoqkq4icf, Phase, Ibgl04rn6nbfm6, I4q39t5hn830vp, Icuu8u3hn81q96, I56u24ncejr5kt, I9jd27rnpm8ttv, PreimageOldRequestStatus, PreimageRequestStatus, I4pact7n2e9a0i, I3geksg000c171, BabeDigestsNextConfigDescriptor, Ic5m5lp1oioo8r, Idq7or56ds2f13, I4s6vifaf8k998, I8jnd4d8ip6djo, Ifip05kcrl65am, Iff9heri56m1mb, I1q8tnt1cluu5j, I8ds64oj6581v0, Ia7pdug7cdsg8g, I3f3fvvqal84bk, I2l1ctuihi2mfd, TransactionPaymentReleases, Ia2lhg7l2hilo3, Ic12aht5vh2sen, StakingRewardDestination, I9o7ssi9vmhmgr, Ic3m9d6tdl6gi2, Ib3j7gb0jgs38u, Ifekshcrgkl12g, I7svnfko10tq2e, I6flrronqs3l6n, I97fulj5h3ik95, Ia8896dq44k9m4, Icgljjb6j82uhn, Iff9p3c7k6pfoi, StakingForcing, Iafq6t4rgheait, I4ojmnsk1dchql, Iinkhfdlka9ch, I2kj4j6mp68hf8, I6ouflveob4eli, I2bqvqrg0sbrdj, I23nq3fsgtejt, Idt624nf41g34e, I9kr8cseidc66h, I82jm9g7pufuel, GrandpaStoredState, I7pe2me3i3vtn9, Iegmj7n48sc3am, I3s9vvjt0el98d, ConvictionVotingVoteVoting, If9jidduiuq7vv, Ifd1asa9e54e73, I2phecamkn3pej, ClaimsStatementKind, Ifble4juuml5ig, Version, I8oad3rb9oe9n1, I9p9lq3rej5bhc, Iag146hmjgqfgj, I8uo3fpd3bcc6f, Ict0fmb8krq1lk, Ibofbvvaehln4e, ElectionProviderMultiPhasePhase, Ictkaqdbfabuek, Ia7o65280hur3p, Iasd2iat48n080, Ic8d01sg6acf60, Irl37q7erstrb, I8s6n43okuj2b1, Ic5t26f9cp3tvk, I39k39h6vu4hbq, Idphjddn2h69vc, Idhh9vuu2bderg, If6qa32dj75gu1, I7oo2mprv1qd1s, NominationPoolsClaimPermission, I2eh80qovrl7h2, I542q009qbgt8k, I4e5ujckjq61g8, Idned7t7knml6b, I9vjdmm7sufoc, Ianpaq0u393le8, Ieeoaak2l9u1uj, I4nlcvb30egvqm, I6jfbetieitkka, I2ank6ikiis6qf, I56l4vl4ma2ho0, I67smi4kj2jg4u, I4p5t2krb1gmvp, I4oatd6mbhut9i, Ifotc7b47pbm2j, Iarlj3qd8u1v13, I9dasmua8326io, I1r87vlcdimba3, I4vk12npmr8ll0, ParachainsParasParaLifecycle, I79cs1p3m59mo7, I5ql12lunltfbi, UpgradeGoAhead, UpgradeRestriction, I2duhnt686rv0q, I7ulu3h1ibu60i, I6ljjd4b5fa4ov, Ibhmrlkcu01imb, I50mrcbubp554e, Id43g4eveajpkl, I7iua3ehrgl4va, Iev3u09i2vqn93, I9olhgo2o08h7b, I9m4rd2a7lc9md, I985vui1sgoafe, I87u7jalc0lhah, I4arjljr6dpflb, Ids3ua6tfbgvj0, I7m4equghru9k8, Iafqnechp3omqg, I3av628q6dt6mq, Ifmaahl40gom3g, I70iuri2ilha1f, Ifu1o52mhgbej8, If354jrdedj0pj, Ib17t3992hb64n, I215mkl885p4da, I5qfubnuvrnqn6, I8t3u2dv73ahbd, I7vlvrrl2pnbgk, Ie0rpl5bahldfk, XcmPalletVersionMigrationStage, I7e5oaj2qi4kl1, Ie849h3gncgvok, Iat62vud7hlod2, Ict03eedr8de9s, Ici7ejds60vj52, XcmVersionedLocation, I260m120dp9sbk, ParachainsInclusionAggregateMessageOrigin, I53esa2ms463bk, I1lfimt2mpej64, I2q3ri6itcjj5u, I2fb54desdqd9n, Idjett00s2gd, I7157o1o3fqkfv, In7a38730s6qs, Ibtil0ss5munbk, I9s0ave7t0vnrk, I4fo08joqmcqnm, Ibafpkl9hhno69, I35p85j063s0il, XcmV5Junctions, Iasb8k6ash5mjn, I8ofcg5rbj0g2c, I4adgbll7gku4i, I6pjjpfvhvcfru, I9pj91mj79qekl, I39uah9nss64h9, Ik64dknsq7k08, Ib51vk42m1po4n, I9etvlagl3q9mo, I5n4sebgkfr760, Ientpr2g6uhcu6, Ifs1i5fk9cqvr6, Icu8p9ginpem31, I8a9l0fbue17mm, Ieg3fd8p4pkt10, I8kg5ll427kfqq, I467333262q1l9, I82nfqfkd48n10, I1jm8m1rh9e20v, I3o5j3bli1pd8e, I50ppnqasq4tjq, I9fin09kkg0jaj, Idcr6u6361oad9, I666bl2fqjkejo, I6o1er683vod1j, I5bq561t4gpfva, I4ktuaksf5i1gk, I9bqtpv2ii35mp, I9j7pagd6d4bda, I2h9pmio37r7fb, Ibmr18suc9ikh9, I9iq22t0burs89, I5u8olqbbvfnvf, I5utcetro501ir, I2eip8tc75dpje, I564va64vtidbq, Ie5v6njpckr05b, I328av3j0bgmjb, I4tuqm9ato907i, Iagi89qt4h1lqg, I9dgmcnuamt5p8, I3vh014cqgmrfd, Ifhs60omlhvt3, If34udpd5e57vi, I39t01nnod9109, Ie5vbnd9198quk, I3h6murn8bd4v5, I6k6jf8ncesuu3, I3qhk481i120pk, If1qr0kbbl298c, Idl3umm12u5pa, I5ont0141q9ss5, Ie6j49utvii126, I3v6ks33uluhnj, I3kiiim1cds68i, I4k60mkh2r6jjg, Ic5njrpnvi3f8g, I5oi8saufice6j, I7ne83r38c2sqq, I2hviml3snvhhn, Icnrv1mfbd3in1, Icm9m0qeemu66d, I3pnhorh539dti, Idnsr2pndm36h0, Ia1pvdcbhuqf8m, I8steo882k7qns, I4pa4q37gj6fua, I5f178ab6b89t3, I4nakhtbsk3c5s, Iamkbnfs43opkv, Icbio0e1f0034b, I8c0vkqjjipnuj, I1adbcfi5uc62r, Ibf6ucefn8fh49, I5id2ven7p351c, I6uag8j5aql8q, Isq3k9rh2c0l4, I1dqiovk0tpoah, I1ntko0oih7v1a, I2tf5qmg09624f, Id9uqtigc0il3v, Iaa2o6cgjdpdn5, Iam6hrl7ptd85l, Ict9ivhr2c5hv0, I8t4vv03357lk9, Ic018dh7vtvb9q, Ibmrdd766k0lgh, Iarn700khqsglv, I28a8vv7m7f9if, Ia9qa82t79oeam, I8g5n01j8tbmf, Ib1tr5ljcskalg, I7l4hu9floq5js, I5860vql6ga92, I2eb501t8s6hsq, Ianmuoljk2sk1u, If0vq7ijgpu76j, I9hmrct7f4mipb, Idm97lmdr23rdq, Ideaemvoneh309, I3d9o9d7epp66v, I6lqh1vgb4mcja, I2a839vbf5817q, Ia9p5bg6p18r0i, I42bqh279uf7oa, I4p6v96cffstms, I90n6nnkpdahrh, I8mk5kjgn02hi8, Ieqvq91sbe02ko, I2gr10p66od9ch, I9mcq66cm3gibo, I31k9f0jol8ko4, I80q14um2s2ckg, I5qs1t1erfi7u8, I9et13knvdvgpb, Id9js0aucdivjk, I1vj3e1a62je3o, I6c1t14l6giceg, Ieg1oc56mamrl5, I2vu5vj7173ik9, I6galqkn58q3bl, I36uoc8t9liv80, Ibunghsg9qa7f7, I8qnouj2c0igph, Ic30e2k517a3ns, I47a2tsd2o2b1c, Ifc9k1s0e9nv8e, I4ihj26hl75e5p, I2dl8ekhm2t22h, I13us5e5h5645o, I931cottvong90, I7sujb8gfvuo7n, I1ors0vru14it3, I40s11r8nagn2g, I6bjj87fr5g9nl, I8cbluptqo8kbp, I81cc4plffa1dm, I3ihan8icf0c5k, I7ibh0fckqou49, I9j0ul7nh7b8jv, I84bjfgtkoop2c, I1epdupsg8a7gd, Iqdjeac6al5h9, Id581arok0b1nj, I9jsikd1ghmc7l, I2f6mha3v4ooda, Iasqjdhasi408s, I427c6dsaf0o3, Iaid4btmkr5thp, Icomv94tvjftfs, I7u06gsmiodd72, I1k3urvkqqshbc, I2ff0ffsh15vej, I1orfg86bkg123, Iaus4cb3drhu9q, Ivnsat10lv9d6, Ibncli8qttt2c2, I33rft6ag34efs, I9tmok5kceg2bg, I3i9vj5744rff1, I85icj2qbjeqbe, Ibuhbp68e6tkct, Idrevppfiubhve, I9s2h36kr71vk9, I4lkbiubo9ogq9, Id1baei7m8gkhk, I96ftepqm4vs7m, Ic3430470j4mbv, Ic3n7nqb6fffo0, I2ecddbrt3sjqn, Iaa7g3f5tlv3gf, I7mf0sij342109, Ibvirp862qkkup, Ic5b47dj4coa3r, Idehabrqi23sc0, Idfpo6162k0hq, I19hvnphoaj44l, I1ng31ej27mh4k, I1nu54u711abf1, If8t2rfmp0uhpt, Ia1u3jll6a06ae, I7cl9esn1l72m7, I5cgdrl0po95av, Iafscmv8tjf0ou, Ibtsa3docbr9el, Id5fm4p8lj5qgi, I2gpmmfdqv3cdc, I7psec5e6ghc64, I2psb0sladd863, I585tk8khua0gk, I3ut99di214ru2, Iemkp87d26vsbh, I4ahfrt5dscf6q, Ia5cotcvi888ln, I21jsa919m88fd, Iegif7m3upfe1k, I9kt8c221c83ln, Ic76kfh5ebqkpl, Icscpmubum33bq, I21d2olof7eb60, Ibgm4rnf22lal1, Ie68np0vpihith, I9bnv6lu0crf1q, Iauhjqifrdklq7, Ie1uso9m8rt5cf, Ibv4ep0hngvn9e, Ieoqregtp7b00, I9c4d50jrp7as1, Ifplevr9hp8jo3, I3pirohb0sp3ic, Iemqna2uucuei9, Idrvp50hbkv2k2, Ie11u326g2gsj3, Ia82mnkmeo2rhc, Iftltneipvgbut, Icbccs0ug47ilf, I855j4i3kr8ko1, I2qpb8mnmveh5, I6qao5rh0976fn, Ia3c82eadg79bj, Ienusoeb625ftq, Ic9g5lvl9iddc5, Icv68aq8841478, Ic262ibdoec56a, Iflcfm9b6nlmdd, Ijrsf4mnp3eka, I8tjvj9uq4b7hi, I3qt1hgg4djhgb, I4cbvqmqadhrea, I4fooe9dun9o0t, Iag7gfmgbvpfid, Inq0e9c5387fk, Ic9t3qhtt0jv5q, Iph9c4rn81ub2, Ier2cke86dqbr2, I1au3fq4n84nv3, Iejaj7m7qka9tr, Idnak900lt5lm8, I27n7lbd66730p, I2hq50pu2kdjpo, Ifk8eme5o7mukf, Iau4cgm6ih61cf, Ith132hqfb27q, Ic19as7nbst738, I54umskavgc9du, I2ip7o9e2tc5sf, I5egvk6hadac5h, I1td4upnup9gqv, Iempvdlhc5ih6g, I9acqruh7322g2, I5768ac424h061, I8iksqi3eani0a, I16enopmju1p0q, I43kq8qudg7pq9, I76riseemre533, I38bmcrmh852rk, I4hcillge8de5f, I2cftk5tgrglaa, Iek7v4hrgnq6iv, I7svrbkiu01iec, I8cbok7qd7ru4t, I7kij8p9kchdjo, I229ijht536qdu, I62nte77gksm0f, I9cg2delv92pvq, Ilhp45uime5tp, I4f1hv034jf1dt, Idhadhl6m6oga4, Ie3hcrrq6r18fs, Ih04jp733tqqa, Ievr89968437gm, If9l47jc6ut8u0, I1urpnh1ubct0s, If815gofaqolf7, I8fg5moc33nijp, I3nodrtjamg25q, Ics7h6tjc8uajs, I2ur0oeqg495j8, Iejcjkg8bsr2ik, I1bhd210c3phjj, Iep27ialq4a7o7, Iasu5jvoqr43mv, I8pi0cnielk6u, I5qolde99acmd1, I8gtde5abn1g9a, Id9idaj83175f9, Ie1semicfuv5uu, If25fjs9o37co1, I70sc1pdo8vtos, Ibck5e4jpm96l8, I60p8l86a8cm59, I3m3sk2lgcabvp, I5pf572duh4oeg, I4mol6k10mv0io, Iec90vukseit9e, I7j4m7a3pkvsf4, Ic2n50kpnu5mae, I37454vatvmm1l, Iblau1qa7u7fet, I1ti389kf8t6oi, If4nnre373amul, I55kbor0ocqk6h, Idsj9cg7j96kpc, Ido4u9drncfaml, Ie8c7ctks8ur2p, I6c6fpqmnqijqd, I6mik29s5073td, I2m0sqmb75cnpb, I49agc5b62mehu, Iatq9jda4hq6pg, I2g87evcjlgmqi, I93ajn7brqs8df, Ib2q8vnsr19t9b, If6q1q7op2gvqf, If3hao74jfl1fq, Ic0he9tlf9ll0u, Id2aanom2jncf1, Ia9t7uh39caaer, Ifnklcuvp8e0vo, I2q50nu6t6ltr4, Ieatb5ru6qci09, I83c8stq532apj, Ifea47889i70b2, Ic8i89mfkmn3n7, I37r4bdai8o9mp, I4iqn2mh49tci5, Id2bej717ckub0, I545vo2e86o5i4, I3i09nus3ku37s, I2e447aa6a0imh, I82n7gg49bvucn, I58qkru548f7dl, Ibs22tt76qp5bi, Idn2ghub1o4i40, I48u78djt89dod, Ib85m5kfbepu2t, Idaml5bdhsfcsl, Ieec0cu336gteb, I815d5k4ij85nv, Ifi98fgi9o46v7, Ic0oj9tok33uap, I3tdutpfjuk32j, I1esdujrkdacpb, I9g1d820jf9m2s, I8ve4g3egaln6a, I6nvlf9837cqcb, If4hvqaeoqq5us, Iaiqv5prlisjkg, Iagqcb06kbevb1, Iec8defeh924b6, I61d51nv4cou88, If8u5kl4h8070m, Ibmuil6p3vl83l, I7lul91g50ae87, Icl7nl1rfeog3i, Iasr6pj6shs0fl, I2uqmls7kcdnii, Idg69klialbkb8, I7r6b7145022pp, I30pg328m00nr3, Icmrn7bogp28cs, I7m9b5plj4h5ot, I9onhk772nfs4f, I3l6bnksrmt56r, Idh09k0l2pmdcg, I7uoiphbm0tj4r, I512p1n7qt24l8, I6s1nbislhk619, I3gghqnh2mj0is, I6iv852roh6t3h, I9oc2o6itbiopq, I218fa3heih67o, I1tf93k54ltg1v, I6ove5at7hfiur, I9c0urppp07b8b, Idrugh2blv81ia, Ictkqqlhdjt761, Ie2db4l6126rkt, I5r8t4iaend96p, Idn0vg08q2q3qj, I7adrgaqb51jb9, Iba6ec6u9n2dc1, Iaqet9jc3ihboe, Ic952bubvq4k7d, I2v50gu3s1aqk6, Iabpgqcjikia83, I8bbp1anrsg1eu, If7uv525tdvv7a, Itom7fk49o0c9, I2an1fs2eiebjp, I2na29tt2afp0j, TransactionValidityTransactionSource, I9ask1o4tfvcvs, I5985kfq7sspta, Iusmkoqghmno2, OccupiedCoreAssumption, I9kavsa730sjfr, Ifn3gc8nc1jruq, Ic1d4u2opv3fst, Ibb7gqolhd9jjj, Idede6ejqa708r, I2pf0b05mc7sdr, If207legjoj20f, Ialuks4a6iupcs, I36e6rra3ikq65, Idv6tqqnmb3i1j, If6a2e4ndb6mk6, Idrp5a1qbbi2au, Ie2h65164u3jsg, I79esqe010l5no, Iavuvfkop6318c, I7c4i7fg6o1bna, I56054ohcnjknc, I6nt209c6sfml3, I5i7fh53etglbj, Ifogo2hpqpe6b4, Ifiofttj73fsk1, I25plekc1moieu, I3eao7ea0kppv8, I7rj2bnb76oko1, I4o356o7eq06ms, I46e127tr8ma2h, Irtu011t0fjnh, I38ee9is0n4jn9, Ie88mmnuvmuvp5, I9puqgoda8ofk4, Iems84l8lk2v0c, I1r5ke30ueqo0r, I68ii5ik8avr9o, I4ph3d1eepnmr1, Icerf8h8pdu8ss, I4gil44d08grh, I7u915mvkdsb08, I6spmpef2c7svf, Iei2mvq0mjvt81, Iftvbctbo05fu4, XcmVersionedXcm, Ic0c3req3mlc1l, XcmVersionedAssetId, I7ocn4njqde3v5, Iek7ha36da9mf5, I39p61kmiacrk5, I39sq76u95drfm, I8i801j0ffm4ts, Ieh6nis3hdbtgi, Ie9sr1iqcg3cgm, I1mqgk2tmnn9i2, I6lr8sctk0bi4e, Ic6k2cvfs5i3k8 } from "./common-types";
 type AnonymousEnum<T extends {}> = T & {
     __anonymous: true;
 };
@@ -29,9 +29,11 @@ type IStorage = {
          */
         BlockWeight: StorageDescriptor<[], Anonymize<Iffmde3ekjedi9>, false, never>;
         /**
-         * Total length (in bytes) for all extrinsics put together, for the current block.
+         * Total size (in bytes) of the current block.
+         *
+         * Tracks the size of the header and all extrinsics.
          */
-        AllExtrinsicsLen: StorageDescriptor<[], number, true, never>;
+        BlockSize: StorageDescriptor<[], number, true, never>;
         /**
          * Map of block numbers to block hashes.
          */
@@ -61,7 +63,7 @@ type IStorage = {
          * Events have a large in-memory size. Box the events to not go out-of-memory
          * just in case someone still reads them from within the runtime.
          */
-        Events: StorageDescriptor<[], Anonymize<Iddj46s5gjp94f>, false, never>;
+        Events: StorageDescriptor<[], Anonymize<I50e3olilk8krm>, false, never>;
         /**
          * The number of events in the `Events<T>` list.
          */
@@ -83,6 +85,10 @@ type IStorage = {
          * Stores the `spec_version` and `spec_name` of when the last runtime upgrade happened.
          */
         LastRuntimeUpgrade: StorageDescriptor<[], Anonymize<Ieniouoqkq4icf>, true, never>;
+        /**
+         * Number of blocks till the pending code upgrade is applied.
+         */
+        BlocksTillUpgrade: StorageDescriptor<[], number, true, never>;
         /**
          * True if we have upgraded so that `type RefCount` is `u32`. False (default) if not.
          */
@@ -693,6 +699,13 @@ type IStorage = {
          * The owner of a key. The key is the `KeyTypeId` + the encoded key.
          */
         KeyOwner: StorageDescriptor<[Key: Anonymize<I82jm9g7pufuel>], SS58String, true, never>;
+        /**
+         * Accounts whose keys were set via `SessionInterface` (external path) without
+         * incrementing the consumer reference or placing a key deposit. `do_purge_keys`
+         * only decrements consumers for accounts that were registered through the local
+         * session pallet.
+         */
+        ExternallySetKeys: StorageDescriptor<[Key: SS58String], null, true, never>;
     };
     Grandpa: {
         /**
@@ -1051,6 +1064,27 @@ type IStorage = {
          * [`Call::rebag`] can be used.
          */
         Lock: StorageDescriptor<[], null, true, never>;
+        /**
+         * Accounts that failed to be inserted into the bags-list due to locking.
+         * These accounts will be processed with priority in `on_idle` or via `rebag` extrinsic.
+         *
+         * Note: This storage is intentionally unbounded. The following factors make bounding
+         * unnecessary:
+         * 1. The storage usage is temporary - accounts are processed and removed in `on_idle`
+         * 2. The pallet is only locked during snapshot generation, which is weight-limited
+         * 3. Processing happens at multiple accounts per block, clearing even large backlogs quickly
+         * 4. An artificial limit could be exhausted by an attacker, preventing legitimate
+         * auto-rebagging from putting accounts in the correct position
+         *
+         * We don't store the score here - it's always fetched from `ScoreProvider` when processing,
+         * ensuring we use the most up-to-date score (accounts may have been slashed, rewarded, etc.
+         * while waiting in the queue).
+         */
+        PendingRebag: StorageDescriptor<[Key: SS58String], null, true, never>;
+        /**
+         * Counter for the related counted storage map
+         */
+        CounterForPendingRebag: StorageDescriptor<[], number, false, never>;
     };
     NominationPools: {
         /**
@@ -1273,7 +1307,7 @@ type IStorage = {
         /**
          * The active configuration for the current session.
          */
-        ActiveConfig: StorageDescriptor<[], Anonymize<Idinvj2ldfa0k7>, false, never>;
+        ActiveConfig: StorageDescriptor<[], Anonymize<I6jfbetieitkka>, false, never>;
         /**
          * Pending configuration changes.
          *
@@ -1283,7 +1317,7 @@ type IStorage = {
          * The list is sorted ascending by session index. Also, this list can only contain at most
          * 2 items: for the next session and for the `scheduled_session`.
          */
-        PendingConfigs: StorageDescriptor<[], Anonymize<I78k2970vpbt1t>, false, never>;
+        PendingConfigs: StorageDescriptor<[], Anonymize<I2ank6ikiis6qf>, false, never>;
         /**
          * If this is set, then the configuration setters will bypass the consistency checks. This
          * is meant to be used only as the last resort.
@@ -1306,9 +1340,25 @@ type IStorage = {
          */
         ActiveValidatorKeys: StorageDescriptor<[], Anonymize<Ic5m5lp1oioo8r>, false, never>;
         /**
-         * All allowed relay-parents.
+         * All allowed scheduling parents.
          */
-        AllowedRelayParents: StorageDescriptor<[], Anonymize<I2d4k4cqluhq5i>, false, never>;
+        AllowedSchedulingParents: StorageDescriptor<[], Anonymize<I56l4vl4ma2ho0>, false, never>;
+        /**
+         * All allowed relay parents, keyed by (session_index, relay_parent_hash).
+         */
+        AllowedRelayParents: StorageDescriptor<Anonymize<I4p5t2krb1gmvp>, Anonymize<I67smi4kj2jg4u>, true, never>;
+        /**
+         * The oldest session index for which we still have relay parent entries in
+         * `AllowedRelayParents`. Used to efficiently prune all expired sessions
+         * when `max_relay_parent_session_age` decreases.
+         */
+        OldestRelayParentSession: StorageDescriptor<[], number, false, never>;
+        /**
+         * The minimum relay parent block number for each session that has entries in
+         * `AllowedRelayParents`. This is the block number of the first relay parent
+         * added to each session.
+         */
+        MinimumRelayParentNumber: StorageDescriptor<[Key: number], number, true, never>;
     };
     ParaInclusion: {
         /**
@@ -1318,7 +1368,7 @@ type IStorage = {
          * would otherwise have the exact same prefix which could cause undefined behaviour when doing
          * the migration.
          */
-        V1: StorageDescriptor<[Key: number], Anonymize<I91e9aiuocql92>, true, never>;
+        V1: StorageDescriptor<[Key: number], Anonymize<I4oatd6mbhut9i>, true, never>;
     };
     ParaInherent: {
         /**
@@ -1333,7 +1383,7 @@ type IStorage = {
         /**
          * Scraped on chain data for extracting resolved disputes as well as backing votes.
          */
-        OnChainVotes: StorageDescriptor<[], Anonymize<Ia1viqq9k85bv1>, true, never>;
+        OnChainVotes: StorageDescriptor<[], Anonymize<Ifotc7b47pbm2j>, true, never>;
     };
     ParaScheduler: {
         /**
@@ -1357,10 +1407,22 @@ type IStorage = {
          */
         SessionStartBlock: StorageDescriptor<[], number, false, never>;
         /**
-         * One entry for each availability core. The `VecDeque` represents the assignments to be
-         * scheduled on that core.
+         * Scheduled assignment sets for coretime cores.
+         *
+         * Assignments as of the given block number. They will go into state once the block number is
+         * reached (and replace whatever was in there before).
+         *
+         * Managed by the `assigner_coretime` submodule.
          */
-        ClaimQueue: StorageDescriptor<[], Anonymize<Idp9imcf15rli1>, false, never>;
+        CoreSchedules: StorageDescriptor<[Key: Anonymize<I9jd27rnpm8ttv>], Anonymize<I9dasmua8326io>, true, never>;
+        /**
+         * Assignments which are currently active for each core.
+         *
+         * They will be picked from `CoreSchedules` once we reach the scheduled block number.
+         *
+         * Managed by the `assigner_coretime` submodule.
+         */
+        CoreDescriptors: StorageDescriptor<[], Anonymize<I1r87vlcdimba3>, false, never>;
     };
     Paras: {
         /**
@@ -1667,7 +1729,7 @@ type IStorage = {
         /**
          * Executor parameter set for a given session index
          */
-        SessionExecutorParams: StorageDescriptor<[Key: number], Anonymize<I80rnntpog8qp6>, true, never>;
+        SessionExecutorParams: StorageDescriptor<[Key: number], Anonymize<I985vui1sgoafe>, true, never>;
     };
     ParasDisputes: {
         /**
@@ -1709,23 +1771,9 @@ type IStorage = {
     };
     OnDemand: {
         /**
-         * Maps a `ParaId` to `CoreIndex` and keeps track of how many assignments the scheduler has in
-         * it's lookahead. Keeping track of this affinity prevents parallel execution of the same
-         * `ParaId` on two or more `CoreIndex`es.
-         */
-        ParaIdAffinity: StorageDescriptor<[Key: number], Anonymize<I4akf1ifqeclef>, true, never>;
-        /**
-         * Overall status of queue (both free + affinity entries)
-         */
-        QueueStatus: StorageDescriptor<[], Anonymize<Ido5stnsbghtpd>, false, never>;
-        /**
          * Priority queue for all orders which don't yet (or not any more) have any core affinity.
          */
-        FreeEntries: StorageDescriptor<[], Anonymize<I3ndpvu09rj685>, false, never>;
-        /**
-         * Queue entries that are currently bound to a particular core due to core affinity.
-         */
-        AffinityEntries: StorageDescriptor<[Key: number], Anonymize<I3ndpvu09rj685>, false, never>;
+        OrderStatus: StorageDescriptor<[], Anonymize<I7m4equghru9k8>, false, never>;
         /**
          * Keeps track of accumulated revenue from on demand order sales.
          */
@@ -1734,22 +1782,6 @@ type IStorage = {
          * Keeps track of credits owned by each account.
          */
         Credits: StorageDescriptor<[Key: SS58String], bigint, false, never>;
-    };
-    CoretimeAssignmentProvider: {
-        /**
-         * Scheduled assignment sets.
-         *
-         * Assignments as of the given block number. They will go into state once the block number is
-         * reached (and replace whatever was in there before).
-         */
-        CoreSchedules: StorageDescriptor<[Key: Anonymize<I9jd27rnpm8ttv>], Anonymize<I9dasmua8326io>, true, "0">;
-        /**
-         * Assignments which are currently active.
-         *
-         * They will be picked from `PendingAssignments` once we reach the scheduled block number in
-         * `PendingAssignments`.
-         */
-        CoreDescriptors: StorageDescriptor<[Key: number], Anonymize<I3g90iebhds6kb>, false, "0">;
     };
     Registrar: {
         /**
@@ -1818,7 +1850,7 @@ type IStorage = {
         /**
          * Info on all of the funds.
          */
-        Funds: StorageDescriptor<[Key: number], Anonymize<I6gun5k9fbb4s0>, true, never>;
+        Funds: StorageDescriptor<[Key: number], Anonymize<Ifu1o52mhgbej8>, true, never>;
         /**
          * The funds that have had additional contributions during the last block. This is used
          * in order to determine which funds should submit new or updated bids.
@@ -2022,10 +2054,6 @@ type IStorage = {
     };
     RcMigrator: {
         /**
-         * The Relay Chain migration state.
-         */
-        RcMigrationStage: StorageDescriptor<[], Anonymize<I1t55ojifgnq64>, false, never>;
-        /**
          * Helper storage item to obtain and store the known accounts that should be kept partially or
          * fully on Relay Chain.
          */
@@ -2035,121 +2063,13 @@ type IStorage = {
          */
         CounterForRcAccounts: StorageDescriptor<[], number, false, never>;
         /**
-         * Helper storage item to store the total balance that should be kept on Relay Chain.
-         */
-        RcMigratedBalance: StorageDescriptor<[], Anonymize<I71f70f10aojd4>, false, never>;
-        /**
-         * Helper storage item to store the total balance that should be kept on Relay Chain after
-         * it is consumed from the `RcMigratedBalance` storage item and sent to the Asset Hub.
-         *
-         * This let us to take the value from the `RcMigratedBalance` storage item and keep the
-         * `SignalMigrationFinish` stage to be idempotent while preserving these values for tests and
-         * later discoveries.
-         */
-        RcMigratedBalanceArchive: StorageDescriptor<[], Anonymize<I71f70f10aojd4>, false, never>;
-        /**
-         * The pending XCM messages.
-         *
-         * Contains data messages that have been sent to the Asset Hub but not yet confirmed.
-         *
-         * Unconfirmed messages can be resent by calling the [`Pallet::resend_xcm`] function.
-         */
-        PendingXcmMessages: StorageDescriptor<[Key: Anonymize<Idsa6q9es8ufjv>], Anonymize<Ict03eedr8de9s>, true, never>;
-        /**
-         * Counter for the related counted storage map
-         */
-        CounterForPendingXcmMessages: StorageDescriptor<[], number, false, never>;
-        /**
-         * Accounts that use the proxy pallet to delegate permissions and have no nonce.
-         *
-         * Boolean value is whether they have been migrated to the Asset Hub. Needed for idempotency.
-         */
-        PureProxyCandidatesMigrated: StorageDescriptor<[Key: SS58String], boolean, true, never>;
-        /**
-         * The pending XCM response queries and their XCM hash referencing the message in the
-         * [`PendingXcmMessages`] storage.
-         *
-         * The `QueryId` is the identifier from the [`pallet_xcm`] query handler registry. The XCM
-         * pallet will notify about the status of the message by calling the
-         * [`Pallet::receive_query_response`] function with the `QueryId` and the
-         * response.
-         */
-        PendingXcmQueries: StorageDescriptor<[Key: bigint], FixedSizeBinary<32>, true, never>;
-        /**
-         * Manual override for `type UnprocessedMsgBuffer: Get<u32>`. Look there for docs.
-         */
-        UnprocessedMsgBuffer: StorageDescriptor<[], number, true, never>;
-        /**
-         * The priority of the Asset Hub UMP queue during migration.
-         *
-         * Controls how the Asset Hub UMP (Upward Message Passing) queue is processed relative to other
-         * queues during the migration process. This helps ensure timely processing of migration
-         * messages. The default priority pattern is defined in the pallet configuration, but can be
-         * overridden by a storage value of this type.
-         */
-        AhUmpQueuePriorityConfig: StorageDescriptor<[], Anonymize<I2fbmombro6ugg>, false, never>;
-        /**
-         * An optional account id of a manager.
-         *
-         * This account id has similar privileges to [`Config::AdminOrigin`] except that it
-         * can not set the manager account id via `set_manager` call.
-         */
-        Manager: StorageDescriptor<[], SS58String, true, never>;
-        /**
-         * An optional account id of a canceller.
-         *
-         * This account id can only stop scheduled migration.
-         */
-        Canceller: StorageDescriptor<[], SS58String, true, never>;
-        /**
-         * The block number at which the migration began and the pallet's extrinsics were locked.
-         *
-         * This value is set when entering the `WaitingForAh` stage, i.e., when
-         * `RcMigrationStage::is_ongoing()` becomes `true`.
+         * The block number when the migration started.
          */
         MigrationStartBlock: StorageDescriptor<[], number, true, never>;
         /**
-         * Block number when migration finished and extrinsics were unlocked.
-         *
-         * This is set when entering the `MigrationDone` stage hence when
-         * `RcMigrationStage::is_finished()` becomes `true`.
+         * The block number when the migration ended.
          */
         MigrationEndBlock: StorageDescriptor<[], number, true, never>;
-        /**
-         * The duration of the pre migration warm-up period.
-         *
-         * This is the duration of the warm-up period before the data migration starts. During this
-         * period, the migration will be in ongoing state and the concerned extrinsics will be locked.
-         */
-        WarmUpPeriod: StorageDescriptor<[], TraitsScheduleDispatchTime, true, never>;
-        /**
-         * The duration of the post migration cool-off period.
-         *
-         * This is the duration of the cool-off period after the data migration is finished. During
-         * this period, the migration will be still in ongoing state and the concerned extrinsics will
-         * be locked.
-         */
-        CoolOffPeriod: StorageDescriptor<[], TraitsScheduleDispatchTime, true, never>;
-        /**
-         * The migration settings.
-         */
-        Settings: StorageDescriptor<[], Anonymize<I7hcg2ag6ofoah>, true, never>;
-        /**
-         * The multisig AccountIDs that votes to execute a specific call.
-         */
-        ManagerMultisigs: StorageDescriptor<[Key: Anonymize<I7hcgvpgj6f5cg>], Anonymize<Ia2lhg7l2hilo3>, false, never>;
-        /**
-         * The current round of the multisig voting.
-         *
-         * Votes are only valid for the current round.
-         */
-        ManagerMultisigRound: StorageDescriptor<[], number, false, never>;
-        /**
-         * How often each participant voted in the current round.
-         *
-         * Will be cleared at the end of each round.
-         */
-        ManagerVotesInCurrentRound: StorageDescriptor<[Key: SS58String], number, false, never>;
     };
 };
 type ICalls = {
@@ -2229,15 +2149,18 @@ type ICalls = {
         /**
          * Anonymously schedule a task.
          */
-        schedule: TxDescriptor<Anonymize<Ievqg4vesuv9r>>;
+        schedule: TxDescriptor<Anonymize<I9etvlagl3q9mo>>;
         /**
-         * Cancel an anonymously scheduled task.
+         * Cancel a scheduled task (named or anonymous), by providing the block it is scheduled for
+         * execution in, as well as the index of the task in that block's agenda.
+         *
+         * In the case of a named task, it will remove it from the lookup table as well.
          */
         cancel: TxDescriptor<Anonymize<I5n4sebgkfr760>>;
         /**
          * Schedule a named task.
          */
-        schedule_named: TxDescriptor<Anonymize<I96j7mof2a406s>>;
+        schedule_named: TxDescriptor<Anonymize<Ientpr2g6uhcu6>>;
         /**
          * Cancel a named scheduled task.
          */
@@ -2245,11 +2168,11 @@ type ICalls = {
         /**
          * Anonymously schedule a task after a delay.
          */
-        schedule_after: TxDescriptor<Anonymize<Ic7athauk3dsf2>>;
+        schedule_after: TxDescriptor<Anonymize<Icu8p9ginpem31>>;
         /**
          * Schedule a named task after a delay.
          */
-        schedule_named_after: TxDescriptor<Anonymize<Ia887kpua9h5sc>>;
+        schedule_named_after: TxDescriptor<Anonymize<I8a9l0fbue17mm>>;
         /**
          * Set a retry configuration for a task so that, in case its scheduled run fails, it will
          * be retried after `period` blocks, for a total amount of `retries` retries or until it
@@ -2263,6 +2186,8 @@ type ICalls = {
          * clones of the original task. Their retry configuration will be derived from the
          * original task's configuration, but will have a lower value for `remaining` than the
          * original `total_retries`.
+         *
+         * This call **cannot** be used to set a retry configuration for a named task.
          */
         set_retry: TxDescriptor<Anonymize<Ieg3fd8p4pkt10>>;
         /**
@@ -2278,6 +2203,8 @@ type ICalls = {
          * clones of the original task. Their retry configuration will be derived from the
          * original task's configuration, but will have a lower value for `remaining` than the
          * original `total_retries`.
+         *
+         * This is the only way to set a retry configuration for a named task.
          */
         set_retry_named: TxDescriptor<Anonymize<I8kg5ll427kfqq>>;
         /**
@@ -2942,7 +2869,7 @@ type ICalls = {
          *
          * If a validator has more than [`Config::MaxExposurePageSize`] nominators backing
          * them, then the list of nominators is paged, with each page being capped at
-         * [`Config::MaxExposurePageSize`.] If a validator has more than one page of nominators,
+         * [`Config::MaxExposurePageSize`]. If a validator has more than one page of nominators,
          * the call needs to be made for each page separately in order for all the nominators
          * backing a validator to receive the reward. The nominators are not sorted across pages
          * and so it should not be assumed the highest staker would be on the topmost page and vice
@@ -3020,14 +2947,16 @@ type ICalls = {
     Session: {
         /**
          * Sets the session key(s) of the function caller to `keys`.
+         *
          * Allows an account to set its session key prior to becoming a validator.
          * This doesn't take effect until the next session.
          *
-         * The dispatch origin of this function must be signed.
-         *
-         * ## Complexity
-         * - `O(1)`. Actual cost depends on the number of length of `T::Keys::key_ids()` which is
-         * fixed.
+         * - `origin`: The dispatch origin of this function must be signed.
+         * - `keys`: The new session keys to set. These are the public keys of all sessions keys
+         * setup in the runtime.
+         * - `proof`: The proof that `origin` has access to the private keys of `keys`. See
+         * [`impl_opaque_keys`](sp_runtime::impl_opaque_keys) for more information about the
+         * proof format.
          */
         set_keys: TxDescriptor<Anonymize<I5oi8saufice6j>>;
         /**
@@ -3039,10 +2968,6 @@ type ICalls = {
          * convertible to a validator ID using the chain's typical addressing system (this usually
          * means being a controller account) or directly convertible into a validator ID (which
          * usually means being a stash account).
-         *
-         * ## Complexity
-         * - `O(1)` in number of key types. Actual cost depends on the number of length of
-         * `T::Keys::key_ids()` which is fixed.
          */
         purge_keys: TxDescriptor<undefined>;
     };
@@ -3448,7 +3373,7 @@ type ICalls = {
         /**
         
          */
-        dispatch_whitelisted_call_with_preimage: TxDescriptor<Anonymize<I790r1utmcgn1i>>;
+        dispatch_whitelisted_call_with_preimage: TxDescriptor<Anonymize<I5id2ven7p351c>>;
     };
     Claims: {
         /**
@@ -3668,7 +3593,7 @@ type ICalls = {
          * and the error of the failed call. If all were successful, then the `BatchCompleted`
          * event is deposited.
          */
-        batch: TxDescriptor<Anonymize<Ie54pskjjfju1q>>;
+        batch: TxDescriptor<Anonymize<Ic018dh7vtvb9q>>;
         /**
          * Send a call through an indexed pseudonym of the sender.
          *
@@ -3684,7 +3609,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Signed_.
          */
-        as_derivative: TxDescriptor<Anonymize<I2ilq93u3pnacc>>;
+        as_derivative: TxDescriptor<Anonymize<Ibmrdd766k0lgh>>;
         /**
          * Send a batch of dispatch calls and atomically execute them.
          * The whole transaction will rollback and fail if any of the calls failed.
@@ -3700,7 +3625,7 @@ type ICalls = {
          * ## Complexity
          * - O(C) where C is the number of calls to be batched.
          */
-        batch_all: TxDescriptor<Anonymize<Ie54pskjjfju1q>>;
+        batch_all: TxDescriptor<Anonymize<Ic018dh7vtvb9q>>;
         /**
          * Dispatches a function call with a provided origin.
          *
@@ -3709,7 +3634,7 @@ type ICalls = {
          * ## Complexity
          * - O(1).
          */
-        dispatch_as: TxDescriptor<Anonymize<Idhl3ivdtt03id>>;
+        dispatch_as: TxDescriptor<Anonymize<Iarn700khqsglv>>;
         /**
          * Send a batch of dispatch calls.
          * Unlike `batch`, it allows errors and won't interrupt.
@@ -3725,7 +3650,7 @@ type ICalls = {
          * ## Complexity
          * - O(C) where C is the number of calls to be batched.
          */
-        force_batch: TxDescriptor<Anonymize<Ie54pskjjfju1q>>;
+        force_batch: TxDescriptor<Anonymize<Ic018dh7vtvb9q>>;
         /**
          * Dispatch a function call with a specified weight.
          *
@@ -3734,7 +3659,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Root_.
          */
-        with_weight: TxDescriptor<Anonymize<Ibni04tk4glm1q>>;
+        with_weight: TxDescriptor<Anonymize<I28a8vv7m7f9if>>;
         /**
          * Dispatch a fallback call in the event the main call fails to execute.
          * May be called from any origin except `None`.
@@ -3760,7 +3685,7 @@ type ICalls = {
          * - Some use cases might involve submitting a `batch` type call in either main, fallback
          * or both.
          */
-        if_else: TxDescriptor<Anonymize<I6tdd8rddmb56s>>;
+        if_else: TxDescriptor<Anonymize<Ia9qa82t79oeam>>;
         /**
          * Dispatches a function call with a provided origin.
          *
@@ -3768,7 +3693,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Root_.
          */
-        dispatch_as_fallible: TxDescriptor<Anonymize<Idhl3ivdtt03id>>;
+        dispatch_as_fallible: TxDescriptor<Anonymize<Iarn700khqsglv>>;
     };
     Proxy: {
         /**
@@ -3782,7 +3707,7 @@ type ICalls = {
          * - `force_proxy_type`: Specify the exact proxy type to be used and checked for this call.
          * - `call`: The call to be made by the `real` account.
          */
-        proxy: TxDescriptor<Anonymize<Icr253nf2skgu5>>;
+        proxy: TxDescriptor<Anonymize<I8g5n01j8tbmf>>;
         /**
          * Register a proxy account for the sender that is able to make calls on its behalf.
          *
@@ -3911,7 +3836,7 @@ type ICalls = {
          * - `force_proxy_type`: Specify the exact proxy type to be used and checked for this call.
          * - `call`: The call to be made by the `real` account.
          */
-        proxy_announced: TxDescriptor<Anonymize<Id1tt0orlbqqa1>>;
+        proxy_announced: TxDescriptor<Anonymize<If0vq7ijgpu76j>>;
         /**
          * Poke / Adjust deposits made for proxies and announcements based on current values.
          * This can be used by accounts to possibly lower their locked amount.
@@ -3939,12 +3864,14 @@ type ICalls = {
          * ## Complexity
          * O(Z + C) where Z is the length of the call and C its execution weight.
          */
-        as_multi_threshold_1: TxDescriptor<Anonymize<I3fl3imvtqli21>>;
+        as_multi_threshold_1: TxDescriptor<Anonymize<I9hmrct7f4mipb>>;
         /**
          * Register approval for a dispatch to be made from a deterministic composite account if
          * approved by a total of `threshold - 1` of `other_signatories`.
          *
-         * If there are enough, then dispatch the call.
+         * **If the approval threshold is met (including the sender's approval), this will
+         * immediately execute the call.** This is the only way to execute a multisig call -
+         * `approve_as_multi` will never trigger execution.
          *
          * Payment: `DepositBase` will be reserved if this is the first approval, plus
          * `threshold` times `DepositFactor`. It is returned once this dispatch happens or
@@ -3960,8 +3887,9 @@ type ICalls = {
          * transaction index) of the first approval transaction.
          * - `call`: The call to be executed.
          *
-         * NOTE: Unless this is the final approval, you will generally want to use
-         * `approve_as_multi` instead, since it only requires a hash of the call.
+         * NOTE: For intermediate approvals (not the final approval), you should generally use
+         * `approve_as_multi` instead, since it only requires a hash of the call and is more
+         * efficient.
          *
          * Result is equivalent to the dispatched result if `threshold` is exactly `1`. Otherwise
          * on success, result is `Ok` and the result from the interior call, if it was executed,
@@ -3981,10 +3909,17 @@ type ICalls = {
          * - Storage: inserts one item, value size bounded by `MaxSignatories`, with a deposit
          * taken for its lifetime of `DepositBase + threshold * DepositFactor`.
          */
-        as_multi: TxDescriptor<Anonymize<Iab79tpm5uvc3p>>;
+        as_multi: TxDescriptor<Anonymize<Idm97lmdr23rdq>>;
         /**
          * Register approval for a dispatch to be made from a deterministic composite account if
          * approved by a total of `threshold - 1` of `other_signatories`.
+         *
+         * **This function will NEVER execute the call, even if the approval threshold is
+         * reached.** It only registers approval. To actually execute the call, `as_multi` must
+         * be called with the full call data by any of the signatories.
+         *
+         * This function is more efficient than `as_multi` for intermediate approvals since it
+         * only requires the call hash, not the full call data.
          *
          * Payment: `DepositBase` will be reserved if this is the first approval, plus
          * `threshold` times `DepositFactor`. It is returned once this dispatch happens or
@@ -4000,7 +3935,8 @@ type ICalls = {
          * transaction index) of the first approval transaction.
          * - `call_hash`: The hash of the call to be executed.
          *
-         * NOTE: If this is the final approval, you will want to use `as_multi` instead.
+         * NOTE: To execute the call after approvals are gathered, any signatory must call
+         * `as_multi` with the full call data. This function cannot execute the call.
          *
          * ## Complexity
          * - `O(S)`.
@@ -4881,6 +4817,23 @@ type ICalls = {
          * manually do what this pallet was meant to do at the end of the migration.
          */
         force_on_migration_end: TxDescriptor<undefined>;
+        /**
+         * Set session keys for a validator, forwarded from AssetHub.
+         *
+         * This is called when a validator sets their session keys on AssetHub, which forwards
+         * the request to the RelayChain via XCM.
+         *
+         * AssetHub validates both keys and ownership proof before sending.
+         * RC trusts AH's validation and does not re-validate.
+         */
+        set_keys_from_ah: TxDescriptor<Anonymize<Iqdjeac6al5h9>>;
+        /**
+         * Purge session keys for a validator, forwarded from AssetHub.
+         *
+         * This is called when a validator purges their session keys on AssetHub, which forwards
+         * the request to the RelayChain via XCM.
+         */
+        purge_keys_from_ah: TxDescriptor<Anonymize<Idl3umm12u5pa>>;
     };
     Configuration: {
         /**
@@ -5044,7 +4997,7 @@ type ICalls = {
         /**
          * Set PVF executor parameters.
          */
-        set_executor_params: TxDescriptor<Anonymize<I6krn2lsleo87n>>;
+        set_executor_params: TxDescriptor<Anonymize<I427c6dsaf0o3>>;
         /**
          * Set the on demand (parathreads) base fee.
          */
@@ -5076,13 +5029,17 @@ type ICalls = {
         /**
          * Set scheduler-params.
          */
-        set_scheduler_params: TxDescriptor<Anonymize<I559fv6um7nmhd>>;
+        set_scheduler_params: TxDescriptor<Anonymize<Icomv94tvjftfs>>;
+        /**
+         * Set the maximum relay parent session age.
+         */
+        set_max_relay_parent_session_age: TxDescriptor<Anonymize<I3vh014cqgmrfd>>;
     };
     ParaInherent: {
         /**
          * Enter the paras inherent. This will process bitfields and backed candidates.
          */
-        enter: TxDescriptor<Anonymize<I5m2irgeihn4i4>>;
+        enter: TxDescriptor<Anonymize<I7u06gsmiodd72>>;
     };
     Paras: {
         /**
@@ -5545,12 +5502,12 @@ type ICalls = {
          * This applies a lock to your parachain configuration, ensuring that it cannot be changed
          * by the parachain manager.
          */
-        create: TxDescriptor<Anonymize<I85qkvekflgteq>>;
+        create: TxDescriptor<Anonymize<I1nu54u711abf1>>;
         /**
          * Contribute to a crowd sale. This will transfer some balance over to fund a parachain
          * slot. It will be withdrawable when the crowdloan has ended and the funds are unused.
          */
-        contribute: TxDescriptor<Anonymize<I1qt5nua7ua655>>;
+        contribute: TxDescriptor<Anonymize<If8t2rfmp0uhpt>>;
         /**
          * Withdraw full balance of a specific contributor.
          *
@@ -5588,7 +5545,7 @@ type ICalls = {
          *
          * Can only be called by Root origin.
          */
-        edit: TxDescriptor<Anonymize<I85qkvekflgteq>>;
+        edit: TxDescriptor<Anonymize<I1nu54u711abf1>>;
         /**
          * Add an optional memo to an existing crowdloan contribution.
          *
@@ -5606,7 +5563,7 @@ type ICalls = {
          * a user over to fund a parachain slot. It will be withdrawable when the crowdloan has
          * ended and the funds are unused.
          */
-        contribute_all: TxDescriptor<Anonymize<Id68sq6o2gm8qi>>;
+        contribute_all: TxDescriptor<Anonymize<I5cgdrl0po95av>>;
     };
     Coretime: {
         /**
@@ -6098,117 +6055,6 @@ type ICalls = {
          */
         report_future_block_voting_unsigned: TxDescriptor<Anonymize<Ie11u326g2gsj3>>;
     };
-    RcMigrator: {
-        /**
-         * Set the migration stage.
-         *
-         * This call is intended for emergency use only and is guarded by the
-         * [`Config::AdminOrigin`].
-         */
-        force_set_stage: TxDescriptor<Anonymize<I3i8ninv69go02>>;
-        /**
-         * Schedule the migration to start at a given moment.
-         *
-         * ### Parameters:
-         * - `start`: The block number at which the migration will start. `DispatchTime` calculated
-         * at the moment of the extrinsic execution.
-         * - `warm_up`: Duration or timepoint that will be used to prepare for the migration. Calls
-         * are filtered during this period. It is intended to give enough time for UMP and DMP
-         * queues to empty. `DispatchTime` calculated at the moment of the transition to the
-         * warm-up stage.
-         * - `cool_off`: The block number at which the post migration cool-off period will end. The
-         * `DispatchTime` calculated at the moment of the transition to the cool-off stage.
-         * - `unsafe_ignore_staking_lock_check`: ONLY FOR TESTING. Ignore the check whether the
-         * scheduled time point is far enough in the future.
-         *
-         * Note: If the staking election for next era is already complete, and the next
-         * validator set is queued in `pallet-session`, we want to avoid starting the data
-         * migration at this point as it can lead to some missed validator rewards. To address
-         * this, we stop staking election at the start of migration and must wait atleast 1
-         * session (set via warm_up) before starting the data migration.
-         *
-         * Read [`MigrationStage::Scheduled`] documentation for more details.
-         */
-        schedule_migration: TxDescriptor<Anonymize<I28eootujvr945>>;
-        /**
-         * Start the data migration.
-         *
-         * This is typically called by the Asset Hub to indicate it's readiness to receive the
-         * migration data.
-         */
-        start_data_migration: TxDescriptor<undefined>;
-        /**
-         * Receive a query response from the Asset Hub for a previously sent xcm message.
-         */
-        receive_query_response: TxDescriptor<Anonymize<Iasr6pj6shs0fl>>;
-        /**
-         * Resend a previously sent and unconfirmed XCM message.
-         */
-        resend_xcm: TxDescriptor<Anonymize<I30pg328m00nr3>>;
-        /**
-         * Set the unprocessed message buffer size.
-         *
-         * `None` means to use the configuration value.
-         */
-        set_unprocessed_msg_buffer: TxDescriptor<Anonymize<Id581arok0b1nj>>;
-        /**
-         * Set the AH UMP queue priority configuration.
-         *
-         * Can only be called by the `AdminOrigin`.
-         */
-        set_ah_ump_queue_priority: TxDescriptor<Anonymize<I5sgsmd01vj1nq>>;
-        /**
-         * Set the manager account id.
-         *
-         * The manager has the similar to [`Config::AdminOrigin`] privileges except that it
-         * can not set the manager account id via `set_manager` call.
-         */
-        set_manager: TxDescriptor<Anonymize<I6kmjpgojp035v>>;
-        /**
-         * XCM send call identical to the [`pallet_xcm::Pallet::send`] call but with the
-         * [Config::SendXcm] router which will be able to send messages to the Asset Hub during
-         * the migration.
-         */
-        send_xcm_message: TxDescriptor<Anonymize<Ia5cotcvi888ln>>;
-        /**
-         * Set the accounts to be preserved on Relay Chain during the migration.
-         *
-         * The accounts must have no consumers references.
-         */
-        preserve_accounts: TxDescriptor<Anonymize<I9gel4bv68gacj>>;
-        /**
-         * Set the canceller account id.
-         *
-         * The canceller can only stop scheduled migration.
-         */
-        set_canceller: TxDescriptor<Anonymize<I6kmjpgojp035v>>;
-        /**
-         * Pause the migration.
-         */
-        pause_migration: TxDescriptor<undefined>;
-        /**
-         * Cancel the migration.
-         *
-         * Migration can only be cancelled if it is in the [`MigrationStage::Scheduled`] state.
-         */
-        cancel_migration: TxDescriptor<undefined>;
-        /**
-         * Vote on behalf of any of the members in `MultisigMembers`.
-         *
-         * Unsigned extrinsic, requiring the `payload` to be signed.
-         *
-         * Upon each call, a new entry is created in `ManagerMultisigs` map the `payload.call` to
-         * be dispatched. Once `MultisigThreshold` is reached, the entire map is deleted, and we
-         * move on to the next round.
-         *
-         * The round system ensures that signatures from older round cannot be reused.
-         */
-        vote_manager_multisig: TxDescriptor<Anonymize<I65eh22mbe78un>>;
-        /**
-         * Set the migration settings. Can only be done by admin or manager.
-         */
-        set_settings: TxDescriptor<Anonymize<I6j3ej8fb1sdg>>;
-    };
 };
 type IEvent = {
     System: {
@@ -6219,7 +6065,7 @@ type IEvent = {
         /**
          * An extrinsic failed.
          */
-        ExtrinsicFailed: PlainDescriptor<Anonymize<Ic3khjej8ptsmj>>;
+        ExtrinsicFailed: PlainDescriptor<Anonymize<Iftltneipvgbut>>;
         /**
          * `:code` was updated.
          */
@@ -6243,7 +6089,7 @@ type IEvent = {
         /**
          * An invalid authorized upgrade was rejected while trying to apply it.
          */
-        RejectedInvalidAuthorizedUpgrade: PlainDescriptor<Anonymize<I1rue8hafcrumm>>;
+        RejectedInvalidAuthorizedUpgrade: PlainDescriptor<Anonymize<I2qpb8mnmveh5>>;
     };
     Scheduler: {
         /**
@@ -6257,7 +6103,7 @@ type IEvent = {
         /**
          * Dispatched some task.
          */
-        Dispatched: PlainDescriptor<Anonymize<Ientudk7ce9tf2>>;
+        Dispatched: PlainDescriptor<Anonymize<I6qao5rh0976fn>>;
         /**
          * Set a retry configuration for some task.
          */
@@ -6368,9 +6214,17 @@ type IEvent = {
          */
         Minted: PlainDescriptor<Anonymize<Id5fm4p8lj5qgi>>;
         /**
+         * Some credit was balanced and added to the TotalIssuance.
+         */
+        MintedCredit: PlainDescriptor<Anonymize<I3qt1hgg4djhgb>>;
+        /**
          * Some amount was burned from an account.
          */
         Burned: PlainDescriptor<Anonymize<Id5fm4p8lj5qgi>>;
+        /**
+         * Some debt has been dropped from the Total Issuance.
+         */
+        BurnedDebt: PlainDescriptor<Anonymize<I3qt1hgg4djhgb>>;
         /**
          * Some amount was suspended from an account (it can be restored later).
          */
@@ -6411,6 +6265,26 @@ type IEvent = {
          * The `TotalIssuance` was forcefully changed.
          */
         TotalIssuanceForced: PlainDescriptor<Anonymize<I4fooe9dun9o0t>>;
+        /**
+         * Some balance was placed on hold.
+         */
+        Held: PlainDescriptor<Anonymize<Iag7gfmgbvpfid>>;
+        /**
+         * Held balance was burned from an account.
+         */
+        BurnedHeld: PlainDescriptor<Anonymize<Iag7gfmgbvpfid>>;
+        /**
+         * A transfer of `amount` on hold from `source` to `dest` was initiated.
+         */
+        TransferOnHold: PlainDescriptor<Anonymize<Inq0e9c5387fk>>;
+        /**
+         * The `transferred` balance is placed on hold at the `dest` account.
+         */
+        TransferAndHold: PlainDescriptor<Anonymize<Ic9t3qhtt0jv5q>>;
+        /**
+         * Some balance was released from hold.
+         */
+        Released: PlainDescriptor<Anonymize<Iag7gfmgbvpfid>>;
         /**
          * An unexpected/defensive event was triggered.
          */
@@ -6616,19 +6490,19 @@ type IEvent = {
         /**
          * An account has delegated their vote to another account. \[who, target\]
          */
-        Delegated: PlainDescriptor<Anonymize<I2na29tt2afp0j>>;
+        Delegated: PlainDescriptor<Anonymize<I7svrbkiu01iec>>;
         /**
          * An \[account\] has cancelled a previous delegation operation.
          */
-        Undelegated: PlainDescriptor<SS58String>;
+        Undelegated: PlainDescriptor<Anonymize<I6ouflveob4eli>>;
         /**
          * An account has voted
          */
-        Voted: PlainDescriptor<Anonymize<I9qfchhljqsjjl>>;
+        Voted: PlainDescriptor<Anonymize<I8cbok7qd7ru4t>>;
         /**
          * A vote has been removed
          */
-        VoteRemoved: PlainDescriptor<Anonymize<I9qfchhljqsjjl>>;
+        VoteRemoved: PlainDescriptor<Anonymize<I8cbok7qd7ru4t>>;
         /**
          * The lockup period of a conviction vote expired, and the funds have been unlocked.
          */
@@ -6712,7 +6586,7 @@ type IEvent = {
         /**
         
          */
-        WhitelistedCallDispatched: PlainDescriptor<Anonymize<Ib94bmeca0d48d>>;
+        WhitelistedCallDispatched: PlainDescriptor<Anonymize<Idhadhl6m6oga4>>;
     };
     Claims: {
         /**
@@ -6740,7 +6614,7 @@ type IEvent = {
          * Batch of dispatches did not complete fully. Index of first failing dispatch given, as
          * well as the error.
          */
-        BatchInterrupted: PlainDescriptor<Anonymize<I5g6mh97m41ugk>>;
+        BatchInterrupted: PlainDescriptor<Anonymize<If9l47jc6ut8u0>>;
         /**
          * Batch of dispatches completed fully with no error.
          */
@@ -6756,11 +6630,11 @@ type IEvent = {
         /**
          * A single item within a Batch of dispatches has completed with error.
          */
-        ItemFailed: PlainDescriptor<Anonymize<I7on7qa9giajpc>>;
+        ItemFailed: PlainDescriptor<Anonymize<I1urpnh1ubct0s>>;
         /**
          * A call was dispatched.
          */
-        DispatchedAs: PlainDescriptor<Anonymize<I855a5c0ljaqie>>;
+        DispatchedAs: PlainDescriptor<Anonymize<If815gofaqolf7>>;
         /**
          * Main call was dispatched.
          */
@@ -6768,18 +6642,18 @@ type IEvent = {
         /**
          * The fallback call was dispatched.
          */
-        IfElseFallbackCalled: PlainDescriptor<Anonymize<Ie3crtqmbpfl9j>>;
+        IfElseFallbackCalled: PlainDescriptor<Anonymize<I8fg5moc33nijp>>;
     };
     Proxy: {
         /**
          * A proxy was executed correctly, with the given.
          */
-        ProxyExecuted: PlainDescriptor<Anonymize<I855a5c0ljaqie>>;
+        ProxyExecuted: PlainDescriptor<Anonymize<If815gofaqolf7>>;
         /**
          * A pure account has been created by new proxy with given
          * disambiguation index and proxy type.
          */
-        PureCreated: PlainDescriptor<Anonymize<Iamng908a7suk4>>;
+        PureCreated: PlainDescriptor<Anonymize<I3nodrtjamg25q>>;
         /**
          * A pure proxy was killed by its spawner.
          */
@@ -6813,7 +6687,7 @@ type IEvent = {
         /**
          * A multisig operation has been executed.
          */
-        MultisigExecuted: PlainDescriptor<Anonymize<I6mgne04leq9oe>>;
+        MultisigExecuted: PlainDescriptor<Anonymize<I8pi0cnielk6u>>;
         /**
          * A multisig operation has been cancelled.
          */
@@ -7054,7 +6928,7 @@ type IEvent = {
         /**
          * A staker was unstaked.
          */
-        Unstaked: PlainDescriptor<Anonymize<Iasutj76sba8ld>>;
+        Unstaked: PlainDescriptor<Anonymize<If3hao74jfl1fq>>;
         /**
          * A staker was slashed for requesting fast-unstake whilst being exposed.
          */
@@ -7114,21 +6988,30 @@ type IEvent = {
          * Something occurred that should never happen under normal operation. Logged as an event
          * for fail-safe observability.
          */
-        Unexpected: PlainDescriptor<Anonymize<Ib22de21ajklii>>;
+        Unexpected: PlainDescriptor<Anonymize<Ifnklcuvp8e0vo>>;
+        /**
+         * Session keys updated for a validator.
+         */
+        SessionKeysUpdated: PlainDescriptor<Anonymize<I2q50nu6t6ltr4>>;
+        /**
+         * Session key update from AssetHub failed on the relay chain.
+         * Logged as an event for fail-safe observability.
+         */
+        SessionKeysUpdateFailed: PlainDescriptor<Anonymize<Ieatb5ru6qci09>>;
     };
     ParaInclusion: {
         /**
          * A candidate was backed. `[candidate, head_data]`
          */
-        CandidateBacked: PlainDescriptor<Anonymize<I4s0gvfhejmdp2>>;
+        CandidateBacked: PlainDescriptor<Anonymize<I83c8stq532apj>>;
         /**
          * A candidate was included. `[candidate, head_data]`
          */
-        CandidateIncluded: PlainDescriptor<Anonymize<I4s0gvfhejmdp2>>;
+        CandidateIncluded: PlainDescriptor<Anonymize<I83c8stq532apj>>;
         /**
          * A candidate timed out. `[candidate, head_data]`
          */
-        CandidateTimedOut: PlainDescriptor<Anonymize<I9njsgm2qsgnil>>;
+        CandidateTimedOut: PlainDescriptor<Anonymize<Ifea47889i70b2>>;
         /**
          * Some upward messages have been received and will be processed.
          */
@@ -7334,7 +7217,7 @@ type IEvent = {
         /**
          * The result of trying to submit a new bid to the Slots pallet.
          */
-        HandleBidResult: PlainDescriptor<Anonymize<I22ot402tm3tqf>>;
+        HandleBidResult: PlainDescriptor<Anonymize<I6nvlf9837cqcb>>;
         /**
          * The configuration to a crowdloan has been edited.
          */
@@ -7559,101 +7442,6 @@ type IEvent = {
         
          */
         AssetRateUpdated: PlainDescriptor<Anonymize<Idrugh2blv81ia>>;
-    };
-    RcMigrator: {
-        /**
-         * A stage transition has occurred.
-         */
-        StageTransition: PlainDescriptor<Anonymize<Icqoqh756gekpf>>;
-        /**
-         * The Asset Hub Migration started and is active until `AssetHubMigrationFinished` is
-         * emitted.
-         *
-         * This event is equivalent to `StageTransition { new: Initializing, .. }` but is easier
-         * to understand. The activation is immediate and affects all events happening
-         * afterwards.
-         */
-        AssetHubMigrationStarted: PlainDescriptor<undefined>;
-        /**
-         * The Asset Hub Migration finished.
-         *
-         * This event is equivalent to `StageTransition { new: MigrationDone, .. }` but is easier
-         * to understand. The finishing is immediate and affects all events happening
-         * afterwards.
-         */
-        AssetHubMigrationFinished: PlainDescriptor<undefined>;
-        /**
-         * A query response has been received.
-         */
-        QueryResponseReceived: PlainDescriptor<Anonymize<I6m7oiqnfqf1g5>>;
-        /**
-         * A XCM message has been resent.
-         */
-        XcmResendAttempt: PlainDescriptor<Anonymize<Ibgpq09i3qrsi>>;
-        /**
-         * The unprocessed message buffer size has been set.
-         */
-        UnprocessedMsgBufferSet: PlainDescriptor<Anonymize<I6fomjr8ghrs40>>;
-        /**
-         * Whether the AH UMP queue was prioritized for the next block.
-         */
-        AhUmpQueuePrioritySet: PlainDescriptor<Anonymize<I4udn5ndu0dko2>>;
-        /**
-         * The AH UMP queue priority config was set.
-         */
-        AhUmpQueuePriorityConfigSet: PlainDescriptor<Anonymize<Ifpff50mo8ndh6>>;
-        /**
-         * The total issuance was recorded.
-         */
-        MigratedBalanceRecordSet: PlainDescriptor<Anonymize<I71f70f10aojd4>>;
-        /**
-         * The RC kept balance was consumed.
-         */
-        MigratedBalanceConsumed: PlainDescriptor<Anonymize<I71f70f10aojd4>>;
-        /**
-         * The manager account id was set.
-         */
-        ManagerSet: PlainDescriptor<Anonymize<I3f9qerj1fhlkp>>;
-        /**
-         * An XCM message was sent.
-         */
-        XcmSent: PlainDescriptor<Anonymize<If8u5kl4h8070m>>;
-        /**
-         * The staking elections were paused.
-         */
-        StakingElectionsPaused: PlainDescriptor<undefined>;
-        /**
-         * The accounts to be preserved on Relay Chain were set.
-         */
-        AccountsPreserved: PlainDescriptor<Anonymize<I9gel4bv68gacj>>;
-        /**
-         * The canceller account id was set.
-         */
-        CancellerSet: PlainDescriptor<Anonymize<I3f9qerj1fhlkp>>;
-        /**
-         * The migration was paused.
-         */
-        MigrationPaused: PlainDescriptor<Anonymize<I6njehsr2u1k26>>;
-        /**
-         * The migration was cancelled.
-         */
-        MigrationCancelled: PlainDescriptor<undefined>;
-        /**
-         * Some pure accounts were indexed for possibly receiving free `Any` proxies.
-         */
-        PureAccountsIndexed: PlainDescriptor<Anonymize<Ie7ig2lmbqnfkv>>;
-        /**
-         * The manager multisig dispatched something.
-         */
-        ManagerMultisigDispatched: PlainDescriptor<Anonymize<I78eij0bvl7dhc>>;
-        /**
-         * The manager multisig received a vote.
-         */
-        ManagerMultisigVoted: PlainDescriptor<Anonymize<I67kf0a73jrb5s>>;
-        /**
-         * The migration settings were set.
-         */
-        MigrationSettingsSet: PlainDescriptor<Anonymize<I3gfvfi6vikc5t>>;
     };
 };
 type IError = {
@@ -8790,8 +8578,12 @@ type IError = {
          */
         DisallowedRelayParent: PlainDescriptor<undefined>;
         /**
+         * The candidate's scheduling-parent was not allowed.
+         */
+        DisallowedSchedulingParent: PlainDescriptor<undefined>;
+        /**
          * Failed to compute group index for the core: either it's out of bounds
-         * or the relay parent doesn't belong to the current session.
+         * or the scheduling parent doesn't belong to the current session.
          */
         InvalidAssignment: PlainDescriptor<undefined>;
         /**
@@ -8855,6 +8647,16 @@ type IError = {
          * Too many candidates supplied.
          */
         UnscheduledCandidate: PlainDescriptor<undefined>;
+    };
+    ParaScheduler: {
+        /**
+         * assign_core was called with no assignments.
+         */
+        AssignmentsEmpty: PlainDescriptor<undefined>;
+        /**
+         * assign_core with non allowed insertion.
+         */
+        DisallowedInsert: PlainDescriptor<undefined>;
     };
     Paras: {
         /**
@@ -9083,17 +8885,6 @@ type IError = {
          * The account doesn't have enough credits to purchase on-demand coretime.
          */
         InsufficientCredits: PlainDescriptor<undefined>;
-    };
-    CoretimeAssignmentProvider: {
-        /**
-        
-         */
-        AssignmentsEmpty: PlainDescriptor<undefined>;
-        /**
-         * assign_core is only allowed to append new assignments at the end of already existing
-         * ones or update the last entry.
-         */
-        DisallowedInsert: PlainDescriptor<undefined>;
     };
     Registrar: {
         /**
@@ -9535,6 +9326,10 @@ type IError = {
          */
         InvalidEquivocationProofSession: PlainDescriptor<undefined>;
         /**
+         * The session of the equivocation proof is not in the mapping (anymore)
+         */
+        InvalidEquivocationProofSessionMember: PlainDescriptor<undefined>;
+        /**
          * A given equivocation report is valid but already previously reported.
          */
         DuplicateOffenceReport: PlainDescriptor<undefined>;
@@ -9542,86 +9337,6 @@ type IError = {
          * Submitted configuration is invalid.
          */
         InvalidConfiguration: PlainDescriptor<undefined>;
-    };
-    RcMigrator: {
-        /**
-        
-         */
-        Unreachable: PlainDescriptor<undefined>;
-        /**
-        
-         */
-        OutOfWeight: PlainDescriptor<undefined>;
-        /**
-         * Failed to send XCM message to AH.
-         */
-        XcmError: PlainDescriptor<undefined>;
-        /**
-         * Failed to withdraw account from RC for migration to AH.
-         */
-        FailedToWithdrawAccount: PlainDescriptor<undefined>;
-        /**
-         * Indicates that the specified block number is in the past.
-         */
-        PastBlockNumber: PlainDescriptor<undefined>;
-        /**
-         * Indicates that there is not enough time for staking to lock.
-         *
-         * Schedule the migration at least two sessions before the current era ends.
-         */
-        EraEndsTooSoon: PlainDescriptor<undefined>;
-        /**
-         * Balance accounting overflow.
-         */
-        BalanceOverflow: PlainDescriptor<undefined>;
-        /**
-         * Balance accounting underflow.
-         */
-        BalanceUnderflow: PlainDescriptor<undefined>;
-        /**
-         * The query response is invalid.
-         */
-        InvalidQueryResponse: PlainDescriptor<undefined>;
-        /**
-         * The xcm query was not found.
-         */
-        QueryNotFound: PlainDescriptor<undefined>;
-        /**
-         * Failed to send XCM message.
-         */
-        XcmSendError: PlainDescriptor<undefined>;
-        /**
-         * The migration stage is not reachable from the current stage.
-         */
-        UnreachableStage: PlainDescriptor<undefined>;
-        /**
-         * Invalid parameter.
-         */
-        InvalidParameter: PlainDescriptor<undefined>;
-        /**
-         * The AH UMP queue priority configuration is already set.
-         */
-        AhUmpQueuePriorityAlreadySet: PlainDescriptor<undefined>;
-        /**
-         * The account is referenced by some other pallet. It might have freezes or holds.
-         */
-        AccountReferenced: PlainDescriptor<undefined>;
-        /**
-         * The XCM version is invalid.
-         */
-        BadXcmVersion: PlainDescriptor<undefined>;
-        /**
-         * The origin is invalid.
-         */
-        InvalidOrigin: PlainDescriptor<undefined>;
-        /**
-         * The stage transition is invalid.
-         */
-        InvalidStageTransition: PlainDescriptor<undefined>;
-        /**
-         * Unsigned validation failed.
-         */
-        UnsignedValidationFailed: PlainDescriptor<undefined>;
     };
 };
 type IConstants = {
@@ -9633,7 +9348,7 @@ type IConstants = {
         /**
          * The maximum length of a block (in bytes).
          */
-        BlockLength: PlainDescriptor<Anonymize<If15el53dd76v9>>;
+        BlockLength: PlainDescriptor<Anonymize<Ibtil0ss5munbk>>;
         /**
          * Maximum number of block number to block hash mappings to keep (oldest pruned first).
          */
@@ -10444,7 +10159,7 @@ type IViewFns = {
         /**
          * Check if a `RuntimeCall` is allowed for a given `ProxyType`.
          */
-        check_permissions: RuntimeDescriptor<[call: Anonymize<I7hcgvpgj6f5cg>, proxy_type: Anonymize<I7adrgaqb51jb9>], boolean>;
+        check_permissions: RuntimeDescriptor<[call: Anonymize<Idn0vg08q2q3qj>, proxy_type: Anonymize<I7adrgaqb51jb9>], boolean>;
         /**
          * Check if one `ProxyType` is a subset of another `ProxyType`.
          */
@@ -10457,7 +10172,6 @@ type IViewFns = {
          * Returns `(current, real_score)`, the former being the current score that this pallet is
          * aware of, which may or may not be up to date, and the latter being the real score, as
          * provided by
-         *
          * If the two differ, it means this node is eligible for [`Call::rebag`].
          */
         scores: RuntimeDescriptor<[who: SS58String], Anonymize<Iba6ec6u9n2dc1>>;
@@ -10519,7 +10233,7 @@ type IRuntimeCalls = {
          * Returns an inclusion outcome which specifies if this extrinsic is included in
          * this block or not.
          */
-        apply_extrinsic: RuntimeDescriptor<[extrinsic: Binary], Anonymize<I5c9v8o5fqjj61>>;
+        apply_extrinsic: RuntimeDescriptor<[extrinsic: Binary], Anonymize<I8bbp1anrsg1eu>>;
         /**
          * Finish the current block.
          */
@@ -10607,7 +10321,7 @@ type IRuntimeCalls = {
          */
         eras_stakers_page_count: RuntimeDescriptor<[era: number, account: SS58String], number>;
         /**
-         * Returns true if validator `account` has pages to be claimed for the given era.
+         * Returns true if a validator `account` has pages to be claimed for the given era.
          */
         pending_rewards: RuntimeDescriptor<[era: number, account: SS58String], boolean>;
     };
@@ -10655,7 +10369,7 @@ type IRuntimeCalls = {
          * Yields information on all availability cores as relevant to the child block.
          * Cores are either free or occupied. Free cores can have paras assigned to them.
          */
-        availability_cores: RuntimeDescriptor<[], Anonymize<I1v2gv5pb5e508>>;
+        availability_cores: RuntimeDescriptor<[], Anonymize<Iusmkoqghmno2>>;
         /**
          * Yields the persisted validation data for the given `ParaId` along with an assumption that
          * should be used if the para currently occupies a core.
@@ -10691,11 +10405,11 @@ type IRuntimeCalls = {
          * Get the receipt of a candidate pending availability. This returns `Some` for any paras
          * assigned to occupied cores in `availability_cores` and `None` otherwise.
          */
-        candidate_pending_availability: RuntimeDescriptor<[para_id: number], Anonymize<I92i81n5kpcgte>>;
+        candidate_pending_availability: RuntimeDescriptor<[para_id: number], Anonymize<Ibb7gqolhd9jjj>>;
         /**
          * Get a vector of events concerning candidates that occurred within a block.
          */
-        candidate_events: RuntimeDescriptor<[], Anonymize<Ifb5bd3f9a1lu8>>;
+        candidate_events: RuntimeDescriptor<[], Anonymize<Idede6ejqa708r>>;
         /**
          * Get all the pending inbound messages in the downward message queue for a para.
          */
@@ -10712,7 +10426,7 @@ type IRuntimeCalls = {
         /**
          * Scrape dispute relevant from on-chain, backing votes and resolved disputes.
          */
-        on_chain_votes: RuntimeDescriptor<[], Anonymize<I9aev4k6tfeeom>>;
+        on_chain_votes: RuntimeDescriptor<[], Anonymize<If207legjoj20f>>;
         /**
          * Get the session info for the given session, if stored.
          *
@@ -10744,10 +10458,11 @@ type IRuntimeCalls = {
         /**
          * Returns execution parameters for the session.
          */
-        session_executor_params: RuntimeDescriptor<[session_index: number], Anonymize<Iekan13fn586c2>>;
+        session_executor_params: RuntimeDescriptor<[session_index: number], Anonymize<If6a2e4ndb6mk6>>;
         /**
          * Returns a list of validators that lost a past session dispute and need to be slashed.
-         * NOTE: This function is only available since parachain host version 5.
+         *
+         * Deprecated. Use `unapplied_slashes_v2` instead.
          */
         unapplied_slashes: RuntimeDescriptor<[], Anonymize<Idrp5a1qbbi2au>>;
         /**
@@ -10760,7 +10475,7 @@ type IRuntimeCalls = {
          * a candidate of a past session.
          * NOTE: This function is only available since parachain host version 5.
          */
-        submit_report_dispute_lost: RuntimeDescriptor<[dispute_proof: Anonymize<I943rhn463avqr>, key_ownership_proof: Binary], boolean>;
+        submit_report_dispute_lost: RuntimeDescriptor<[dispute_proof: Anonymize<Ie2h65164u3jsg>, key_ownership_proof: Binary], boolean>;
         /**
          * Get the minimum number of backing votes for a parachain candidate.
          * This is a staging method! Do not use on production runtimes!
@@ -10769,7 +10484,7 @@ type IRuntimeCalls = {
         /**
          * Returns the state of parachain backing for a given para.
          */
-        para_backing_state: RuntimeDescriptor<[__runtime_api_generated_name_0__: number], Anonymize<I2eq6ah7t620fb>>;
+        para_backing_state: RuntimeDescriptor<[__runtime_api_generated_name_0__: number], Anonymize<I79esqe010l5no>>;
         /**
          * Returns candidate's acceptance limitations for asynchronous backing for a relay parent.
          */
@@ -10794,7 +10509,7 @@ type IRuntimeCalls = {
         /**
          * Elastic scaling support
          */
-        candidates_pending_availability: RuntimeDescriptor<[para_id: number], Anonymize<Ieskfd0vl6pk5b>>;
+        candidates_pending_availability: RuntimeDescriptor<[para_id: number], Anonymize<I7c4i7fg6o1bna>>;
         /**
          * Retrieve the maximum uncompressed code size.
          */
@@ -10808,6 +10523,30 @@ type IRuntimeCalls = {
          * Retrieve the scheduling lookahead
          */
         scheduling_lookahead: RuntimeDescriptor<[], number>;
+        /**
+         * Retrieve paraids at relay parent
+         */
+        para_ids: RuntimeDescriptor<[], Anonymize<Icgljjb6j82uhn>>;
+        /**
+         * Returns a list of validators that lost a past session dispute and need to be slashed.
+         */
+        unapplied_slashes_v2: RuntimeDescriptor<[], Anonymize<I6nt209c6sfml3>>;
+        /**
+         * Retrieve the maximum relay parent session age allowed for parachain blocks.
+         */
+        max_relay_parent_session_age: RuntimeDescriptor<[], number>;
+        /**
+         * Look up relay parent info for a block that is an **ancestor** of the block
+         * this API is called at. Returns `None` if the relay parent is not found
+         * in the allowed relay parents for the given session.
+         *
+         * NOTE: A block is not in its own `AllowedRelayParents` storage (it gets
+         * added during the next block's inherent). Querying a block about itself
+         * will always return `None`. Use the node-side `check_relay_parent_session`
+         * utility for a general-purpose check that handles both the self and
+         * ancestor cases.
+         */
+        ancestor_relay_parent_info: RuntimeDescriptor<[session_index: number, relay_parent: FixedSizeBinary<32>], Anonymize<I5i7fh53etglbj>>;
     };
     /**
      * API necessary for BEEFY voters.
@@ -10868,11 +10607,6 @@ type IRuntimeCalls = {
          * older states to be available.
          */
         generate_key_ownership_proof: RuntimeDescriptor<[set_id: bigint, authority_id: FixedSizeBinary<33>], Anonymize<Iabpgqcjikia83>>;
-        /**
-         * Generates a proof that the `prev_block_number` is part of the canonical chain at
-         * `best_known_block_number`.
-         */
-        generate_ancestry_proof: RuntimeDescriptor<[prev_block_number: number, best_known_block_number: Anonymize<I4arjljr6dpflb>], Anonymize<Iabpgqcjikia83>>;
     };
     /**
      * API to interact with MMR pallet.
@@ -10891,6 +10625,11 @@ type IRuntimeCalls = {
          * use historical MMR state at given block height `n`. Else, use current MMR state.
          */
         generate_proof: RuntimeDescriptor<[block_numbers: Anonymize<Icgljjb6j82uhn>, best_known_block_number: Anonymize<I4arjljr6dpflb>], Anonymize<I46e127tr8ma2h>>;
+        /**
+         * Generates a proof that the `prev_block_number` is part of the canonical chain at
+         * `best_known_block_number`.
+         */
+        generate_ancestry_proof: RuntimeDescriptor<[prev_block_number: number, best_known_block_number: Anonymize<I4arjljr6dpflb>], Anonymize<Irtu011t0fjnh>>;
         /**
          * Verify MMR proof against on-chain MMR for a batch of leaves.
          *
@@ -11046,7 +10785,7 @@ type IRuntimeCalls = {
          *
          * Returns the concatenated SCALE encoded public keys.
          */
-        generate_session_keys: RuntimeDescriptor<[seed: Anonymize<Iabpgqcjikia83>], Binary>;
+        generate_session_keys: RuntimeDescriptor<[owner: Binary, seed: Anonymize<Iabpgqcjikia83>], Anonymize<I4ph3d1eepnmr1>>;
         /**
          * Decode the given public session keys.
          *
@@ -11100,11 +10839,11 @@ type IRuntimeCalls = {
         /**
          * Query information of a dispatch class, weight, and fee of a given encoded `Call`.
          */
-        query_call_info: RuntimeDescriptor<[call: Anonymize<I7hcgvpgj6f5cg>, len: number], Anonymize<I6spmpef2c7svf>>;
+        query_call_info: RuntimeDescriptor<[call: Anonymize<Idn0vg08q2q3qj>, len: number], Anonymize<I6spmpef2c7svf>>;
         /**
          * Query fee details of a given encoded `Call`.
          */
-        query_call_fee_details: RuntimeDescriptor<[call: Anonymize<I7hcgvpgj6f5cg>, len: number], Anonymize<Iei2mvq0mjvt81>>;
+        query_call_fee_details: RuntimeDescriptor<[call: Anonymize<Idn0vg08q2q3qj>, len: number], Anonymize<Iei2mvq0mjvt81>>;
         /**
          * Query the output of the current `WeightToFee` given some input.
          */
@@ -11154,6 +10893,8 @@ type IRuntimeCalls = {
          */
         query_weight_to_asset_fee: RuntimeDescriptor<[weight: Anonymize<I4q39t5hn830vp>, asset: XcmVersionedAssetId], Anonymize<I7ocn4njqde3v5>>;
         /**
+         * Query delivery fees V2.
+         *
          * Get delivery fees for sending a specific `message` to a `destination`.
          * These always come in a specific asset, defined by the chain.
          *
@@ -11163,7 +10904,7 @@ type IRuntimeCalls = {
          * * `destination`: The destination to send the message to. Different destinations may use
          * different senders that charge different fees.
          */
-        query_delivery_fees: RuntimeDescriptor<[destination: XcmVersionedLocation, message: XcmVersionedXcm], Anonymize<Iek7ha36da9mf5>>;
+        query_delivery_fees: RuntimeDescriptor<[destination: XcmVersionedLocation, message: XcmVersionedXcm, asset_id: XcmVersionedAssetId], Anonymize<Iek7ha36da9mf5>>;
     };
     /**
      * API for dry-running extrinsics and XCM programs to get the programs that need to be passed to the fees API.
@@ -11180,11 +10921,11 @@ type IRuntimeCalls = {
         /**
          * Dry run call V2.
          */
-        dry_run_call: RuntimeDescriptor<[origin: Anonymize<I39p61kmiacrk5>, call: Anonymize<I7hcgvpgj6f5cg>, result_xcms_version: number], Anonymize<I8lh215sp6v8ja>>;
+        dry_run_call: RuntimeDescriptor<[origin: Anonymize<I39p61kmiacrk5>, call: Anonymize<Idn0vg08q2q3qj>, result_xcms_version: number], Anonymize<I39sq76u95drfm>>;
         /**
          * Dry run XCM program
          */
-        dry_run_xcm: RuntimeDescriptor<[origin_location: XcmVersionedLocation, xcm: XcmVersionedXcm], Anonymize<I4i5qjd1ln9ccm>>;
+        dry_run_xcm: RuntimeDescriptor<[origin_location: XcmVersionedLocation, xcm: XcmVersionedXcm], Anonymize<I8i801j0ffm4ts>>;
     };
     /**
      * API for useful conversions between XCM `Location` and `AccountId`.
@@ -11237,9 +10978,23 @@ type IRuntimeCalls = {
          */
         preset_names: RuntimeDescriptor<[], Anonymize<I6lr8sctk0bi4e>>;
     };
+    /**
+     * API to query information about the Asset Hub migration process.
+     */
+    AssetHubMigrationApi: {
+        /**
+         * Returns the block number when the migration started.
+         */
+        migration_start_block: RuntimeDescriptor<[], number>;
+        /**
+         * Returns the block number when the migration ended.
+         */
+        migration_end_block: RuntimeDescriptor<[], number>;
+    };
 };
+export type DotDispatchError = Anonymize<Ic6k2cvfs5i3k8>;
 type IAsset = PlainDescriptor<void>;
-export type DotDispatchError = Anonymize<I3d6plfnrma7mu>;
+export type DotExtensions = {};
 type PalletsTypedef = {
     __storage: IStorage;
     __tx: ICalls;
@@ -11255,6 +11010,7 @@ export type Dot = {
     } & Promise<any>;
     metadataTypes: Promise<Uint8Array>;
     asset: IAsset;
+    extensions: DotExtensions;
     getMetadata: () => Promise<Uint8Array>;
     genesis: string | undefined;
 };
@@ -11267,20 +11023,281 @@ export type DotEvents = EventsFromPalletsDef<PalletsTypedef>;
 export type DotErrors = ErrorsFromPalletsDef<PalletsTypedef>;
 export type DotConstants = ConstFromPalletsDef<PalletsTypedef>;
 export type DotViewFns = ViewFnsFromPalletsDef<PalletsTypedef>;
-export type DotCallData = Anonymize<I7hcgvpgj6f5cg> & {
+export type DotCallData = Anonymize<Idn0vg08q2q3qj> & {
     value: {
         type: string;
     };
 };
-export type DotWhitelistEntry = PalletKey | ApiKey<IRuntimeCalls> | `query.${NestedKey<PalletsTypedef['__storage']>}` | `tx.${NestedKey<PalletsTypedef['__tx']>}` | `event.${NestedKey<PalletsTypedef['__event']>}` | `error.${NestedKey<PalletsTypedef['__error']>}` | `const.${NestedKey<PalletsTypedef['__const']>}` | `view.${NestedKey<PalletsTypedef['__view']>}`;
-type PalletKey = `*.${keyof (IStorage & ICalls & IEvent & IError & IConstants & IRuntimeCalls & IViewFns)}`;
-type NestedKey<D extends Record<string, Record<string, any>>> = "*" | {
-    [P in keyof D & string]: `${P}.*` | {
-        [N in keyof D[P] & string]: `${P}.${N}`;
-    }[keyof D[P] & string];
-}[keyof D & string];
-type ApiKey<D extends Record<string, Record<string, any>>> = "api.*" | {
-    [P in keyof D & string]: `api.${P}.*` | {
-        [N in keyof D[P] & string]: `api.${P}.${N}`;
-    }[keyof D[P] & string];
+type AllInteractions = {
+    storage: {
+        System: ['Account', 'ExtrinsicCount', 'InherentsApplied', 'BlockWeight', 'BlockSize', 'BlockHash', 'ExtrinsicData', 'Number', 'ParentHash', 'Digest', 'Events', 'EventCount', 'EventTopics', 'LastRuntimeUpgrade', 'BlocksTillUpgrade', 'UpgradedToU32RefCount', 'UpgradedToTripleRefCount', 'ExecutionPhase', 'AuthorizedUpgrade', 'ExtrinsicWeightReclaimed'];
+        Scheduler: ['IncompleteSince', 'Agenda', 'Retries', 'Lookup'];
+        Preimage: ['StatusFor', 'RequestStatusFor', 'PreimageFor'];
+        Babe: ['EpochIndex', 'Authorities', 'GenesisSlot', 'CurrentSlot', 'Randomness', 'PendingEpochConfigChange', 'NextRandomness', 'NextAuthorities', 'SegmentIndex', 'UnderConstruction', 'Initialized', 'AuthorVrfRandomness', 'EpochStart', 'Lateness', 'EpochConfig', 'NextEpochConfig', 'SkippedEpochs'];
+        Timestamp: ['Now', 'DidUpdate'];
+        Indices: ['Accounts'];
+        Balances: ['TotalIssuance', 'InactiveIssuance', 'Account', 'Locks', 'Reserves', 'Holds', 'Freezes'];
+        TransactionPayment: ['NextFeeMultiplier', 'StorageVersion', 'TxPaymentCredit'];
+        Authorship: ['Author'];
+        Staking: ['ValidatorCount', 'MinimumValidatorCount', 'Invulnerables', 'Bonded', 'MinNominatorBond', 'MinValidatorBond', 'MinimumActiveStake', 'MinCommission', 'Ledger', 'Payee', 'Validators', 'CounterForValidators', 'MaxValidatorsCount', 'Nominators', 'CounterForNominators', 'VirtualStakers', 'CounterForVirtualStakers', 'MaxNominatorsCount', 'CurrentEra', 'ActiveEra', 'ErasStartSessionIndex', 'ErasStakers', 'ErasStakersOverview', 'ErasStakersClipped', 'ErasStakersPaged', 'ClaimedRewards', 'ErasValidatorPrefs', 'ErasValidatorReward', 'ErasRewardPoints', 'ErasTotalStake', 'ForceEra', 'MaxStakedRewards', 'SlashRewardFraction', 'CanceledSlashPayout', 'UnappliedSlashes', 'BondedEras', 'ValidatorSlashInEra', 'NominatorSlashInEra', 'SlashingSpans', 'SpanSlash', 'CurrentPlannedSession', 'ChillThreshold'];
+        Offences: ['Reports', 'ConcurrentReportsIndex'];
+        Historical: ['HistoricalSessions', 'StoredRange'];
+        Session: ['Validators', 'CurrentIndex', 'QueuedChanged', 'QueuedKeys', 'DisabledValidators', 'NextKeys', 'KeyOwner', 'ExternallySetKeys'];
+        Grandpa: ['State', 'PendingChange', 'NextForced', 'Stalled', 'CurrentSetId', 'SetIdSession', 'Authorities'];
+        AuthorityDiscovery: ['Keys', 'NextKeys'];
+        Treasury: ['ProposalCount', 'Proposals', 'Deactivated', 'Approvals', 'SpendCount', 'Spends', 'LastSpendPeriod'];
+        ConvictionVoting: ['VotingFor', 'ClassLocksFor'];
+        Referenda: ['ReferendumCount', 'ReferendumInfoFor', 'TrackQueue', 'DecidingCount', 'MetadataOf'];
+        Whitelist: ['WhitelistedCall'];
+        Claims: ['Claims', 'Total', 'Vesting', 'Signing', 'Preclaims'];
+        Vesting: ['Vesting', 'StorageVersion'];
+        Proxy: ['Proxies', 'Announcements'];
+        Multisig: ['Multisigs'];
+        Bounties: ['BountyCount', 'Bounties', 'BountyDescriptions', 'BountyApprovals'];
+        ChildBounties: ['ChildBountyCount', 'ParentChildBounties', 'ParentTotalChildBounties', 'ChildBounties', 'ChildBountyDescriptionsV1', 'V0ToV1ChildBountyIds', 'ChildrenCuratorFees'];
+        ElectionProviderMultiPhase: ['Round', 'CurrentPhase', 'QueuedSolution', 'Snapshot', 'DesiredTargets', 'SnapshotMetadata', 'SignedSubmissionNextIndex', 'SignedSubmissionIndices', 'SignedSubmissionsMap', 'MinimumUntrustedScore'];
+        VoterList: ['ListNodes', 'CounterForListNodes', 'ListBags', 'NextNodeAutoRebagged', 'Lock', 'PendingRebag', 'CounterForPendingRebag'];
+        NominationPools: ['TotalValueLocked', 'MinJoinBond', 'MinCreateBond', 'MaxPools', 'MaxPoolMembers', 'MaxPoolMembersPerPool', 'GlobalMaxCommission', 'PoolMembers', 'CounterForPoolMembers', 'BondedPools', 'CounterForBondedPools', 'RewardPools', 'CounterForRewardPools', 'SubPoolsStorage', 'CounterForSubPoolsStorage', 'Metadata', 'CounterForMetadata', 'LastPoolId', 'ReversePoolIdLookup', 'CounterForReversePoolIdLookup', 'ClaimPermissions'];
+        FastUnstake: ['Head', 'Queue', 'CounterForQueue', 'ErasToCheckPerBlock'];
+        DelegatedStaking: ['Delegators', 'CounterForDelegators', 'Agents', 'CounterForAgents'];
+        StakingAhClient: ['ValidatorSet', 'IncompleteValidatorSetReport', 'ValidatorPoints', 'Mode', 'NextSessionChangesValidators', 'ValidatorSetAppliedAt', 'OutgoingSessionReport', 'OffenceSendQueueOffences', 'OffenceSendQueueCursor'];
+        Configuration: ['ActiveConfig', 'PendingConfigs', 'BypassConsistencyCheck'];
+        ParasShared: ['CurrentSessionIndex', 'ActiveValidatorIndices', 'ActiveValidatorKeys', 'AllowedSchedulingParents', 'AllowedRelayParents', 'OldestRelayParentSession', 'MinimumRelayParentNumber'];
+        ParaInclusion: ['V1'];
+        ParaInherent: ['Included', 'OnChainVotes'];
+        ParaScheduler: ['ValidatorGroups', 'SessionStartBlock', 'CoreSchedules', 'CoreDescriptors'];
+        Paras: ['PvfActiveVoteMap', 'PvfActiveVoteList', 'Parachains', 'ParaLifecycles', 'Heads', 'MostRecentContext', 'CurrentCodeHash', 'PastCodeHash', 'PastCodeMeta', 'PastCodePruning', 'FutureCodeUpgrades', 'FutureCodeUpgradesAt', 'FutureCodeHash', 'AuthorizedCodeHash', 'UpgradeGoAheadSignal', 'UpgradeRestrictionSignal', 'UpgradeCooldowns', 'UpcomingUpgrades', 'ActionsQueue', 'UpcomingParasGenesis', 'CodeByHashRefs', 'CodeByHash'];
+        Initializer: ['HasInitialized', 'BufferedSessionChanges'];
+        Dmp: ['DownwardMessageQueues', 'DownwardMessageQueueHeads', 'DeliveryFeeFactor'];
+        Hrmp: ['HrmpOpenChannelRequests', 'HrmpOpenChannelRequestsList', 'HrmpOpenChannelRequestCount', 'HrmpAcceptedChannelRequestCount', 'HrmpCloseChannelRequests', 'HrmpCloseChannelRequestsList', 'HrmpWatermarks', 'HrmpChannels', 'HrmpIngressChannelsIndex', 'HrmpEgressChannelsIndex', 'HrmpChannelContents', 'HrmpChannelDigests'];
+        ParaSessionInfo: ['AssignmentKeysUnsafe', 'EarliestStoredSession', 'Sessions', 'AccountKeys', 'SessionExecutorParams'];
+        ParasDisputes: ['LastPrunedSession', 'Disputes', 'BackersOnDisputes', 'Included', 'Frozen'];
+        ParasSlashing: ['UnappliedSlashes', 'ValidatorSetCounts'];
+        OnDemand: ['OrderStatus', 'Revenue', 'Credits'];
+        Registrar: ['PendingSwap', 'Paras', 'NextFreeParaId'];
+        Slots: ['Leases'];
+        Auctions: ['AuctionCounter', 'AuctionInfo', 'ReservedAmounts', 'Winning'];
+        Crowdloan: ['Funds', 'NewRaise', 'EndingsCount', 'NextFundIndex'];
+        StateTrieMigration: ['MigrationProcess', 'AutoLimits', 'SignedMigrationMaxLimits'];
+        XcmPallet: ['QueryCounter', 'Queries', 'AssetTraps', 'SafeXcmVersion', 'SupportedVersion', 'VersionNotifiers', 'VersionNotifyTargets', 'VersionDiscoveryQueue', 'CurrentMigration', 'RemoteLockedFungibles', 'LockedFungibles', 'XcmExecutionSuspended', 'ShouldRecordXcm', 'RecordedXcm', 'AuthorizedAliases'];
+        MessageQueue: ['BookStateFor', 'ServiceHead', 'Pages'];
+        AssetRate: ['ConversionRateToNative'];
+        Beefy: ['Authorities', 'ValidatorSetId', 'NextAuthorities', 'SetIdSession', 'GenesisBlock'];
+        Mmr: ['RootHash', 'NumberOfLeaves', 'Nodes'];
+        BeefyMmrLeaf: ['BeefyAuthorities', 'BeefyNextAuthorities'];
+        RcMigrator: ['RcAccounts', 'CounterForRcAccounts', 'MigrationStartBlock', 'MigrationEndBlock'];
+    };
+    tx: {
+        System: ['remark', 'set_heap_pages', 'set_code', 'set_code_without_checks', 'set_storage', 'kill_storage', 'kill_prefix', 'remark_with_event', 'authorize_upgrade', 'authorize_upgrade_without_checks', 'apply_authorized_upgrade'];
+        Scheduler: ['schedule', 'cancel', 'schedule_named', 'cancel_named', 'schedule_after', 'schedule_named_after', 'set_retry', 'set_retry_named', 'cancel_retry', 'cancel_retry_named'];
+        Preimage: ['note_preimage', 'unnote_preimage', 'request_preimage', 'unrequest_preimage', 'ensure_updated'];
+        Babe: ['report_equivocation', 'report_equivocation_unsigned', 'plan_config_change'];
+        Timestamp: ['set'];
+        Indices: ['claim', 'transfer', 'free', 'force_transfer', 'freeze', 'poke_deposit'];
+        Balances: ['transfer_allow_death', 'force_transfer', 'transfer_keep_alive', 'transfer_all', 'force_unreserve', 'upgrade_accounts', 'force_set_balance', 'force_adjust_total_issuance', 'burn'];
+        Staking: ['bond', 'bond_extra', 'unbond', 'withdraw_unbonded', 'validate', 'nominate', 'chill', 'set_payee', 'set_controller', 'set_validator_count', 'increase_validator_count', 'scale_validator_count', 'force_no_eras', 'force_new_era', 'set_invulnerables', 'force_unstake', 'force_new_era_always', 'cancel_deferred_slash', 'payout_stakers', 'rebond', 'reap_stash', 'kick', 'set_staking_configs', 'chill_other', 'force_apply_min_commission', 'set_min_commission', 'payout_stakers_by_page', 'update_payee', 'deprecate_controller_batch', 'restore_ledger', 'migrate_currency', 'manual_slash'];
+        Session: ['set_keys', 'purge_keys'];
+        Grandpa: ['report_equivocation', 'report_equivocation_unsigned', 'note_stalled'];
+        Treasury: ['spend_local', 'remove_approval', 'spend', 'payout', 'check_status', 'void_spend'];
+        ConvictionVoting: ['vote', 'delegate', 'undelegate', 'unlock', 'remove_vote', 'remove_other_vote'];
+        Referenda: ['submit', 'place_decision_deposit', 'refund_decision_deposit', 'cancel', 'kill', 'nudge_referendum', 'one_fewer_deciding', 'refund_submission_deposit', 'set_metadata'];
+        Whitelist: ['whitelist_call', 'remove_whitelisted_call', 'dispatch_whitelisted_call', 'dispatch_whitelisted_call_with_preimage'];
+        Claims: ['claim', 'mint_claim', 'claim_attest', 'attest', 'move_claim'];
+        Vesting: ['vest', 'vest_other', 'vested_transfer', 'force_vested_transfer', 'merge_schedules', 'force_remove_vesting_schedule'];
+        Utility: ['batch', 'as_derivative', 'batch_all', 'dispatch_as', 'force_batch', 'with_weight', 'if_else', 'dispatch_as_fallible'];
+        Proxy: ['proxy', 'add_proxy', 'remove_proxy', 'remove_proxies', 'create_pure', 'kill_pure', 'announce', 'remove_announcement', 'reject_announcement', 'proxy_announced', 'poke_deposit'];
+        Multisig: ['as_multi_threshold_1', 'as_multi', 'approve_as_multi', 'cancel_as_multi', 'poke_deposit'];
+        Bounties: ['propose_bounty', 'approve_bounty', 'propose_curator', 'unassign_curator', 'accept_curator', 'award_bounty', 'claim_bounty', 'close_bounty', 'extend_bounty_expiry', 'approve_bounty_with_curator', 'poke_deposit'];
+        ChildBounties: ['add_child_bounty', 'propose_curator', 'accept_curator', 'unassign_curator', 'award_child_bounty', 'claim_child_bounty', 'close_child_bounty'];
+        ElectionProviderMultiPhase: ['submit_unsigned', 'set_minimum_untrusted_score', 'set_emergency_election_result', 'submit', 'governance_fallback'];
+        VoterList: ['rebag', 'put_in_front_of', 'put_in_front_of_other'];
+        NominationPools: ['join', 'bond_extra', 'claim_payout', 'unbond', 'pool_withdraw_unbonded', 'withdraw_unbonded', 'create', 'create_with_pool_id', 'nominate', 'set_state', 'set_metadata', 'set_configs', 'update_roles', 'chill', 'bond_extra_other', 'set_claim_permission', 'claim_payout_other', 'set_commission', 'set_commission_max', 'set_commission_change_rate', 'claim_commission', 'adjust_pool_deposit', 'set_commission_claim_permission', 'apply_slash', 'migrate_delegation', 'migrate_pool_to_delegate_stake'];
+        FastUnstake: ['register_fast_unstake', 'deregister', 'control'];
+        StakingAhClient: ['validator_set', 'set_mode', 'force_on_migration_end', 'set_keys_from_ah', 'purge_keys_from_ah'];
+        Configuration: ['set_validation_upgrade_cooldown', 'set_validation_upgrade_delay', 'set_code_retention_period', 'set_max_code_size', 'set_max_pov_size', 'set_max_head_data_size', 'set_coretime_cores', 'set_group_rotation_frequency', 'set_paras_availability_period', 'set_scheduling_lookahead', 'set_max_validators_per_core', 'set_max_validators', 'set_dispute_period', 'set_dispute_post_conclusion_acceptance_period', 'set_no_show_slots', 'set_n_delay_tranches', 'set_zeroth_delay_tranche_width', 'set_needed_approvals', 'set_relay_vrf_modulo_samples', 'set_max_upward_queue_count', 'set_max_upward_queue_size', 'set_max_downward_message_size', 'set_max_upward_message_size', 'set_max_upward_message_num_per_candidate', 'set_hrmp_open_request_ttl', 'set_hrmp_sender_deposit', 'set_hrmp_recipient_deposit', 'set_hrmp_channel_max_capacity', 'set_hrmp_channel_max_total_size', 'set_hrmp_max_parachain_inbound_channels', 'set_hrmp_channel_max_message_size', 'set_hrmp_max_parachain_outbound_channels', 'set_hrmp_max_message_num_per_candidate', 'set_pvf_voting_ttl', 'set_minimum_validation_upgrade_delay', 'set_bypass_consistency_check', 'set_async_backing_params', 'set_executor_params', 'set_on_demand_base_fee', 'set_on_demand_fee_variability', 'set_on_demand_queue_max_size', 'set_on_demand_target_queue_utilization', 'set_minimum_backing_votes', 'set_node_feature', 'set_approval_voting_params', 'set_scheduler_params', 'set_max_relay_parent_session_age'];
+        ParaInherent: ['enter'];
+        Paras: ['force_set_current_code', 'force_set_current_head', 'force_schedule_code_upgrade', 'force_note_new_head', 'force_queue_action', 'add_trusted_validation_code', 'poke_unused_validation_code', 'include_pvf_check_statement', 'force_set_most_recent_context', 'remove_upgrade_cooldown', 'authorize_force_set_current_code_hash', 'apply_authorized_force_set_current_code'];
+        Initializer: ['force_approve'];
+        Hrmp: ['hrmp_init_open_channel', 'hrmp_accept_open_channel', 'hrmp_close_channel', 'force_clean_hrmp', 'force_process_hrmp_open', 'force_process_hrmp_close', 'hrmp_cancel_open_request', 'force_open_hrmp_channel', 'establish_system_channel', 'poke_channel_deposits', 'establish_channel_with_system'];
+        ParasDisputes: ['force_unfreeze'];
+        ParasSlashing: ['report_dispute_lost_unsigned'];
+        OnDemand: ['place_order_allow_death', 'place_order_keep_alive', 'place_order_with_credits'];
+        Registrar: ['register', 'force_register', 'deregister', 'swap', 'remove_lock', 'reserve', 'add_lock', 'schedule_code_upgrade', 'set_current_head'];
+        Slots: ['force_lease', 'clear_all_leases', 'trigger_onboard'];
+        Auctions: ['new_auction', 'bid', 'cancel_auction'];
+        Crowdloan: ['create', 'contribute', 'withdraw', 'refund', 'dissolve', 'edit', 'add_memo', 'poke', 'contribute_all'];
+        Coretime: ['request_core_count', 'request_revenue_at', 'credit_account', 'assign_core'];
+        StateTrieMigration: ['control_auto_migration', 'continue_migrate', 'migrate_custom_top', 'migrate_custom_child', 'set_signed_max_limits', 'force_set_progress'];
+        XcmPallet: ['send', 'teleport_assets', 'reserve_transfer_assets', 'execute', 'force_xcm_version', 'force_default_xcm_version', 'force_subscribe_version_notify', 'force_unsubscribe_version_notify', 'limited_reserve_transfer_assets', 'limited_teleport_assets', 'force_suspension', 'transfer_assets', 'claim_assets', 'transfer_assets_using_type_and_then', 'add_authorized_alias', 'remove_authorized_alias', 'remove_all_authorized_aliases'];
+        MessageQueue: ['reap_page', 'execute_overweight'];
+        AssetRate: ['create', 'update', 'remove'];
+        Beefy: ['report_double_voting', 'report_double_voting_unsigned', 'set_new_genesis', 'report_fork_voting', 'report_fork_voting_unsigned', 'report_future_block_voting', 'report_future_block_voting_unsigned'];
+    };
+    events: {
+        System: ['ExtrinsicSuccess', 'ExtrinsicFailed', 'CodeUpdated', 'NewAccount', 'KilledAccount', 'Remarked', 'UpgradeAuthorized', 'RejectedInvalidAuthorizedUpgrade'];
+        Scheduler: ['Scheduled', 'Canceled', 'Dispatched', 'RetrySet', 'RetryCancelled', 'CallUnavailable', 'PeriodicFailed', 'RetryFailed', 'PermanentlyOverweight', 'AgendaIncomplete'];
+        Preimage: ['Noted', 'Requested', 'Cleared'];
+        Indices: ['IndexAssigned', 'IndexFreed', 'IndexFrozen', 'DepositPoked'];
+        Balances: ['Endowed', 'DustLost', 'Transfer', 'BalanceSet', 'Reserved', 'Unreserved', 'ReserveRepatriated', 'Deposit', 'Withdraw', 'Slashed', 'Minted', 'MintedCredit', 'Burned', 'BurnedDebt', 'Suspended', 'Restored', 'Upgraded', 'Issued', 'Rescinded', 'Locked', 'Unlocked', 'Frozen', 'Thawed', 'TotalIssuanceForced', 'Held', 'BurnedHeld', 'TransferOnHold', 'TransferAndHold', 'Released', 'Unexpected'];
+        TransactionPayment: ['TransactionFeePaid'];
+        Staking: ['EraPaid', 'Rewarded', 'Slashed', 'SlashReported', 'OldSlashingReportDiscarded', 'StakersElected', 'Bonded', 'Unbonded', 'Withdrawn', 'Kicked', 'StakingElectionFailed', 'Chilled', 'PayoutStarted', 'ValidatorPrefsSet', 'SnapshotVotersSizeExceeded', 'SnapshotTargetsSizeExceeded', 'ForceEra', 'ControllerBatchDeprecated', 'CurrencyMigrated'];
+        Offences: ['Offence'];
+        Historical: ['RootStored', 'RootsPruned'];
+        Session: ['NewSession', 'NewQueued', 'ValidatorDisabled', 'ValidatorReenabled'];
+        Grandpa: ['NewAuthorities', 'Paused', 'Resumed'];
+        Treasury: ['Spending', 'Awarded', 'Burnt', 'Rollover', 'Deposit', 'SpendApproved', 'UpdatedInactive', 'AssetSpendApproved', 'AssetSpendVoided', 'Paid', 'PaymentFailed', 'SpendProcessed'];
+        ConvictionVoting: ['Delegated', 'Undelegated', 'Voted', 'VoteRemoved', 'VoteUnlocked'];
+        Referenda: ['Submitted', 'DecisionDepositPlaced', 'DecisionDepositRefunded', 'DepositSlashed', 'DecisionStarted', 'ConfirmStarted', 'ConfirmAborted', 'Confirmed', 'Approved', 'Rejected', 'TimedOut', 'Cancelled', 'Killed', 'SubmissionDepositRefunded', 'MetadataSet', 'MetadataCleared'];
+        Whitelist: ['CallWhitelisted', 'WhitelistedCallRemoved', 'WhitelistedCallDispatched'];
+        Claims: ['Claimed'];
+        Vesting: ['VestingCreated', 'VestingUpdated', 'VestingCompleted'];
+        Utility: ['BatchInterrupted', 'BatchCompleted', 'BatchCompletedWithErrors', 'ItemCompleted', 'ItemFailed', 'DispatchedAs', 'IfElseMainSuccess', 'IfElseFallbackCalled'];
+        Proxy: ['ProxyExecuted', 'PureCreated', 'PureKilled', 'Announced', 'ProxyAdded', 'ProxyRemoved', 'DepositPoked'];
+        Multisig: ['NewMultisig', 'MultisigApproval', 'MultisigExecuted', 'MultisigCancelled', 'DepositPoked'];
+        Bounties: ['BountyProposed', 'BountyRejected', 'BountyBecameActive', 'BountyAwarded', 'BountyClaimed', 'BountyCanceled', 'BountyExtended', 'BountyApproved', 'CuratorProposed', 'CuratorUnassigned', 'CuratorAccepted', 'DepositPoked'];
+        ChildBounties: ['Added', 'Awarded', 'Claimed', 'Canceled'];
+        ElectionProviderMultiPhase: ['SolutionStored', 'ElectionFinalized', 'ElectionFailed', 'Rewarded', 'Slashed', 'PhaseTransitioned'];
+        VoterList: ['Rebagged', 'ScoreUpdated'];
+        NominationPools: ['Created', 'Bonded', 'PaidOut', 'Unbonded', 'Withdrawn', 'Destroyed', 'StateChanged', 'MemberRemoved', 'RolesUpdated', 'PoolSlashed', 'UnbondingPoolSlashed', 'PoolCommissionUpdated', 'PoolMaxCommissionUpdated', 'PoolCommissionChangeRateUpdated', 'PoolCommissionClaimPermissionUpdated', 'PoolCommissionClaimed', 'MinBalanceDeficitAdjusted', 'MinBalanceExcessAdjusted', 'MemberClaimPermissionUpdated', 'MetadataUpdated', 'PoolNominationMade', 'PoolNominatorChilled', 'GlobalParamsUpdated'];
+        FastUnstake: ['Unstaked', 'Slashed', 'BatchChecked', 'BatchFinished', 'InternalError'];
+        DelegatedStaking: ['Delegated', 'Released', 'Slashed', 'MigratedDelegation'];
+        StakingAhClient: ['ValidatorSetReceived', 'CouldNotMergeAndDropped', 'SetTooSmallAndDropped', 'Unexpected', 'SessionKeysUpdated', 'SessionKeysUpdateFailed'];
+        ParaInclusion: ['CandidateBacked', 'CandidateIncluded', 'CandidateTimedOut', 'UpwardMessagesReceived'];
+        Paras: ['CurrentCodeUpdated', 'CurrentHeadUpdated', 'CodeUpgradeScheduled', 'NewHeadNoted', 'ActionQueued', 'PvfCheckStarted', 'PvfCheckAccepted', 'PvfCheckRejected', 'UpgradeCooldownRemoved', 'CodeAuthorized'];
+        Hrmp: ['OpenChannelRequested', 'OpenChannelCanceled', 'OpenChannelAccepted', 'ChannelClosed', 'HrmpChannelForceOpened', 'HrmpSystemChannelOpened', 'OpenChannelDepositsUpdated'];
+        ParasDisputes: ['DisputeInitiated', 'DisputeConcluded', 'Revert'];
+        OnDemand: ['OnDemandOrderPlaced', 'SpotPriceSet', 'AccountCredited'];
+        Registrar: ['Registered', 'Deregistered', 'Reserved', 'Swapped'];
+        Slots: ['NewLeasePeriod', 'Leased'];
+        Auctions: ['AuctionStarted', 'AuctionClosed', 'Reserved', 'Unreserved', 'ReserveConfiscated', 'BidAccepted', 'WinningOffset'];
+        Crowdloan: ['Created', 'Contributed', 'Withdrew', 'PartiallyRefunded', 'AllRefunded', 'Dissolved', 'HandleBidResult', 'Edited', 'MemoUpdated', 'AddedToNewRaise'];
+        Coretime: ['RevenueInfoRequested', 'CoreAssigned'];
+        StateTrieMigration: ['Migrated', 'Slashed', 'AutoMigrationFinished', 'Halted'];
+        XcmPallet: ['Attempted', 'Sent', 'SendFailed', 'ProcessXcmError', 'UnexpectedResponse', 'ResponseReady', 'Notified', 'NotifyOverweight', 'NotifyDispatchError', 'NotifyDecodeFailed', 'InvalidResponder', 'InvalidResponderVersion', 'ResponseTaken', 'AssetsTrapped', 'VersionChangeNotified', 'SupportedVersionChanged', 'NotifyTargetSendFail', 'NotifyTargetMigrationFail', 'InvalidQuerierVersion', 'InvalidQuerier', 'VersionNotifyStarted', 'VersionNotifyRequested', 'VersionNotifyUnrequested', 'FeesPaid', 'AssetsClaimed', 'VersionMigrationFinished', 'AliasAuthorized', 'AliasAuthorizationRemoved', 'AliasesAuthorizationsRemoved'];
+        MessageQueue: ['ProcessingFailed', 'Processed', 'OverweightEnqueued', 'PageReaped'];
+        AssetRate: ['AssetRateCreated', 'AssetRateRemoved', 'AssetRateUpdated'];
+    };
+    errors: {
+        System: ['InvalidSpecName', 'SpecVersionNeedsToIncrease', 'FailedToExtractRuntimeVersion', 'NonDefaultComposite', 'NonZeroRefCount', 'CallFiltered', 'MultiBlockMigrationsOngoing', 'NothingAuthorized', 'Unauthorized'];
+        Scheduler: ['FailedToSchedule', 'NotFound', 'TargetBlockNumberInPast', 'RescheduleNoChange', 'Named'];
+        Preimage: ['TooBig', 'AlreadyNoted', 'NotAuthorized', 'NotNoted', 'Requested', 'NotRequested', 'TooMany', 'TooFew'];
+        Babe: ['InvalidEquivocationProof', 'InvalidKeyOwnershipProof', 'DuplicateOffenceReport', 'InvalidConfiguration'];
+        Indices: ['NotAssigned', 'NotOwner', 'InUse', 'NotTransfer', 'Permanent'];
+        Balances: ['VestingBalance', 'LiquidityRestrictions', 'InsufficientBalance', 'ExistentialDeposit', 'Expendability', 'ExistingVestingSchedule', 'DeadAccount', 'TooManyReserves', 'TooManyHolds', 'TooManyFreezes', 'IssuanceDeactivated', 'DeltaZero'];
+        Staking: ['NotController', 'NotStash', 'AlreadyBonded', 'AlreadyPaired', 'EmptyTargets', 'DuplicateIndex', 'InvalidSlashIndex', 'InsufficientBond', 'NoMoreChunks', 'NoUnlockChunk', 'FundedTarget', 'InvalidEraToReward', 'InvalidNumberOfNominations', 'NotSortedAndUnique', 'AlreadyClaimed', 'InvalidPage', 'IncorrectHistoryDepth', 'IncorrectSlashingSpans', 'BadState', 'TooManyTargets', 'BadTarget', 'CannotChillOther', 'TooManyNominators', 'TooManyValidators', 'CommissionTooLow', 'BoundNotMet', 'ControllerDeprecated', 'CannotRestoreLedger', 'RewardDestinationRestricted', 'NotEnoughFunds', 'VirtualStakerNotAllowed', 'CannotReapStash', 'AlreadyMigrated', 'Restricted'];
+        Session: ['InvalidProof', 'NoAssociatedValidatorId', 'DuplicatedKey', 'NoKeys', 'NoAccount'];
+        Grandpa: ['PauseFailed', 'ResumeFailed', 'ChangePending', 'TooSoon', 'InvalidKeyOwnershipProof', 'InvalidEquivocationProof', 'DuplicateOffenceReport'];
+        Treasury: ['InvalidIndex', 'TooManyApprovals', 'InsufficientPermission', 'ProposalNotApproved', 'FailedToConvertBalance', 'SpendExpired', 'EarlyPayout', 'AlreadyAttempted', 'PayoutError', 'NotAttempted', 'Inconclusive'];
+        ConvictionVoting: ['NotOngoing', 'NotVoter', 'NoPermission', 'NoPermissionYet', 'AlreadyDelegating', 'AlreadyVoting', 'InsufficientFunds', 'NotDelegating', 'Nonsense', 'MaxVotesReached', 'ClassNeeded', 'BadClass'];
+        Referenda: ['NotOngoing', 'HasDeposit', 'BadTrack', 'Full', 'QueueEmpty', 'BadReferendum', 'NothingToDo', 'NoTrack', 'Unfinished', 'NoPermission', 'NoDeposit', 'BadStatus', 'PreimageNotExist', 'PreimageStoredWithDifferentLength'];
+        Whitelist: ['UnavailablePreImage', 'UndecodableCall', 'InvalidCallWeightWitness', 'CallIsNotWhitelisted', 'CallAlreadyWhitelisted'];
+        Claims: ['InvalidEthereumSignature', 'SignerHasNoClaim', 'SenderHasNoClaim', 'PotUnderflow', 'InvalidStatement', 'VestedBalanceExists'];
+        Vesting: ['NotVesting', 'AtMaxVestingSchedules', 'AmountLow', 'ScheduleIndexOutOfBounds', 'InvalidScheduleParams'];
+        Utility: ['TooManyCalls'];
+        Proxy: ['TooMany', 'NotFound', 'NotProxy', 'Unproxyable', 'Duplicate', 'NoPermission', 'Unannounced', 'NoSelfProxy'];
+        Multisig: ['MinimumThreshold', 'AlreadyApproved', 'NoApprovalsNeeded', 'TooFewSignatories', 'TooManySignatories', 'SignatoriesOutOfOrder', 'SenderInSignatories', 'NotFound', 'NotOwner', 'NoTimepoint', 'WrongTimepoint', 'UnexpectedTimepoint', 'MaxWeightTooLow', 'AlreadyStored'];
+        Bounties: ['InsufficientProposersBalance', 'InvalidIndex', 'ReasonTooBig', 'UnexpectedStatus', 'RequireCurator', 'InvalidValue', 'InvalidFee', 'PendingPayout', 'Premature', 'HasActiveChildBounty', 'TooManyQueued', 'NotProposer'];
+        ChildBounties: ['ParentBountyNotActive', 'InsufficientBountyBalance', 'TooManyChildBounties'];
+        ElectionProviderMultiPhase: ['PreDispatchEarlySubmission', 'PreDispatchWrongWinnerCount', 'PreDispatchWeakSubmission', 'SignedQueueFull', 'SignedCannotPayDeposit', 'SignedInvalidWitness', 'SignedTooMuchWeight', 'OcwCallWrongEra', 'MissingSnapshotMetadata', 'InvalidSubmissionIndex', 'CallNotAllowed', 'FallbackFailed', 'BoundNotMet', 'TooManyWinners', 'PreDispatchDifferentRound'];
+        VoterList: ['List', 'Locked'];
+        NominationPools: ['PoolNotFound', 'PoolMemberNotFound', 'RewardPoolNotFound', 'SubPoolsNotFound', 'AccountBelongsToOtherPool', 'FullyUnbonding', 'MaxUnbondingLimit', 'CannotWithdrawAny', 'MinimumBondNotMet', 'OverflowRisk', 'NotDestroying', 'NotNominator', 'NotKickerOrDestroying', 'NotOpen', 'MaxPools', 'MaxPoolMembers', 'CanNotChangeState', 'DoesNotHavePermission', 'MetadataExceedsMaxLen', 'Defensive', 'PartialUnbondNotAllowedPermissionlessly', 'MaxCommissionRestricted', 'CommissionExceedsMaximum', 'CommissionExceedsGlobalMaximum', 'CommissionChangeThrottled', 'CommissionChangeRateNotAllowed', 'NoPendingCommission', 'NoCommissionCurrentSet', 'PoolIdInUse', 'InvalidPoolId', 'BondExtraRestricted', 'NothingToAdjust', 'NothingToSlash', 'SlashTooLow', 'AlreadyMigrated', 'NotMigrated', 'NotSupported', 'Restricted'];
+        FastUnstake: ['NotController', 'AlreadyQueued', 'NotFullyBonded', 'NotQueued', 'AlreadyHead', 'CallNotAllowed'];
+        DelegatedStaking: ['NotAllowed', 'AlreadyStaking', 'InvalidRewardDestination', 'InvalidDelegation', 'NotEnoughFunds', 'NotAgent', 'NotDelegator', 'BadState', 'UnappliedSlash', 'NothingToSlash', 'WithdrawFailed', 'NotSupported'];
+        StakingAhClient: ['Blocked'];
+        Configuration: ['InvalidNewValue'];
+        ParaInclusion: ['ValidatorIndexOutOfBounds', 'UnscheduledCandidate', 'HeadDataTooLarge', 'PrematureCodeUpgrade', 'NewCodeTooLarge', 'DisallowedRelayParent', 'DisallowedSchedulingParent', 'InvalidAssignment', 'InvalidGroupIndex', 'InsufficientBacking', 'InvalidBacking', 'ValidationDataHashMismatch', 'IncorrectDownwardMessageHandling', 'InvalidUpwardMessages', 'HrmpWatermarkMishandling', 'InvalidOutboundHrmp', 'InvalidValidationCodeHash', 'ParaHeadMismatch'];
+        ParaInherent: ['TooManyInclusionInherents', 'InvalidParentHeader', 'InherentDataFilteredDuringExecution', 'UnscheduledCandidate'];
+        ParaScheduler: ['AssignmentsEmpty', 'DisallowedInsert'];
+        Paras: ['NotRegistered', 'CannotOnboard', 'CannotOffboard', 'CannotUpgrade', 'CannotDowngrade', 'PvfCheckStatementStale', 'PvfCheckStatementFuture', 'PvfCheckValidatorIndexOutOfBounds', 'PvfCheckInvalidSignature', 'PvfCheckDoubleVote', 'PvfCheckSubjectInvalid', 'CannotUpgradeCode', 'InvalidCode', 'NothingAuthorized', 'Unauthorized', 'InvalidBlockNumber'];
+        Hrmp: ['OpenHrmpChannelToSelf', 'OpenHrmpChannelInvalidRecipient', 'OpenHrmpChannelZeroCapacity', 'OpenHrmpChannelCapacityExceedsLimit', 'OpenHrmpChannelZeroMessageSize', 'OpenHrmpChannelMessageSizeExceedsLimit', 'OpenHrmpChannelAlreadyExists', 'OpenHrmpChannelAlreadyRequested', 'OpenHrmpChannelLimitExceeded', 'AcceptHrmpChannelDoesntExist', 'AcceptHrmpChannelAlreadyConfirmed', 'AcceptHrmpChannelLimitExceeded', 'CloseHrmpChannelUnauthorized', 'CloseHrmpChannelDoesntExist', 'CloseHrmpChannelAlreadyUnderway', 'CancelHrmpOpenChannelUnauthorized', 'OpenHrmpChannelDoesntExist', 'OpenHrmpChannelAlreadyConfirmed', 'WrongWitness', 'ChannelCreationNotAuthorized'];
+        ParasDisputes: ['DuplicateDisputeStatementSets', 'AncientDisputeStatement', 'ValidatorIndexOutOfBounds', 'InvalidSignature', 'DuplicateStatement', 'SingleSidedDispute', 'MaliciousBacker', 'MissingBackingVotes', 'UnconfirmedDispute'];
+        ParasSlashing: ['InvalidKeyOwnershipProof', 'InvalidSessionIndex', 'InvalidCandidateHash', 'InvalidValidatorIndex', 'ValidatorIndexIdMismatch', 'DuplicateSlashingReport'];
+        OnDemand: ['QueueFull', 'SpotPriceHigherThanMaxAmount', 'InsufficientCredits'];
+        Registrar: ['NotRegistered', 'AlreadyRegistered', 'NotOwner', 'CodeTooLarge', 'HeadDataTooLarge', 'NotParachain', 'NotParathread', 'CannotDeregister', 'CannotDowngrade', 'CannotUpgrade', 'ParaLocked', 'NotReserved', 'InvalidCode', 'CannotSwap'];
+        Slots: ['ParaNotOnboarding', 'LeaseError'];
+        Auctions: ['AuctionInProgress', 'LeasePeriodInPast', 'ParaNotRegistered', 'NotCurrentAuction', 'NotAuction', 'AuctionEnded', 'AlreadyLeasedOut'];
+        Crowdloan: ['FirstPeriodInPast', 'FirstPeriodTooFarInFuture', 'LastPeriodBeforeFirstPeriod', 'LastPeriodTooFarInFuture', 'CannotEndInPast', 'EndTooFarInFuture', 'Overflow', 'ContributionTooSmall', 'InvalidParaId', 'CapExceeded', 'ContributionPeriodOver', 'InvalidOrigin', 'NotParachain', 'LeaseActive', 'BidOrLeaseActive', 'FundNotEnded', 'NoContributions', 'NotReadyToDissolve', 'InvalidSignature', 'MemoTooLarge', 'AlreadyInNewRaise', 'VrfDelayInProgress', 'NoLeasePeriod'];
+        Coretime: ['NotBroker', 'RequestedFutureRevenue', 'AssetTransferFailed'];
+        StateTrieMigration: ['MaxSignedLimits', 'KeyTooLong', 'NotEnoughFunds', 'BadWitness', 'SignedMigrationNotAllowed', 'BadChildRoot'];
+        XcmPallet: ['Unreachable', 'SendFailure', 'Filtered', 'UnweighableMessage', 'DestinationNotInvertible', 'Empty', 'CannotReanchor', 'TooManyAssets', 'InvalidOrigin', 'BadVersion', 'BadLocation', 'NoSubscription', 'AlreadySubscribed', 'CannotCheckOutTeleport', 'LowBalance', 'TooManyLocks', 'AccountNotSovereign', 'FeesNotMet', 'LockNotFound', 'InUse', 'InvalidAssetUnknownReserve', 'InvalidAssetUnsupportedReserve', 'TooManyReserves', 'LocalExecutionIncomplete', 'TooManyAuthorizedAliases', 'ExpiresInPast', 'AliasNotFound', 'LocalExecutionIncompleteWithError'];
+        MessageQueue: ['NotReapable', 'NoPage', 'NoMessage', 'AlreadyProcessed', 'Queued', 'InsufficientWeight', 'TemporarilyUnprocessable', 'QueuePaused', 'RecursiveDisallowed'];
+        AssetRate: ['UnknownAssetKind', 'AlreadyExists', 'Overflow'];
+        Beefy: ['InvalidKeyOwnershipProof', 'InvalidDoubleVotingProof', 'InvalidForkVotingProof', 'InvalidFutureBlockVotingProof', 'InvalidEquivocationProofSession', 'InvalidEquivocationProofSessionMember', 'DuplicateOffenceReport', 'InvalidConfiguration'];
+    };
+    constants: {
+        System: ['BlockWeights', 'BlockLength', 'BlockHashCount', 'DbWeight', 'Version', 'SS58Prefix'];
+        Scheduler: ['MaximumWeight', 'MaxScheduledPerBlock'];
+        Babe: ['EpochDuration', 'ExpectedBlockTime', 'MaxAuthorities', 'MaxNominators'];
+        Timestamp: ['MinimumPeriod'];
+        Indices: ['Deposit'];
+        Balances: ['ExistentialDeposit', 'MaxLocks', 'MaxReserves', 'MaxFreezes'];
+        TransactionPayment: ['OperationalFeeMultiplier'];
+        Staking: ['HistoryDepth', 'SessionsPerEra', 'BondingDuration', 'SlashDeferDuration', 'MaxExposurePageSize', 'MaxValidatorSet', 'MaxUnlockingChunks'];
+        Session: ['KeyDeposit'];
+        Grandpa: ['MaxAuthorities', 'MaxNominators', 'MaxSetIdSessionEntries'];
+        Treasury: ['SpendPeriod', 'Burn', 'PalletId', 'MaxApprovals', 'PayoutPeriod', 'pot_account'];
+        ConvictionVoting: ['MaxVotes', 'VoteLockingPeriod'];
+        Referenda: ['SubmissionDeposit', 'MaxQueued', 'UndecidingTimeout', 'AlarmInterval', 'Tracks'];
+        Claims: ['Prefix'];
+        Vesting: ['MinVestedTransfer', 'MaxVestingSchedules'];
+        Utility: ['batched_calls_limit'];
+        Proxy: ['ProxyDepositBase', 'ProxyDepositFactor', 'MaxProxies', 'MaxPending', 'AnnouncementDepositBase', 'AnnouncementDepositFactor'];
+        Multisig: ['DepositBase', 'DepositFactor', 'MaxSignatories'];
+        Bounties: ['BountyDepositBase', 'BountyDepositPayoutDelay', 'BountyUpdatePeriod', 'CuratorDepositMultiplier', 'CuratorDepositMax', 'CuratorDepositMin', 'BountyValueMinimum', 'DataDepositPerByte', 'MaximumReasonLength'];
+        ChildBounties: ['MaxActiveChildBountyCount', 'ChildBountyValueMinimum'];
+        ElectionProviderMultiPhase: ['BetterSignedThreshold', 'OffchainRepeat', 'MinerTxPriority', 'SignedMaxSubmissions', 'SignedMaxWeight', 'SignedMaxRefunds', 'SignedRewardBase', 'SignedDepositByte', 'SignedDepositWeight', 'MaxWinners', 'MaxBackersPerWinner', 'MinerMaxLength', 'MinerMaxWeight', 'MinerMaxVotesPerVoter', 'MinerMaxWinners'];
+        VoterList: ['BagThresholds', 'MaxAutoRebagPerBlock'];
+        NominationPools: ['PalletId', 'MaxPointsToBalance', 'MaxUnbonding'];
+        FastUnstake: ['Deposit'];
+        DelegatedStaking: ['PalletId', 'SlashRewardFraction'];
+        Paras: ['UnsignedPriority'];
+        OnDemand: ['TrafficDefaultValue', 'MaxHistoricalRevenue', 'PalletId'];
+        Registrar: ['ParaDeposit', 'DataDepositPerByte'];
+        Slots: ['LeasePeriod', 'LeaseOffset'];
+        Auctions: ['EndingPeriod', 'SampleLength', 'SlotRangeCount', 'LeasePeriodsPerSlot'];
+        Crowdloan: ['PalletId', 'MinContribution', 'RemoveKeysLimit'];
+        Coretime: ['BrokerId', 'BrokerPotLocation'];
+        StateTrieMigration: ['MaxKeyLen'];
+        XcmPallet: ['UniversalLocation', 'AdvertisedXcmVersion', 'MaxLockers', 'MaxRemoteLockConsumers'];
+        MessageQueue: ['HeapSize', 'MaxStale', 'ServiceWeight', 'IdleMaxServiceWeight'];
+        Beefy: ['MaxAuthorities', 'MaxNominators', 'MaxSetIdSessionEntries'];
+    };
+    viewFns: {
+        Proxy: ['check_permissions', 'is_superset'];
+        VoterList: ['scores'];
+        Paras: ['remove_upgrade_cooldown_cost'];
+    };
+    apis: {
+        Core: ['version', 'execute_block', 'initialize_block'];
+        Metadata: ['metadata', 'metadata_at_version', 'metadata_versions'];
+        BlockBuilder: ['apply_extrinsic', 'finalize_block', 'inherent_extrinsics', 'check_inherents'];
+        NominationPoolsApi: ['pending_rewards', 'points_to_balance', 'balance_to_points', 'pool_pending_slash', 'member_pending_slash', 'pool_needs_delegate_migration', 'member_needs_delegate_migration', 'member_total_balance', 'pool_balance', 'pool_accounts'];
+        StakingApi: ['nominations_quota', 'eras_stakers_page_count', 'pending_rewards'];
+        TaggedTransactionQueue: ['validate_transaction'];
+        OffchainWorkerApi: ['offchain_worker'];
+        ParachainHost: ['validators', 'validator_groups', 'availability_cores', 'persisted_validation_data', 'assumed_validation_data', 'check_validation_outputs', 'session_index_for_child', 'validation_code', 'candidate_pending_availability', 'candidate_events', 'dmq_contents', 'inbound_hrmp_channels_contents', 'validation_code_by_hash', 'on_chain_votes', 'session_info', 'submit_pvf_check_statement', 'pvfs_require_precheck', 'validation_code_hash', 'disputes', 'session_executor_params', 'unapplied_slashes', 'key_ownership_proof', 'submit_report_dispute_lost', 'minimum_backing_votes', 'para_backing_state', 'async_backing_params', 'disabled_validators', 'node_features', 'approval_voting_params', 'claim_queue', 'candidates_pending_availability', 'validation_code_bomb_limit', 'backing_constraints', 'scheduling_lookahead', 'para_ids', 'unapplied_slashes_v2', 'max_relay_parent_session_age', 'ancestor_relay_parent_info'];
+        BeefyApi: ['beefy_genesis', 'validator_set', 'submit_report_double_voting_unsigned_extrinsic', 'submit_report_fork_voting_unsigned_extrinsic', 'submit_report_future_block_voting_unsigned_extrinsic', 'generate_key_ownership_proof'];
+        MmrApi: ['mmr_root', 'mmr_leaf_count', 'generate_proof', 'generate_ancestry_proof', 'verify_proof', 'verify_proof_stateless'];
+        BeefyMmrApi: ['authority_set_proof', 'next_authority_set_proof'];
+        GrandpaApi: ['grandpa_authorities', 'submit_report_equivocation_unsigned_extrinsic', 'generate_key_ownership_proof', 'current_set_id'];
+        BabeApi: ['configuration', 'current_epoch_start', 'current_epoch', 'next_epoch', 'generate_key_ownership_proof', 'submit_report_equivocation_unsigned_extrinsic'];
+        AuthorityDiscoveryApi: ['authorities'];
+        SessionKeys: ['generate_session_keys', 'decode_session_keys'];
+        RuntimeViewFunction: ['execute_view_function'];
+        AccountNonceApi: ['account_nonce'];
+        TransactionPaymentApi: ['query_info', 'query_fee_details', 'query_weight_to_fee', 'query_length_to_fee'];
+        TransactionPaymentCallApi: ['query_call_info', 'query_call_fee_details', 'query_weight_to_fee', 'query_length_to_fee'];
+        XcmPaymentApi: ['query_acceptable_payment_assets', 'query_xcm_weight', 'query_weight_to_asset_fee', 'query_delivery_fees'];
+        DryRunApi: ['dry_run_call', 'dry_run_xcm'];
+        LocationToAccountApi: ['convert_location'];
+        GenesisBuilder: ['build_state', 'get_preset', 'preset_names'];
+        AssetHubMigrationApi: ['migration_start_block', 'migration_end_block'];
+    };
+};
+export type DotWhitelistEntry = PalletKey | `query.${NestedKey<AllInteractions['storage']>}` | `tx.${NestedKey<AllInteractions['tx']>}` | `event.${NestedKey<AllInteractions['events']>}` | `error.${NestedKey<AllInteractions['errors']>}` | `const.${NestedKey<AllInteractions['constants']>}` | `view.${NestedKey<AllInteractions['viewFns']>}` | `api.${NestedKey<AllInteractions['apis']>}`;
+type PalletKey = `*.${({
+    [K in keyof AllInteractions]: K extends 'apis' ? never : keyof AllInteractions[K];
+})[keyof AllInteractions]}`;
+type NestedKey<D extends Record<string, string[]>> = "*" | {
+    [P in keyof D & string]: `${P}.*` | `${P}.${D[P][number]}`;
 }[keyof D & string];

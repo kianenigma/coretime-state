@@ -1,5 +1,5 @@
 import { StorageDescriptor, PlainDescriptor, TxDescriptor, RuntimeDescriptor, Enum, ApisFromDef, QueryFromPalletsDef, TxFromPalletsDef, EventsFromPalletsDef, ErrorsFromPalletsDef, ConstFromPalletsDef, ViewFnsFromPalletsDef, SS58String, FixedSizeBinary, Binary, FixedSizeArray } from "polkadot-api";
-import { I5sesotjlssv2d, Iffmde3ekjedi9, I4mddgoa69c0a2, Ia4actkalvqfml, I95g6i7ilua7lq, Ieniouoqkq4icf, Phase, Ibgl04rn6nbfm6, I4q39t5hn830vp, I1v7jbnil3tjns, I8jgj1nhcr2dg8, Ifn6q3equiq9qi, Ia3sb0vgvovhtg, Iav8k1edbj86k7, Itom7fk49o0c9, I4i91h98n3cv1b, I4iumukclgj8ej, Iqnbvitf7a7l3, I48i407regf59r, I6r5cbv8ttrb09, Iepbsvlk3qceij, I1q8tnt1cluu5j, I8ds64oj6581v0, Ia7pdug7cdsg8g, I7bhsbas6oufr6, I9bin2jc70qt6q, TransactionPaymentReleases, Ia2lhg7l2hilo3, Ifi4da1gej1fri, Ifvgo9568rpmqc, I82jm9g7pufuel, Ic5m5lp1oioo8r, I6cs1itejju2vv, Icgljjb6j82uhn, Ib77b0fp1a6mjr, I5g2vv0ckl2m8b, Ifup3lg9ro8a0f, I5qfubnuvrnqn6, I8t3u2dv73ahbd, I7vlvrrl2pnbgk, Ie0rpl5bahldfk, XcmPalletVersionMigrationStage, I7e5oaj2qi4kl1, Ie849h3gncgvok, Iat62vud7hlod2, Ict03eedr8de9s, Ibkm2gcn4pji30, XcmVersionedLocation, Idh2ug6ou4a8og, Iejeo53sea6n4q, I53esa2ms463bk, Ib4jhb8tt3uung, Iag146hmjgqfgj, I8uo3fpd3bcc6f, I48e2fe747rjco, I9p9lq3rej5bhc, Ib1i64ek701lf6, I910puuahutflf, I4nfjdef0ibh44, I74af64m08r6as, Ic8ann3kre6vdm, I1j72qfgdejqsv, I60biiepd74113, In7a38730s6qs, If15el53dd76v9, I9s0ave7t0vnrk, I4fo08joqmcqnm, XcmV5Junctions, Iasb8k6ash5mjn, I8ofcg5rbj0g2c, I4adgbll7gku4i, I6pjjpfvhvcfru, I9pj91mj79qekl, I39uah9nss64h9, Ik64dknsq7k08, Ib51vk42m1po4n, Ial23jn8hp0aen, Ifpj261e8s63m3, Idcr6u6361oad9, Ibou4u1engb441, Id6nbvqoqdj4o2, I95iqep3b8snn9, I4ktuaksf5i1gk, I9bqtpv2ii35mp, I9j7pagd6d4bda, I2h9pmio37r7fb, Ibmr18suc9ikh9, I9iq22t0burs89, I5u8olqbbvfnvf, I5utcetro501ir, Ifccifqltb5obi, Iadtsfv699cq8b, Ialpmgmhr3gk5r, I4cbvqmqadhrea, I3sdol54kg5jaq, I8fougodaj6di6, I81vt5eq60l4b6, I3vh014cqgmrfd, Ia5cotcvi888ln, I21jsa919m88fd, Iegif7m3upfe1k, I9kt8c221c83ln, Ic76kfh5ebqkpl, Icscpmubum33bq, I21d2olof7eb60, Ibgm4rnf22lal1, Ie68np0vpihith, I9bnv6lu0crf1q, Iauhjqifrdklq7, Ie1uso9m8rt5cf, I40pqum1mu8qg3, I1r4c2ghbtvjuc, I8g842bm4hfl6b, I117ttfoj41t6f, Iccip33al46lki, I6hscbft9qasm5, Ifs7g183hksr9n, I6uuj8ujnmv2qs, I7078cl4q3emtq, Ideaemvoneh309, I3d9o9d7epp66v, I6lqh1vgb4mcja, I8sfkdv0gc5fs4, I6hk7temg1mga7, I2lbmfajhc5gdu, I2siheq6f2djrd, I2eb501t8s6hsq, Ianmuoljk2sk1u, Ie9vi4re0qt30a, Ic6cqd9g0t65v0, I5sv83ib1q5mod, Ia9mkdf6l44shb, I9l2s4klu0831o, I2ctrt5nqb8o7c, I711qahikocb1c, I6o1er683vod1j, Id6gojh30v9ib2, Ide1bahhh47lj9, Id9uqtigc0il3v, Ic68lsi7chpv5k, Iek0boln8pgnko, I452bkd71b385t, Ie83f0p0ke1f4u, I93hi4ed10h5sc, Ie5l999tf7t2te, Ia82mnkmeo2rhc, I6ipecmu9q19a2, Icbccs0ug47ilf, I855j4i3kr8ko1, Id8vrbnnthpb82, Idd7hd99u0ho0n, Iafscmv8tjf0ou, I100l07kaehdlp, I6gnbnvip5vvdi, If1co0pilmi7oq, I666bl2fqjkejo, Iae74gjak1qibn, I3escdojpj0551, Icv68aq8841478, Ic262ibdoec56a, Iflcfm9b6nlmdd, Ijrsf4mnp3eka, Id5fm4p8lj5qgi, I8tjvj9uq4b7hi, I3qt1hgg4djhgb, I4fooe9dun9o0t, Iph9c4rn81ub2, Ier2cke86dqbr2, I39t01nnod9109, I6v8sm60vvkmk7, I1qmtmbe5so8r3, Ih99m6ehpcar7, Idgorhsbgdq2ap, I9ubb2kqevnu6t, I2hq50pu2kdjpo, I9acqruh7322g2, I137t1cld92pod, I61d51nv4cou88, If8u5kl4h8070m, Ibmuil6p3vl83l, I7lul91g50ae87, Icl7nl1rfeog3i, Iasr6pj6shs0fl, I2uqmls7kcdnii, Idg69klialbkb8, I7r6b7145022pp, I30pg328m00nr3, Icmrn7bogp28cs, I7m9b5plj4h5ot, I9onhk772nfs4f, I3l6bnksrmt56r, Idh09k0l2pmdcg, I7uoiphbm0tj4r, I512p1n7qt24l8, I6s1nbislhk619, I3gghqnh2mj0is, I6iv852roh6t3h, I9oc2o6itbiopq, Ibslgga81p36aa, I1rvj4ubaplho0, Ia3uu7lqcc1q1i, I7crucfnonitkn, I7tmrp94r9sq4n, Ib25bk6hisqrnr, Iad6h44o0b4eg2, Ibc3eq64fkbdod, I7hm3uvmtfg8j6, Iep27ialq4a7o7, Iasu5jvoqr43mv, Icgqd2dg10rrnm, I5qolde99acmd1, I8gtde5abn1g9a, I7ntcg8dtn6d9g, I4mj21qcksiuf3, I2ur0oeqg495j8, I8v2su1f60qoae, I1bhd210c3phjj, Iep1lmt6q3s6r3, I1fac16213rie2, Ifjt77oc391o43, Itvt1jsipv0lc, Ick3mveut33f44, I719lqkkbtikbl, Ie4intrc3n8jfu, I2rg5btjrsqec0, Ibdqerrooruuq9, I8u2ba9jeiu6q0, I7ieadb293k6b4, I5r8t4iaend96p, Ibc5lpi2vd4hkc, Ieuemnllefri8h, Iaqet9jc3ihboe, Ic952bubvq4k7d, I2v50gu3s1aqk6, Iabpgqcjikia83, Icbehqsbn6kpnk, If7uv525tdvv7a, I2an1fs2eiebjp, TransactionValidityTransactionSource, I9ask1o4tfvcvs, Icerf8h8pdu8ss, I4gil44d08grh, I7u915mvkdsb08, I6spmpef2c7svf, Iei2mvq0mjvt81, Iftvbctbo05fu4, XcmVersionedXcm, Ic0c3req3mlc1l, XcmVersionedAssetId, I7ocn4njqde3v5, Iek7ha36da9mf5, I9g869l9vmunib, Ibloopcnrra5ut, I5nrq1kedrdt2m, Ieh6nis3hdbtgi, XcmVersionedAsset, Icujp6hmv35vbn, I4tjame31218k9, I5gif8vomct5i8, Ic1d4u2opv3fst, Ie9sr1iqcg3cgm, I1mqgk2tmnn9i2, I6lr8sctk0bi4e, If8ol865vkvlvc } from "./common-types";
+import { I5sesotjlssv2d, Iffmde3ekjedi9, I4mddgoa69c0a2, Iehqkga66vh9hn, I95g6i7ilua7lq, Ieniouoqkq4icf, Phase, Ibgl04rn6nbfm6, I4q39t5hn830vp, I8re9183nrhr3n, I1v7jbnil3tjns, I8jgj1nhcr2dg8, Ifn6q3equiq9qi, Ia3sb0vgvovhtg, Iav8k1edbj86k7, Itom7fk49o0c9, I4i91h98n3cv1b, I4iumukclgj8ej, Iqnbvitf7a7l3, I48i407regf59r, I6r5cbv8ttrb09, I9gacsa7nt0s25, Iepbsvlk3qceij, I1q8tnt1cluu5j, I8ds64oj6581v0, Ia7pdug7cdsg8g, I7bhsbas6oufr6, I9bin2jc70qt6q, TransactionPaymentReleases, I3qklfjubrljqh, If9iqq7i64mur8, Iag3f1hum3p4c8, I4v5g6i7bmt06o, I4s6jkha20aoh0, I84bhscllvv07n, I78s05f59eoi8b, I35l6p7kq19mr0, Ia2lhg7l2hilo3, Ifi4da1gej1fri, Ifvgo9568rpmqc, I82jm9g7pufuel, Ic5m5lp1oioo8r, I6cs1itejju2vv, Icgljjb6j82uhn, I9pvau8qut93lg, I5g2vv0ckl2m8b, Ifup3lg9ro8a0f, I5qfubnuvrnqn6, I8t3u2dv73ahbd, I7vlvrrl2pnbgk, Ie0rpl5bahldfk, XcmPalletVersionMigrationStage, I7e5oaj2qi4kl1, Ie849h3gncgvok, Iat62vud7hlod2, Ict03eedr8de9s, Ibkm2gcn4pji30, XcmVersionedLocation, Idh2ug6ou4a8og, Iejeo53sea6n4q, I53esa2ms463bk, Ib4jhb8tt3uung, Iag146hmjgqfgj, I8uo3fpd3bcc6f, I48e2fe747rjco, I9p9lq3rej5bhc, Ib1i64ek701lf6, I910puuahutflf, I4nfjdef0ibh44, I74af64m08r6as, Ic8ann3kre6vdm, I1j72qfgdejqsv, I60biiepd74113, In7a38730s6qs, Ibtil0ss5munbk, I9s0ave7t0vnrk, I4fo08joqmcqnm, XcmV5Junctions, Iasb8k6ash5mjn, I8ofcg5rbj0g2c, I4adgbll7gku4i, I6pjjpfvhvcfru, I9pj91mj79qekl, I39uah9nss64h9, Ik64dknsq7k08, Ib51vk42m1po4n, Ial23jn8hp0aen, Ifpj261e8s63m3, Idcr6u6361oad9, Ibou4u1engb441, Id6nbvqoqdj4o2, I95iqep3b8snn9, I4ktuaksf5i1gk, I9bqtpv2ii35mp, I9j7pagd6d4bda, I2h9pmio37r7fb, Ibmr18suc9ikh9, I9iq22t0burs89, I5u8olqbbvfnvf, I5utcetro501ir, I7t2thek61ghou, I61tdrsafr1vf3, Ibsk5g3rhm45pu, Icfoe9q8d4vs8f, Ibrfmvjrg4trnb, Iedih7t34maii9, I4e902qbfel1f1, Ie4met0joi8sv0, I1t8vq6a06ohhu, Icvt3pdunbinm7, I9ui3n41balr2q, I89sl7btgl24g2, I3u6g26k9kn96u, If1invp94rsjms, Ie5nc19gtiv5sv, Iald3dgvt1hjkb, Iurrhahet4gno, I5tamv2nk8bj8o, I8apq8e7c7qcpp, Id1e31ij0c35fv, Ibm7u0qulpnrs9, I72jcvr86rnvv8, I90c919drss29e, Ifccifqltb5obi, Iadtsfv699cq8b, Ialpmgmhr3gk5r, I4cbvqmqadhrea, I3sdol54kg5jaq, I8fougodaj6di6, I81vt5eq60l4b6, I3vh014cqgmrfd, Ia5cotcvi888ln, I21jsa919m88fd, Iegif7m3upfe1k, I9kt8c221c83ln, Ic76kfh5ebqkpl, Icscpmubum33bq, I21d2olof7eb60, Ibgm4rnf22lal1, Ie68np0vpihith, I9bnv6lu0crf1q, Iauhjqifrdklq7, Ie1uso9m8rt5cf, I40pqum1mu8qg3, I1r4c2ghbtvjuc, Ifb43db7ghdq3g, I5451498dtvl6m, Ic33hdip1fdrrm, I3rdohs8lqk211, I1489dt4ko068o, I2gshgg4a1nr50, I6rn1inpnn6bo4, Ideaemvoneh309, I3d9o9d7epp66v, I6lqh1vgb4mcja, Icu237aa9lep48, I6hk7temg1mga7, I2lbmfajhc5gdu, I2siheq6f2djrd, I2eb501t8s6hsq, Ianmuoljk2sk1u, Ib6ku0ajjo6s1, Ic6cqd9g0t65v0, I5sv83ib1q5mod, Ia9mkdf6l44shb, I9l2s4klu0831o, I2ctrt5nqb8o7c, I711qahikocb1c, I6o1er683vod1j, Id6gojh30v9ib2, Ide1bahhh47lj9, Id9uqtigc0il3v, Ic68lsi7chpv5k, Iek0boln8pgnko, I452bkd71b385t, Ie83f0p0ke1f4u, Ib9nmpn9ru9aeh, Ie5l999tf7t2te, Ia82mnkmeo2rhc, I9f0e9t2ao9mik, Icbccs0ug47ilf, I855j4i3kr8ko1, Ibvs7e707j8nmb, Idd7hd99u0ho0n, Iafscmv8tjf0ou, I100l07kaehdlp, I6gnbnvip5vvdi, If1co0pilmi7oq, I666bl2fqjkejo, Iae74gjak1qibn, I3escdojpj0551, Icv68aq8841478, Ic262ibdoec56a, Iflcfm9b6nlmdd, Ijrsf4mnp3eka, Id5fm4p8lj5qgi, I8tjvj9uq4b7hi, I3qt1hgg4djhgb, I4fooe9dun9o0t, Ipc96b675vau1, Ifqi1snmg1eqha, I2r55jl5mh3adj, Iph9c4rn81ub2, Ier2cke86dqbr2, Icqe266pmnr25o, I5hoiph0lqphp, I5k7oropl9ofc7, I48vagp1omigob, Ib5tst4ppem1g6, Ibn64edsrg3737, I83r9d02dh47j9, I22bm4d7re21j9, I3jnhifvaeuama, I8n1gia0lo42ok, I6gb0o7lqjfdjq, Idh36v6iegkmpq, I27hnueutmchbe, Iectm2em66uhao, I7q57goff3j72h, Ibe49veu9i9nro, I1rnkmiu7usb82, Ig6jnoe1clkm7, Ibtugueatkkr9s, I5k7edfft48vsq, Iaeqj2ebnvkjqe, Ien3adjd58ddhb, I39t01nnod9109, I6v8sm60vvkmk7, I1qmtmbe5so8r3, Ih99m6ehpcar7, Idgorhsbgdq2ap, I9ubb2kqevnu6t, I2hq50pu2kdjpo, I9acqruh7322g2, I137t1cld92pod, I61d51nv4cou88, If8u5kl4h8070m, Ibmuil6p3vl83l, I7lul91g50ae87, Icl7nl1rfeog3i, Iasr6pj6shs0fl, I2uqmls7kcdnii, Idg69klialbkb8, I7r6b7145022pp, I30pg328m00nr3, Icmrn7bogp28cs, I7m9b5plj4h5ot, I9onhk772nfs4f, I3l6bnksrmt56r, Idh09k0l2pmdcg, I7uoiphbm0tj4r, I512p1n7qt24l8, I6s1nbislhk619, I3gghqnh2mj0is, I6iv852roh6t3h, I9oc2o6itbiopq, Ibslgga81p36aa, I1rvj4ubaplho0, Ia3uu7lqcc1q1i, I7crucfnonitkn, I7tmrp94r9sq4n, I51thp778hgdhl, I7aclfk6cv71rt, I14js0k96vh2mo, I3db6ooauen4be, Iep27ialq4a7o7, Iasu5jvoqr43mv, I11sk1a5e75a1q, I5qolde99acmd1, I8gtde5abn1g9a, Iquobi9ukq7tb, I4mj21qcksiuf3, I2ur0oeqg495j8, I8v2su1f60qoae, I1bhd210c3phjj, Iep1lmt6q3s6r3, I1fac16213rie2, Ifjt77oc391o43, Itvt1jsipv0lc, Ick3mveut33f44, I719lqkkbtikbl, Ie4intrc3n8jfu, I2rg5btjrsqec0, Ibdqerrooruuq9, I8u2ba9jeiu6q0, I7ieadb293k6b4, I5r8t4iaend96p, I9vodnt2k1kha, I4ao1le27fcisl, Ih4ursllob8fg, I6052turo9tavh, I35p85j063s0il, Iemk0s5gdc9ruv, I8kpscpnfj8ea9, Ieuemnllefri8h, Iaqet9jc3ihboe, Ic952bubvq4k7d, I2v50gu3s1aqk6, Iabpgqcjikia83, I4kraub1pfqlrf, If7uv525tdvv7a, I2an1fs2eiebjp, TransactionValidityTransactionSource, I9ask1o4tfvcvs, I4ph3d1eepnmr1, Icerf8h8pdu8ss, I4gil44d08grh, I7u915mvkdsb08, I6spmpef2c7svf, Iei2mvq0mjvt81, Iftvbctbo05fu4, XcmVersionedXcm, Ic0c3req3mlc1l, XcmVersionedAssetId, I7ocn4njqde3v5, Iek7ha36da9mf5, I9g869l9vmunib, I5o9gllk91qjfe, I5gi8ihce46e67, Ieh6nis3hdbtgi, XcmVersionedAsset, Icujp6hmv35vbn, I4tjame31218k9, I5gif8vomct5i8, Ic1d4u2opv3fst, Ie9sr1iqcg3cgm, I1mqgk2tmnn9i2, I6lr8sctk0bi4e, I3i0q0iii2v8bq } from "./common-types";
 type AnonymousEnum<T extends {}> = T & {
     __anonymous: true;
 };
@@ -29,9 +29,11 @@ type IStorage = {
          */
         BlockWeight: StorageDescriptor<[], Anonymize<Iffmde3ekjedi9>, false, never>;
         /**
-         * Total length (in bytes) for all extrinsics put together, for the current block.
+         * Total size (in bytes) of the current block.
+         *
+         * Tracks the size of the header and all extrinsics.
          */
-        AllExtrinsicsLen: StorageDescriptor<[], number, true, never>;
+        BlockSize: StorageDescriptor<[], number, true, never>;
         /**
          * Map of block numbers to block hashes.
          */
@@ -61,7 +63,7 @@ type IStorage = {
          * Events have a large in-memory size. Box the events to not go out-of-memory
          * just in case someone still reads them from within the runtime.
          */
-        Events: StorageDescriptor<[], Anonymize<Ia4actkalvqfml>, false, never>;
+        Events: StorageDescriptor<[], Anonymize<Iehqkga66vh9hn>, false, never>;
         /**
          * The number of events in the `Events<T>` list.
          */
@@ -83,6 +85,10 @@ type IStorage = {
          * Stores the `spec_version` and `spec_name` of when the last runtime upgrade happened.
          */
         LastRuntimeUpgrade: StorageDescriptor<[], Anonymize<Ieniouoqkq4icf>, true, never>;
+        /**
+         * Number of blocks till the pending code upgrade is applied.
+         */
+        BlocksTillUpgrade: StorageDescriptor<[], number, true, never>;
         /**
          * True if we have upgraded so that `type RefCount` is `u32`. False (default) if not.
          */
@@ -113,6 +119,21 @@ type IStorage = {
     };
     ParachainSystem: {
         /**
+         * The current block weight mode.
+         *
+         * This is used to determine what is the maximum allowed block weight, for more information see
+         * [`block_weight`].
+         *
+         * Killed in [`Self::on_initialize`] and set by the [`block_weight`] logic.
+         */
+        BlockWeightMode: StorageDescriptor<[], Anonymize<I8re9183nrhr3n>, true, never>;
+        /**
+         * The core count available to the parachain in the previous block.
+         *
+         * This is mainly used for offchain functionality to calculate the correct target block weight.
+         */
+        PreviousCoreCount: StorageDescriptor<[], number, true, never>;
+        /**
          * Latest included block descendants the runtime accepted. In other words, these are
          * ancestors of the currently executing block which have not been included in the observed
          * relay-chain state.
@@ -132,8 +153,8 @@ type IStorage = {
          * applied.
          *
          * As soon as the relay chain gives us the go-ahead signal, we will overwrite the
-         * [`:code`][sp_core::storage::well_known_keys::CODE] which will result the next block process
-         * with the new validation code. This concludes the upgrade process.
+         * [`:pending_code`][sp_core::storage::well_known_keys::PENDING_CODE] which will result the
+         * next block to be processed with the new validation code. This concludes the upgrade process.
          */
         PendingValidationCode: StorageDescriptor<[], Binary, false, never>;
         /**
@@ -146,8 +167,8 @@ type IStorage = {
         NewValidationCode: StorageDescriptor<[], Binary, true, never>;
         /**
          * The [`PersistedValidationData`] set for this block.
-         * This value is expected to be set only once per block and it's never stored
-         * in the trie.
+         *
+         * This value is expected to be set only once by the [`Pallet::set_validation_data`] inherent.
          */
         ValidationData: StorageDescriptor<[], Anonymize<Ifn6q3equiq9qi>, true, never>;
         /**
@@ -251,13 +272,19 @@ type IStorage = {
         /**
          * Upward messages that were sent in a block.
          *
-         * This will be cleared in `on_initialize` of each new block.
+         * This will be cleared in `on_initialize` for each new block.
          */
         UpwardMessages: StorageDescriptor<[], Anonymize<Itom7fk49o0c9>, false, never>;
         /**
-         * Upward messages that are still pending and not yet send to the relay chain.
+         * Upward messages that are still pending and not yet sent to the relay chain.
          */
         PendingUpwardMessages: StorageDescriptor<[], Anonymize<Itom7fk49o0c9>, false, never>;
+        /**
+         * Upward signals that are still pending and not yet sent to the relay chain.
+         *
+         * This will be cleared in `on_finalize` for each block.
+         */
+        PendingUpwardSignals: StorageDescriptor<[], Anonymize<Itom7fk49o0c9>, false, never>;
         /**
          * The factor to multiply the base delivery fee by for UMP.
          */
@@ -283,6 +310,12 @@ type IStorage = {
          * See `Pallet::set_custom_validation_head_data` for more information.
          */
         CustomValidationHeadData: StorageDescriptor<[], Binary, true, never>;
+        /**
+         * Tracks cumulative `UMP` and `HRMP` messages sent across blocks in the current `PoV`.
+         *
+         * Across different candidates/PoVs the budgets are tracked by [`AggregatedUnincludedSegment`].
+         */
+        PoVMessagesTracker: StorageDescriptor<[], Anonymize<I9gacsa7nt0s25>, true, never>;
     };
     Timestamp: {
         /**
@@ -392,6 +425,60 @@ type IStorage = {
          */
         TxPaymentCredit: StorageDescriptor<[], bigint, true, never>;
     };
+    Assets: {
+        /**
+         * Details of an asset.
+         */
+        Asset: StorageDescriptor<[Key: Anonymize<If9iqq7i64mur8>], Anonymize<I3qklfjubrljqh>, true, never>;
+        /**
+         * The holdings of a specific account for a specific asset.
+         */
+        Account: StorageDescriptor<Anonymize<I4v5g6i7bmt06o>, Anonymize<Iag3f1hum3p4c8>, true, never>;
+        /**
+         * Approved balance transfers. First balance is the amount approved for transfer. Second
+         * is the amount of `T::Currency` reserved for storing this.
+         * First key is the asset ID, second key is the owner and third key is the delegate.
+         */
+        Approvals: StorageDescriptor<Anonymize<I84bhscllvv07n>, Anonymize<I4s6jkha20aoh0>, true, never>;
+        /**
+         * Metadata of an asset.
+         */
+        Metadata: StorageDescriptor<[Key: Anonymize<If9iqq7i64mur8>], Anonymize<I78s05f59eoi8b>, false, never>;
+        /**
+         * Maps an asset to a list of its configured reserve information.
+         */
+        Reserves: StorageDescriptor<[Key: Anonymize<If9iqq7i64mur8>], Anonymize<I35l6p7kq19mr0>, false, never>;
+        /**
+         * The asset ID enforced for the next asset creation, if any present. Otherwise, this storage
+         * item has no effect.
+         *
+         * This can be useful for setting up constraints for IDs of the new assets. For example, by
+         * providing an initial [`NextAssetId`] and using the [`crate::AutoIncAssetId`] callback, an
+         * auto-increment model can be applied to all new asset IDs.
+         *
+         * The initial next asset ID can be set using the [`GenesisConfig`] or the
+         * [SetNextAssetId](`migration::next_asset_id::SetNextAssetId`) migration.
+         */
+        NextAssetId: StorageDescriptor<[], Anonymize<If9iqq7i64mur8>, true, never>;
+    };
+    AssetRate: {
+        /**
+         * Maps an asset to its fixed point representation in the native balance.
+         *
+         * E.g. `native_amount = asset_amount * ConversionRateToNative::<T>::get(asset_kind)`
+         */
+        ConversionRateToNative: StorageDescriptor<[Key: Anonymize<If9iqq7i64mur8>], bigint, true, never>;
+    };
+    AssetsHolder: {
+        /**
+         * A map that stores holds applied on an account for a given AssetId.
+         */
+        Holds: StorageDescriptor<Anonymize<I4v5g6i7bmt06o>, Anonymize<I7bhsbas6oufr6>, false, never>;
+        /**
+         * A map that stores the current total balance on hold for every account on a given AssetId.
+         */
+        BalancesOnHold: StorageDescriptor<Anonymize<I4v5g6i7bmt06o>, bigint, true, never>;
+    };
     Authorship: {
         /**
          * Author of current block.
@@ -463,6 +550,13 @@ type IStorage = {
          * The owner of a key. The key is the `KeyTypeId` + the encoded key.
          */
         KeyOwner: StorageDescriptor<[Key: Anonymize<I82jm9g7pufuel>], SS58String, true, never>;
+        /**
+         * Accounts whose keys were set via `SessionInterface` (external path) without
+         * incrementing the consumer reference or placing a key deposit. `do_purge_keys`
+         * only decrements consumers for accounts that were registered through the local
+         * session pallet.
+         */
+        ExternallySetKeys: StorageDescriptor<[Key: SS58String], null, true, never>;
     };
     Aura: {
         /**
@@ -513,7 +607,7 @@ type IStorage = {
          * case of the need to send a high-priority signal message this block.
          * The bool is true if there is a signal message waiting to be sent.
          */
-        OutboundXcmpStatus: StorageDescriptor<[], Anonymize<Ib77b0fp1a6mjr>, false, never>;
+        OutboundXcmpStatus: StorageDescriptor<[], Anonymize<I9pvau8qut93lg>, false, never>;
         /**
          * The messages outbound in a given XCMP channel.
          */
@@ -945,6 +1039,592 @@ type ICalls = {
          */
         burn: TxDescriptor<Anonymize<I5utcetro501ir>>;
     };
+    Assets: {
+        /**
+         * Issue a new class of fungible assets from a public origin.
+         *
+         * This new asset class has no assets initially and its owner is the origin.
+         *
+         * The origin must conform to the configured `CreateOrigin` and have sufficient funds free.
+         *
+         * Funds of sender are reserved by `AssetDeposit`.
+         *
+         * Parameters:
+         * - `id`: The identifier of the new asset. This must not be currently in use to identify
+         * an existing asset. If [`NextAssetId`] is set, then this must be equal to it.
+         * - `admin`: The admin of this class of assets. The admin is the initial address of each
+         * member of the asset class's admin team.
+         * - `min_balance`: The minimum balance of this new asset that any single account must
+         * have. If an account's balance is reduced below this, then it collapses to zero.
+         *
+         * Emits `Created` event when successful.
+         *
+         * Weight: `O(1)`
+         */
+        create: TxDescriptor<Anonymize<I7t2thek61ghou>>;
+        /**
+         * Issue a new class of fungible assets from a privileged origin.
+         *
+         * This new asset class has no assets initially.
+         *
+         * The origin must conform to `ForceOrigin`.
+         *
+         * Unlike `create`, no funds are reserved.
+         *
+         * - `id`: The identifier of the new asset. This must not be currently in use to identify
+         * an existing asset. If [`NextAssetId`] is set, then this must be equal to it.
+         * - `owner`: The owner of this class of assets. The owner has full superuser permissions
+         * over this asset, but may later change and configure the permissions using
+         * `transfer_ownership` and `set_team`.
+         * - `min_balance`: The minimum balance of this new asset that any single account must
+         * have. If an account's balance is reduced below this, then it collapses to zero.
+         *
+         * Emits `ForceCreated` event when successful.
+         *
+         * Weight: `O(1)`
+         */
+        force_create: TxDescriptor<Anonymize<I61tdrsafr1vf3>>;
+        /**
+         * Start the process of destroying a fungible asset class.
+         *
+         * `start_destroy` is the first in a series of extrinsics that should be called, to allow
+         * destruction of an asset class.
+         *
+         * The origin must conform to `ForceOrigin` or must be `Signed` by the asset's `owner`.
+         *
+         * - `id`: The identifier of the asset to be destroyed. This must identify an existing
+         * asset.
+         *
+         * It will fail with either [`Error::ContainsHolds`] or [`Error::ContainsFreezes`] if
+         * an account contains holds or freezes in place.
+         */
+        start_destroy: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Destroy all accounts associated with a given asset.
+         *
+         * `destroy_accounts` should only be called after `start_destroy` has been called, and the
+         * asset is in a `Destroying` state.
+         *
+         * Due to weight restrictions, this function may need to be called multiple times to fully
+         * destroy all accounts. It will destroy `RemoveItemsLimit` accounts at a time.
+         *
+         * - `id`: The identifier of the asset to be destroyed. This must identify an existing
+         * asset.
+         *
+         * Each call emits the `Event::DestroyedAccounts` event.
+         */
+        destroy_accounts: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Destroy all approvals associated with a given asset up to the max (T::RemoveItemsLimit).
+         *
+         * `destroy_approvals` should only be called after `start_destroy` has been called, and the
+         * asset is in a `Destroying` state.
+         *
+         * Due to weight restrictions, this function may need to be called multiple times to fully
+         * destroy all approvals. It will destroy `RemoveItemsLimit` approvals at a time.
+         *
+         * - `id`: The identifier of the asset to be destroyed. This must identify an existing
+         * asset.
+         *
+         * Each call emits the `Event::DestroyedApprovals` event.
+         */
+        destroy_approvals: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Complete destroying asset and unreserve currency.
+         *
+         * `finish_destroy` should only be called after `start_destroy` has been called, and the
+         * asset is in a `Destroying` state. All accounts or approvals should be destroyed before
+         * hand.
+         *
+         * - `id`: The identifier of the asset to be destroyed. This must identify an existing
+         * asset.
+         *
+         * Each successful call emits the `Event::Destroyed` event.
+         */
+        finish_destroy: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Mint assets of a particular class.
+         *
+         * The origin must be Signed and the sender must be the Issuer of the asset `id`.
+         *
+         * - `id`: The identifier of the asset to have some amount minted.
+         * - `beneficiary`: The account to be credited with the minted assets.
+         * - `amount`: The amount of the asset to be minted.
+         *
+         * Emits `Issued` event when successful.
+         *
+         * Weight: `O(1)`
+         * Modes: Pre-existing balance of `beneficiary`; Account pre-existence of `beneficiary`.
+         */
+        mint: TxDescriptor<Anonymize<Icfoe9q8d4vs8f>>;
+        /**
+         * Reduce the balance of `who` by as much as possible up to `amount` assets of `id`.
+         *
+         * Origin must be Signed and the sender should be the Manager of the asset `id`.
+         *
+         * Bails with `NoAccount` if the `who` is already dead.
+         *
+         * - `id`: The identifier of the asset to have some amount burned.
+         * - `who`: The account to be debited from.
+         * - `amount`: The maximum amount by which `who`'s balance should be reduced.
+         *
+         * Emits `Burned` with the actual amount burned. If this takes the balance to below the
+         * minimum for the asset, then the amount burned is increased to take it to zero.
+         *
+         * Weight: `O(1)`
+         * Modes: Post-existence of `who`; Pre & post Zombie-status of `who`.
+         */
+        burn: TxDescriptor<Anonymize<Ibrfmvjrg4trnb>>;
+        /**
+         * Move some assets from the sender account to another.
+         *
+         * Origin must be Signed.
+         *
+         * - `id`: The identifier of the asset to have some amount transferred.
+         * - `target`: The account to be credited.
+         * - `amount`: The amount by which the sender's balance of assets should be reduced and
+         * `target`'s balance increased. The amount actually transferred may be slightly greater in
+         * the case that the transfer would otherwise take the sender balance above zero but below
+         * the minimum balance. Must be greater than zero.
+         *
+         * Emits `Transferred` with the actual amount transferred. If this takes the source balance
+         * to below the minimum for the asset, then the amount transferred is increased to take it
+         * to zero.
+         *
+         * Weight: `O(1)`
+         * Modes: Pre-existence of `target`; Post-existence of sender; Account pre-existence of
+         * `target`.
+         */
+        transfer: TxDescriptor<Anonymize<Iedih7t34maii9>>;
+        /**
+         * Move some assets from the sender account to another, keeping the sender account alive.
+         *
+         * Origin must be Signed.
+         *
+         * - `id`: The identifier of the asset to have some amount transferred.
+         * - `target`: The account to be credited.
+         * - `amount`: The amount by which the sender's balance of assets should be reduced and
+         * `target`'s balance increased. The amount actually transferred may be slightly greater in
+         * the case that the transfer would otherwise take the sender balance above zero but below
+         * the minimum balance. Must be greater than zero.
+         *
+         * Emits `Transferred` with the actual amount transferred. If this takes the source balance
+         * to below the minimum for the asset, then the amount transferred is increased to take it
+         * to zero.
+         *
+         * Weight: `O(1)`
+         * Modes: Pre-existence of `target`; Post-existence of sender; Account pre-existence of
+         * `target`.
+         */
+        transfer_keep_alive: TxDescriptor<Anonymize<Iedih7t34maii9>>;
+        /**
+         * Move some assets from one account to another.
+         *
+         * Origin must be Signed and the sender should be the Admin of the asset `id`.
+         *
+         * - `id`: The identifier of the asset to have some amount transferred.
+         * - `source`: The account to be debited.
+         * - `dest`: The account to be credited.
+         * - `amount`: The amount by which the `source`'s balance of assets should be reduced and
+         * `dest`'s balance increased. The amount actually transferred may be slightly greater in
+         * the case that the transfer would otherwise take the `source` balance above zero but
+         * below the minimum balance. Must be greater than zero.
+         *
+         * Emits `Transferred` with the actual amount transferred. If this takes the source balance
+         * to below the minimum for the asset, then the amount transferred is increased to take it
+         * to zero.
+         *
+         * Weight: `O(1)`
+         * Modes: Pre-existence of `dest`; Post-existence of `source`; Account pre-existence of
+         * `dest`.
+         */
+        force_transfer: TxDescriptor<Anonymize<I4e902qbfel1f1>>;
+        /**
+         * Disallow further unprivileged transfers of an asset `id` from an account `who`. `who`
+         * must already exist as an entry in `Account`s of the asset. If you want to freeze an
+         * account that does not have an entry, use `touch_other` first.
+         *
+         * Origin must be Signed and the sender should be the Freezer of the asset `id`.
+         *
+         * - `id`: The identifier of the asset to be frozen.
+         * - `who`: The account to be frozen.
+         *
+         * Emits `Frozen`.
+         *
+         * Weight: `O(1)`
+         */
+        freeze: TxDescriptor<Anonymize<Ie4met0joi8sv0>>;
+        /**
+         * Allow unprivileged transfers to and from an account again.
+         *
+         * Origin must be Signed and the sender should be the Admin of the asset `id`.
+         *
+         * - `id`: The identifier of the asset to be frozen.
+         * - `who`: The account to be unfrozen.
+         *
+         * Emits `Thawed`.
+         *
+         * Weight: `O(1)`
+         */
+        thaw: TxDescriptor<Anonymize<Ie4met0joi8sv0>>;
+        /**
+         * Disallow further unprivileged transfers for the asset class.
+         *
+         * Origin must be Signed and the sender should be the Freezer of the asset `id`.
+         *
+         * - `id`: The identifier of the asset to be frozen.
+         *
+         * Emits `Frozen`.
+         *
+         * Weight: `O(1)`
+         */
+        freeze_asset: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Allow unprivileged transfers for the asset again.
+         *
+         * Origin must be Signed and the sender should be the Admin of the asset `id`.
+         *
+         * - `id`: The identifier of the asset to be thawed.
+         *
+         * Emits `Thawed`.
+         *
+         * Weight: `O(1)`
+         */
+        thaw_asset: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Change the Owner of an asset.
+         *
+         * Origin must be Signed and the sender should be the Owner of the asset `id`.
+         *
+         * - `id`: The identifier of the asset.
+         * - `owner`: The new Owner of this asset.
+         *
+         * Emits `OwnerChanged`.
+         *
+         * Weight: `O(1)`
+         */
+        transfer_ownership: TxDescriptor<Anonymize<I1t8vq6a06ohhu>>;
+        /**
+         * Change the Issuer, Admin and Freezer of an asset.
+         *
+         * Origin must be Signed and the sender should be the Owner of the asset `id`.
+         *
+         * - `id`: The identifier of the asset to be frozen.
+         * - `issuer`: The new Issuer of this asset.
+         * - `admin`: The new Admin of this asset.
+         * - `freezer`: The new Freezer of this asset.
+         *
+         * Emits `TeamChanged`.
+         *
+         * Weight: `O(1)`
+         */
+        set_team: TxDescriptor<Anonymize<Icvt3pdunbinm7>>;
+        /**
+         * Set the metadata for an asset.
+         *
+         * Origin must be Signed and the sender should be the Owner of the asset `id`.
+         *
+         * Funds of sender are reserved according to the formula:
+         * `MetadataDepositBase + MetadataDepositPerByte * (name.len + symbol.len)` taking into
+         * account any already reserved funds.
+         *
+         * - `id`: The identifier of the asset to update.
+         * - `name`: The user friendly name of this asset. Limited in length by `StringLimit`.
+         * - `symbol`: The exchange symbol for this asset. Limited in length by `StringLimit`.
+         * - `decimals`: The number of decimals this asset uses to represent one unit.
+         *
+         * Emits `MetadataSet`.
+         *
+         * Weight: `O(1)`
+         */
+        set_metadata: TxDescriptor<Anonymize<I9ui3n41balr2q>>;
+        /**
+         * Clear the metadata for an asset.
+         *
+         * Origin must be Signed and the sender should be the Owner of the asset `id`.
+         *
+         * Any deposit is freed for the asset owner.
+         *
+         * - `id`: The identifier of the asset to clear.
+         *
+         * Emits `MetadataCleared`.
+         *
+         * Weight: `O(1)`
+         */
+        clear_metadata: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Force the metadata for an asset to some value.
+         *
+         * Origin must be ForceOrigin.
+         *
+         * Any deposit is left alone.
+         *
+         * - `id`: The identifier of the asset to update.
+         * - `name`: The user friendly name of this asset. Limited in length by `StringLimit`.
+         * - `symbol`: The exchange symbol for this asset. Limited in length by `StringLimit`.
+         * - `decimals`: The number of decimals this asset uses to represent one unit.
+         *
+         * Emits `MetadataSet`.
+         *
+         * Weight: `O(N + S)` where N and S are the length of the name and symbol respectively.
+         */
+        force_set_metadata: TxDescriptor<Anonymize<I89sl7btgl24g2>>;
+        /**
+         * Clear the metadata for an asset.
+         *
+         * Origin must be ForceOrigin.
+         *
+         * Any deposit is returned.
+         *
+         * - `id`: The identifier of the asset to clear.
+         *
+         * Emits `MetadataCleared`.
+         *
+         * Weight: `O(1)`
+         */
+        force_clear_metadata: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Alter the attributes of a given asset.
+         *
+         * Origin must be `ForceOrigin`.
+         *
+         * - `id`: The identifier of the asset.
+         * - `owner`: The new Owner of this asset.
+         * - `issuer`: The new Issuer of this asset.
+         * - `admin`: The new Admin of this asset.
+         * - `freezer`: The new Freezer of this asset.
+         * - `min_balance`: The minimum balance of this new asset that any single account must
+         * have. If an account's balance is reduced below this, then it collapses to zero.
+         * - `is_sufficient`: Whether a non-zero balance of this asset is deposit of sufficient
+         * value to account for the state bloat associated with its balance storage. If set to
+         * `true`, then non-zero balances may be stored without a `consumer` reference (and thus
+         * an ED in the Balances pallet or whatever else is used to control user-account state
+         * growth).
+         * - `is_frozen`: Whether this asset class is frozen except for permissioned/admin
+         * instructions.
+         *
+         * Emits `AssetStatusChanged` with the identity of the asset.
+         *
+         * Weight: `O(1)`
+         */
+        force_asset_status: TxDescriptor<Anonymize<I3u6g26k9kn96u>>;
+        /**
+         * Approve an amount of asset for transfer by a delegated third-party account.
+         *
+         * Origin must be Signed.
+         *
+         * Ensures that `ApprovalDeposit` worth of `Currency` is reserved from signing account
+         * for the purpose of holding the approval. If some non-zero amount of assets is already
+         * approved from signing account to `delegate`, then it is topped up or unreserved to
+         * meet the right value.
+         *
+         * NOTE: The signing account does not need to own `amount` of assets at the point of
+         * making this call.
+         *
+         * - `id`: The identifier of the asset.
+         * - `delegate`: The account to delegate permission to transfer asset.
+         * - `amount`: The amount of asset that may be transferred by `delegate`. If there is
+         * already an approval in place, then this acts additively.
+         *
+         * Emits `ApprovedTransfer` on success.
+         *
+         * Weight: `O(1)`
+         */
+        approve_transfer: TxDescriptor<Anonymize<If1invp94rsjms>>;
+        /**
+         * Cancel all of some asset approved for delegated transfer by a third-party account.
+         *
+         * Origin must be Signed and there must be an approval in place between signer and
+         * `delegate`.
+         *
+         * Unreserves any deposit previously reserved by `approve_transfer` for the approval.
+         *
+         * - `id`: The identifier of the asset.
+         * - `delegate`: The account delegated permission to transfer asset.
+         *
+         * Emits `ApprovalCancelled` on success.
+         *
+         * Weight: `O(1)`
+         */
+        cancel_approval: TxDescriptor<Anonymize<Ie5nc19gtiv5sv>>;
+        /**
+         * Cancel all of some asset approved for delegated transfer by a third-party account.
+         *
+         * Origin must be either ForceOrigin or Signed origin with the signer being the Admin
+         * account of the asset `id`.
+         *
+         * Unreserves any deposit previously reserved by `approve_transfer` for the approval.
+         *
+         * - `id`: The identifier of the asset.
+         * - `delegate`: The account delegated permission to transfer asset.
+         *
+         * Emits `ApprovalCancelled` on success.
+         *
+         * Weight: `O(1)`
+         */
+        force_cancel_approval: TxDescriptor<Anonymize<Iald3dgvt1hjkb>>;
+        /**
+         * Transfer some asset balance from a previously delegated account to some third-party
+         * account.
+         *
+         * Origin must be Signed and there must be an approval in place by the `owner` to the
+         * signer.
+         *
+         * If the entire amount approved for transfer is transferred, then any deposit previously
+         * reserved by `approve_transfer` is unreserved.
+         *
+         * - `id`: The identifier of the asset.
+         * - `owner`: The account which previously approved for a transfer of at least `amount` and
+         * from which the asset balance will be withdrawn.
+         * - `destination`: The account to which the asset balance of `amount` will be transferred.
+         * - `amount`: The amount of assets to transfer.
+         *
+         * Emits `TransferredApproved` on success.
+         *
+         * Weight: `O(1)`
+         */
+        transfer_approved: TxDescriptor<Anonymize<Iurrhahet4gno>>;
+        /**
+         * Create an asset account for non-provider assets.
+         *
+         * A deposit will be taken from the signer account.
+         *
+         * - `origin`: Must be Signed; the signer account must have sufficient funds for a deposit
+         * to be taken.
+         * - `id`: The identifier of the asset for the account to be created.
+         *
+         * Emits `Touched` event when successful.
+         */
+        touch: TxDescriptor<Anonymize<Ibsk5g3rhm45pu>>;
+        /**
+         * Return the deposit (if any) of an asset account or a consumer reference (if any) of an
+         * account.
+         *
+         * The origin must be Signed.
+         *
+         * - `id`: The identifier of the asset for which the caller would like the deposit
+         * refunded.
+         * - `allow_burn`: If `true` then assets may be destroyed in order to complete the refund.
+         *
+         * It will fail with either [`Error::ContainsHolds`] or [`Error::ContainsFreezes`] if
+         * the asset account contains holds or freezes in place.
+         *
+         * Emits `Refunded` event when successful.
+         */
+        refund: TxDescriptor<Anonymize<I5tamv2nk8bj8o>>;
+        /**
+         * Sets the minimum balance of an asset.
+         *
+         * Only works if there aren't any accounts that are holding the asset or if
+         * the new value of `min_balance` is less than the old one.
+         *
+         * Origin must be Signed and the sender has to be the Owner of the
+         * asset `id`.
+         *
+         * - `id`: The identifier of the asset.
+         * - `min_balance`: The new value of `min_balance`.
+         *
+         * Emits `AssetMinBalanceChanged` event when successful.
+         */
+        set_min_balance: TxDescriptor<Anonymize<I8apq8e7c7qcpp>>;
+        /**
+         * Create an asset account for `who`.
+         *
+         * A deposit will be taken from the signer account.
+         *
+         * - `origin`: Must be Signed; the signer account must have sufficient funds for a deposit
+         * to be taken.
+         * - `id`: The identifier of the asset for the account to be created, the asset status must
+         * be live.
+         * - `who`: The account to be created.
+         *
+         * Emits `Touched` event when successful.
+         */
+        touch_other: TxDescriptor<Anonymize<Ie4met0joi8sv0>>;
+        /**
+         * Return the deposit (if any) of a target asset account. Useful if you are the depositor.
+         *
+         * The origin must be Signed and either the account owner, depositor, or asset `Admin`. In
+         * order to burn a non-zero balance of the asset, the caller must be the account and should
+         * use `refund`.
+         *
+         * - `id`: The identifier of the asset for the account holding a deposit.
+         * - `who`: The account to refund.
+         *
+         * It will fail with either [`Error::ContainsHolds`] or [`Error::ContainsFreezes`] if
+         * the asset account contains holds or freezes in place.
+         *
+         * Emits `Refunded` event when successful.
+         */
+        refund_other: TxDescriptor<Anonymize<Ie4met0joi8sv0>>;
+        /**
+         * Disallow further unprivileged transfers of an asset `id` to and from an account `who`.
+         *
+         * Origin must be Signed and the sender should be the Freezer of the asset `id`.
+         *
+         * - `id`: The identifier of the account's asset.
+         * - `who`: The account to be unblocked.
+         *
+         * Emits `Blocked`.
+         *
+         * Weight: `O(1)`
+         */
+        block: TxDescriptor<Anonymize<Ie4met0joi8sv0>>;
+        /**
+         * Transfer the entire transferable balance from the caller asset account.
+         *
+         * NOTE: This function only attempts to transfer _transferable_ balances. This means that
+         * any held, frozen, or minimum balance (when `keep_alive` is `true`), will not be
+         * transferred by this function. To ensure that this function results in a killed account,
+         * you might need to prepare the account by removing any reference counters, storage
+         * deposits, etc...
+         *
+         * The dispatch origin of this call must be Signed.
+         *
+         * - `id`: The identifier of the asset for the account holding a deposit.
+         * - `dest`: The recipient of the transfer.
+         * - `keep_alive`: A boolean to determine if the `transfer_all` operation should send all
+         * of the funds the asset account has, causing the sender asset account to be killed
+         * (false), or transfer everything except at least the minimum balance, which will
+         * guarantee to keep the sender asset account alive (true).
+         */
+        transfer_all: TxDescriptor<Anonymize<Id1e31ij0c35fv>>;
+        /**
+         * Sets the trusted reserve information of an asset.
+         *
+         * Origin must be the Owner of the asset `id`. The origin must conform to the configured
+         * `CreateOrigin` or be the signed `owner` configured during asset creation.
+         *
+         * - `id`: The identifier of the asset.
+         * - `reserves`: The full list of trusted reserves information.
+         *
+         * Emits `AssetMinBalanceChanged` event when successful.
+         */
+        set_reserves: TxDescriptor<Anonymize<Ibm7u0qulpnrs9>>;
+    };
+    AssetRate: {
+        /**
+         * Initialize a conversion rate to native balance for the given asset.
+         *
+         * ## Complexity
+         * - O(1)
+         */
+        create: TxDescriptor<Anonymize<I72jcvr86rnvv8>>;
+        /**
+         * Update the conversion rate to native balance for the given asset.
+         *
+         * ## Complexity
+         * - O(1)
+         */
+        update: TxDescriptor<Anonymize<I72jcvr86rnvv8>>;
+        /**
+         * Remove an existing conversion rate to native balance for the given asset.
+         *
+         * ## Complexity
+         * - O(1)
+         */
+        remove: TxDescriptor<Anonymize<I90c919drss29e>>;
+    };
     CollatorSelection: {
         /**
          * Set the list of invulnerable (fixed) collators. These collators must do some
@@ -1033,14 +1713,16 @@ type ICalls = {
     Session: {
         /**
          * Sets the session key(s) of the function caller to `keys`.
+         *
          * Allows an account to set its session key prior to becoming a validator.
          * This doesn't take effect until the next session.
          *
-         * The dispatch origin of this function must be signed.
-         *
-         * ## Complexity
-         * - `O(1)`. Actual cost depends on the number of length of `T::Keys::key_ids()` which is
-         * fixed.
+         * - `origin`: The dispatch origin of this function must be signed.
+         * - `keys`: The new session keys to set. These are the public keys of all sessions keys
+         * setup in the runtime.
+         * - `proof`: The proof that `origin` has access to the private keys of `keys`. See
+         * [`impl_opaque_keys`](sp_runtime::impl_opaque_keys) for more information about the
+         * proof format.
          */
         set_keys: TxDescriptor<Anonymize<I81vt5eq60l4b6>>;
         /**
@@ -1052,10 +1734,6 @@ type ICalls = {
          * convertible to a validator ID using the chain's typical addressing system (this usually
          * means being a controller account) or directly convertible into a validator ID (which
          * usually means being a stash account).
-         *
-         * ## Complexity
-         * - `O(1)` in number of key types. Actual cost depends on the number of length of
-         * `T::Keys::key_ids()` which is fixed.
          */
         purge_keys: TxDescriptor<undefined>;
     };
@@ -1427,7 +2105,7 @@ type ICalls = {
          * and the error of the failed call. If all were successful, then the `BatchCompleted`
          * event is deposited.
          */
-        batch: TxDescriptor<Anonymize<I8g842bm4hfl6b>>;
+        batch: TxDescriptor<Anonymize<Ifb43db7ghdq3g>>;
         /**
          * Send a call through an indexed pseudonym of the sender.
          *
@@ -1443,7 +2121,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Signed_.
          */
-        as_derivative: TxDescriptor<Anonymize<I117ttfoj41t6f>>;
+        as_derivative: TxDescriptor<Anonymize<I5451498dtvl6m>>;
         /**
          * Send a batch of dispatch calls and atomically execute them.
          * The whole transaction will rollback and fail if any of the calls failed.
@@ -1459,7 +2137,7 @@ type ICalls = {
          * ## Complexity
          * - O(C) where C is the number of calls to be batched.
          */
-        batch_all: TxDescriptor<Anonymize<I8g842bm4hfl6b>>;
+        batch_all: TxDescriptor<Anonymize<Ifb43db7ghdq3g>>;
         /**
          * Dispatches a function call with a provided origin.
          *
@@ -1468,7 +2146,7 @@ type ICalls = {
          * ## Complexity
          * - O(1).
          */
-        dispatch_as: TxDescriptor<Anonymize<Iccip33al46lki>>;
+        dispatch_as: TxDescriptor<Anonymize<Ic33hdip1fdrrm>>;
         /**
          * Send a batch of dispatch calls.
          * Unlike `batch`, it allows errors and won't interrupt.
@@ -1484,7 +2162,7 @@ type ICalls = {
          * ## Complexity
          * - O(C) where C is the number of calls to be batched.
          */
-        force_batch: TxDescriptor<Anonymize<I8g842bm4hfl6b>>;
+        force_batch: TxDescriptor<Anonymize<Ifb43db7ghdq3g>>;
         /**
          * Dispatch a function call with a specified weight.
          *
@@ -1493,7 +2171,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Root_.
          */
-        with_weight: TxDescriptor<Anonymize<I6hscbft9qasm5>>;
+        with_weight: TxDescriptor<Anonymize<I3rdohs8lqk211>>;
         /**
          * Dispatch a fallback call in the event the main call fails to execute.
          * May be called from any origin except `None`.
@@ -1519,7 +2197,7 @@ type ICalls = {
          * - Some use cases might involve submitting a `batch` type call in either main, fallback
          * or both.
          */
-        if_else: TxDescriptor<Anonymize<Ifs7g183hksr9n>>;
+        if_else: TxDescriptor<Anonymize<I1489dt4ko068o>>;
         /**
          * Dispatches a function call with a provided origin.
          *
@@ -1527,7 +2205,7 @@ type ICalls = {
          *
          * The dispatch origin for this call must be _Root_.
          */
-        dispatch_as_fallible: TxDescriptor<Anonymize<Iccip33al46lki>>;
+        dispatch_as_fallible: TxDescriptor<Anonymize<Ic33hdip1fdrrm>>;
     };
     Multisig: {
         /**
@@ -1544,12 +2222,14 @@ type ICalls = {
          * ## Complexity
          * O(Z + C) where Z is the length of the call and C its execution weight.
          */
-        as_multi_threshold_1: TxDescriptor<Anonymize<I6uuj8ujnmv2qs>>;
+        as_multi_threshold_1: TxDescriptor<Anonymize<I2gshgg4a1nr50>>;
         /**
          * Register approval for a dispatch to be made from a deterministic composite account if
          * approved by a total of `threshold - 1` of `other_signatories`.
          *
-         * If there are enough, then dispatch the call.
+         * **If the approval threshold is met (including the sender's approval), this will
+         * immediately execute the call.** This is the only way to execute a multisig call -
+         * `approve_as_multi` will never trigger execution.
          *
          * Payment: `DepositBase` will be reserved if this is the first approval, plus
          * `threshold` times `DepositFactor`. It is returned once this dispatch happens or
@@ -1565,8 +2245,9 @@ type ICalls = {
          * transaction index) of the first approval transaction.
          * - `call`: The call to be executed.
          *
-         * NOTE: Unless this is the final approval, you will generally want to use
-         * `approve_as_multi` instead, since it only requires a hash of the call.
+         * NOTE: For intermediate approvals (not the final approval), you should generally use
+         * `approve_as_multi` instead, since it only requires a hash of the call and is more
+         * efficient.
          *
          * Result is equivalent to the dispatched result if `threshold` is exactly `1`. Otherwise
          * on success, result is `Ok` and the result from the interior call, if it was executed,
@@ -1586,10 +2267,17 @@ type ICalls = {
          * - Storage: inserts one item, value size bounded by `MaxSignatories`, with a deposit
          * taken for its lifetime of `DepositBase + threshold * DepositFactor`.
          */
-        as_multi: TxDescriptor<Anonymize<I7078cl4q3emtq>>;
+        as_multi: TxDescriptor<Anonymize<I6rn1inpnn6bo4>>;
         /**
          * Register approval for a dispatch to be made from a deterministic composite account if
          * approved by a total of `threshold - 1` of `other_signatories`.
+         *
+         * **This function will NEVER execute the call, even if the approval threshold is
+         * reached.** It only registers approval. To actually execute the call, `as_multi` must
+         * be called with the full call data by any of the signatories.
+         *
+         * This function is more efficient than `as_multi` for intermediate approvals since it
+         * only requires the call hash, not the full call data.
          *
          * Payment: `DepositBase` will be reserved if this is the first approval, plus
          * `threshold` times `DepositFactor`. It is returned once this dispatch happens or
@@ -1605,7 +2293,8 @@ type ICalls = {
          * transaction index) of the first approval transaction.
          * - `call_hash`: The hash of the call to be executed.
          *
-         * NOTE: If this is the final approval, you will want to use `as_multi` instead.
+         * NOTE: To execute the call after approvals are gathered, any signatory must call
+         * `as_multi` with the full call data. This function cannot execute the call.
          *
          * ## Complexity
          * - `O(S)`.
@@ -1673,7 +2362,7 @@ type ICalls = {
          * - `force_proxy_type`: Specify the exact proxy type to be used and checked for this call.
          * - `call`: The call to be made by the `real` account.
          */
-        proxy: TxDescriptor<Anonymize<I8sfkdv0gc5fs4>>;
+        proxy: TxDescriptor<Anonymize<Icu237aa9lep48>>;
         /**
          * Register a proxy account for the sender that is able to make calls on its behalf.
          *
@@ -1802,7 +2491,7 @@ type ICalls = {
          * - `force_proxy_type`: Specify the exact proxy type to be used and checked for this call.
          * - `call`: The call to be made by the `real` account.
          */
-        proxy_announced: TxDescriptor<Anonymize<Ie9vi4re0qt30a>>;
+        proxy_announced: TxDescriptor<Anonymize<Ib6ku0ajjo6s1>>;
         /**
          * Poke / Adjust deposits made for proxies and announcements based on current values.
          * This can be used by accounts to possibly lower their locked amount.
@@ -2024,7 +2713,7 @@ type ICalls = {
          * - When combined with the suffix of the issuing authority be _less than_ the
          * `MaxUsernameLength`.
          */
-        set_username_for: TxDescriptor<Anonymize<I93hi4ed10h5sc>>;
+        set_username_for: TxDescriptor<Anonymize<Ib9nmpn9ru9aeh>>;
         /**
          * Accept a given username that an `authority` granted. The call must include the full
          * username, as in `username.suffix`.
@@ -2067,7 +2756,7 @@ type IEvent = {
         /**
          * An extrinsic failed.
          */
-        ExtrinsicFailed: PlainDescriptor<Anonymize<I6ipecmu9q19a2>>;
+        ExtrinsicFailed: PlainDescriptor<Anonymize<I9f0e9t2ao9mik>>;
         /**
          * `:code` was updated.
          */
@@ -2091,7 +2780,7 @@ type IEvent = {
         /**
          * An invalid authorized upgrade was rejected while trying to apply it.
          */
-        RejectedInvalidAuthorizedUpgrade: PlainDescriptor<Anonymize<Id8vrbnnthpb82>>;
+        RejectedInvalidAuthorizedUpgrade: PlainDescriptor<Anonymize<Ibvs7e707j8nmb>>;
     };
     ParachainSystem: {
         /**
@@ -2209,9 +2898,17 @@ type IEvent = {
          */
         Minted: PlainDescriptor<Anonymize<Id5fm4p8lj5qgi>>;
         /**
+         * Some credit was balanced and added to the TotalIssuance.
+         */
+        MintedCredit: PlainDescriptor<Anonymize<I3qt1hgg4djhgb>>;
+        /**
          * Some amount was burned from an account.
          */
         Burned: PlainDescriptor<Anonymize<Id5fm4p8lj5qgi>>;
+        /**
+         * Some debt has been dropped from the Total Issuance.
+         */
+        BurnedDebt: PlainDescriptor<Anonymize<I3qt1hgg4djhgb>>;
         /**
          * Some amount was suspended from an account (it can be restored later).
          */
@@ -2253,6 +2950,26 @@ type IEvent = {
          */
         TotalIssuanceForced: PlainDescriptor<Anonymize<I4fooe9dun9o0t>>;
         /**
+         * Some balance was placed on hold.
+         */
+        Held: PlainDescriptor<Anonymize<Ipc96b675vau1>>;
+        /**
+         * Held balance was burned from an account.
+         */
+        BurnedHeld: PlainDescriptor<Anonymize<Ipc96b675vau1>>;
+        /**
+         * A transfer of `amount` on hold from `source` to `dest` was initiated.
+         */
+        TransferOnHold: PlainDescriptor<Anonymize<Ifqi1snmg1eqha>>;
+        /**
+         * The `transferred` balance is placed on hold at the `dest` account.
+         */
+        TransferAndHold: PlainDescriptor<Anonymize<I2r55jl5mh3adj>>;
+        /**
+         * Some balance was released from hold.
+         */
+        Released: PlainDescriptor<Anonymize<Ipc96b675vau1>>;
+        /**
          * An unexpected/defensive event was triggered.
          */
         Unexpected: PlainDescriptor<Anonymize<Iph9c4rn81ub2>>;
@@ -2263,6 +2980,172 @@ type IEvent = {
          * has been paid by `who`.
          */
         TransactionFeePaid: PlainDescriptor<Anonymize<Ier2cke86dqbr2>>;
+    };
+    Assets: {
+        /**
+         * Some asset class was created.
+         */
+        Created: PlainDescriptor<Anonymize<Icqe266pmnr25o>>;
+        /**
+         * Some assets were issued.
+         */
+        Issued: PlainDescriptor<Anonymize<I5hoiph0lqphp>>;
+        /**
+         * Some assets were transferred.
+         */
+        Transferred: PlainDescriptor<Anonymize<I5k7oropl9ofc7>>;
+        /**
+         * Some assets were destroyed.
+         */
+        Burned: PlainDescriptor<Anonymize<I48vagp1omigob>>;
+        /**
+         * The management team changed.
+         */
+        TeamChanged: PlainDescriptor<Anonymize<Ib5tst4ppem1g6>>;
+        /**
+         * The owner changed.
+         */
+        OwnerChanged: PlainDescriptor<Anonymize<Ibn64edsrg3737>>;
+        /**
+         * Some account `who` was frozen.
+         */
+        Frozen: PlainDescriptor<Anonymize<I83r9d02dh47j9>>;
+        /**
+         * Some account `who` was thawed.
+         */
+        Thawed: PlainDescriptor<Anonymize<I83r9d02dh47j9>>;
+        /**
+         * Some asset `asset_id` was frozen.
+         */
+        AssetFrozen: PlainDescriptor<Anonymize<I22bm4d7re21j9>>;
+        /**
+         * Some asset `asset_id` was thawed.
+         */
+        AssetThawed: PlainDescriptor<Anonymize<I22bm4d7re21j9>>;
+        /**
+         * Accounts were destroyed for given asset.
+         */
+        AccountsDestroyed: PlainDescriptor<Anonymize<I3jnhifvaeuama>>;
+        /**
+         * Approvals were destroyed for given asset.
+         */
+        ApprovalsDestroyed: PlainDescriptor<Anonymize<I8n1gia0lo42ok>>;
+        /**
+         * An asset class is in the process of being destroyed.
+         */
+        DestructionStarted: PlainDescriptor<Anonymize<I22bm4d7re21j9>>;
+        /**
+         * An asset class was destroyed.
+         */
+        Destroyed: PlainDescriptor<Anonymize<I22bm4d7re21j9>>;
+        /**
+         * Some asset class was force-created.
+         */
+        ForceCreated: PlainDescriptor<Anonymize<Ibn64edsrg3737>>;
+        /**
+         * New metadata has been set for an asset.
+         */
+        MetadataSet: PlainDescriptor<Anonymize<I6gb0o7lqjfdjq>>;
+        /**
+         * Metadata has been cleared for an asset.
+         */
+        MetadataCleared: PlainDescriptor<Anonymize<I22bm4d7re21j9>>;
+        /**
+         * (Additional) funds have been approved for transfer to a destination account.
+         */
+        ApprovedTransfer: PlainDescriptor<Anonymize<Idh36v6iegkmpq>>;
+        /**
+         * An approval for account `delegate` was cancelled by `owner`.
+         */
+        ApprovalCancelled: PlainDescriptor<Anonymize<I27hnueutmchbe>>;
+        /**
+         * An `amount` was transferred in its entirety from `owner` to `destination` by
+         * the approved `delegate`.
+         */
+        TransferredApproved: PlainDescriptor<Anonymize<Iectm2em66uhao>>;
+        /**
+         * An asset has had its attributes changed by the `Force` origin.
+         */
+        AssetStatusChanged: PlainDescriptor<Anonymize<I22bm4d7re21j9>>;
+        /**
+         * The min_balance of an asset has been updated by the asset owner.
+         */
+        AssetMinBalanceChanged: PlainDescriptor<Anonymize<I7q57goff3j72h>>;
+        /**
+         * Some account `who` was created with a deposit from `depositor`.
+         */
+        Touched: PlainDescriptor<Anonymize<Ibe49veu9i9nro>>;
+        /**
+         * Some account `who` was blocked.
+         */
+        Blocked: PlainDescriptor<Anonymize<I83r9d02dh47j9>>;
+        /**
+         * Some assets were deposited (e.g. for transaction fees).
+         */
+        Deposited: PlainDescriptor<Anonymize<I1rnkmiu7usb82>>;
+        /**
+         * Some assets were withdrawn from the account (e.g. for transaction fees).
+         */
+        Withdrawn: PlainDescriptor<Anonymize<I1rnkmiu7usb82>>;
+        /**
+         * Reserve information was set or updated for `asset_id`.
+         */
+        ReservesUpdated: PlainDescriptor<Anonymize<Ig6jnoe1clkm7>>;
+        /**
+         * Reserve information was removed for `asset_id`.
+         */
+        ReservesRemoved: PlainDescriptor<Anonymize<I22bm4d7re21j9>>;
+        /**
+         * Some assets were issued as Credit (no owner yet).
+         */
+        IssuedCredit: PlainDescriptor<Anonymize<Ibtugueatkkr9s>>;
+        /**
+         * Some assets Credit was destroyed.
+         */
+        BurnedCredit: PlainDescriptor<Anonymize<Ibtugueatkkr9s>>;
+        /**
+         * Some assets were burned and a Debt was created.
+         */
+        IssuedDebt: PlainDescriptor<Anonymize<Ibtugueatkkr9s>>;
+        /**
+         * Some assets Debt was destroyed (and assets issued).
+         */
+        BurnedDebt: PlainDescriptor<Anonymize<Ibtugueatkkr9s>>;
+    };
+    AssetRate: {
+        /**
+        
+         */
+        AssetRateCreated: PlainDescriptor<Anonymize<I72jcvr86rnvv8>>;
+        /**
+        
+         */
+        AssetRateRemoved: PlainDescriptor<Anonymize<I90c919drss29e>>;
+        /**
+        
+         */
+        AssetRateUpdated: PlainDescriptor<Anonymize<I5k7edfft48vsq>>;
+    };
+    AssetTxPayment: {
+        /**
+         * A transaction fee `actual_fee`, of which `tip` was added to the minimum inclusion fee,
+         * has been paid by `who` in an asset `asset_id`.
+         */
+        AssetTxFeePaid: PlainDescriptor<Anonymize<Iaeqj2ebnvkjqe>>;
+    };
+    AssetsHolder: {
+        /**
+         * `who`s balance on hold was increased by `amount`.
+         */
+        Held: PlainDescriptor<Anonymize<Ien3adjd58ddhb>>;
+        /**
+         * `who`s balance on hold was decreased by `amount`.
+         */
+        Released: PlainDescriptor<Anonymize<Ien3adjd58ddhb>>;
+        /**
+         * `who`s balance on hold was burned by `amount`.
+         */
+        Burned: PlainDescriptor<Anonymize<Ien3adjd58ddhb>>;
     };
     CollatorSelection: {
         /**
@@ -2524,7 +3407,7 @@ type IEvent = {
          * Batch of dispatches did not complete fully. Index of first failing dispatch given, as
          * well as the error.
          */
-        BatchInterrupted: PlainDescriptor<Anonymize<Ib25bk6hisqrnr>>;
+        BatchInterrupted: PlainDescriptor<Anonymize<I51thp778hgdhl>>;
         /**
          * Batch of dispatches completed fully with no error.
          */
@@ -2540,11 +3423,11 @@ type IEvent = {
         /**
          * A single item within a Batch of dispatches has completed with error.
          */
-        ItemFailed: PlainDescriptor<Anonymize<Iad6h44o0b4eg2>>;
+        ItemFailed: PlainDescriptor<Anonymize<I7aclfk6cv71rt>>;
         /**
          * A call was dispatched.
          */
-        DispatchedAs: PlainDescriptor<Anonymize<Ibc3eq64fkbdod>>;
+        DispatchedAs: PlainDescriptor<Anonymize<I14js0k96vh2mo>>;
         /**
          * Main call was dispatched.
          */
@@ -2552,7 +3435,7 @@ type IEvent = {
         /**
          * The fallback call was dispatched.
          */
-        IfElseFallbackCalled: PlainDescriptor<Anonymize<I7hm3uvmtfg8j6>>;
+        IfElseFallbackCalled: PlainDescriptor<Anonymize<I3db6ooauen4be>>;
     };
     Multisig: {
         /**
@@ -2566,7 +3449,7 @@ type IEvent = {
         /**
          * A multisig operation has been executed.
          */
-        MultisigExecuted: PlainDescriptor<Anonymize<Icgqd2dg10rrnm>>;
+        MultisigExecuted: PlainDescriptor<Anonymize<I11sk1a5e75a1q>>;
         /**
          * A multisig operation has been cancelled.
          */
@@ -2580,12 +3463,12 @@ type IEvent = {
         /**
          * A proxy was executed correctly, with the given.
          */
-        ProxyExecuted: PlainDescriptor<Anonymize<Ibc3eq64fkbdod>>;
+        ProxyExecuted: PlainDescriptor<Anonymize<I14js0k96vh2mo>>;
         /**
          * A pure account has been created by new proxy with given
          * disambiguation index and proxy type.
          */
-        PureCreated: PlainDescriptor<Anonymize<I7ntcg8dtn6d9g>>;
+        PureCreated: PlainDescriptor<Anonymize<Iquobi9ukq7tb>>;
         /**
          * A pure proxy was killed by its spawner.
          */
@@ -2825,6 +3708,127 @@ type IError = {
          * The delta cannot be zero.
          */
         DeltaZero: PlainDescriptor<undefined>;
+    };
+    Assets: {
+        /**
+         * Account balance must be greater than or equal to the transfer amount.
+         */
+        BalanceLow: PlainDescriptor<undefined>;
+        /**
+         * The account to alter does not exist.
+         */
+        NoAccount: PlainDescriptor<undefined>;
+        /**
+         * The signing account has no permission to do the operation.
+         */
+        NoPermission: PlainDescriptor<undefined>;
+        /**
+         * The given asset ID is unknown.
+         */
+        Unknown: PlainDescriptor<undefined>;
+        /**
+         * The origin account is frozen.
+         */
+        Frozen: PlainDescriptor<undefined>;
+        /**
+         * The asset ID is already taken.
+         */
+        InUse: PlainDescriptor<undefined>;
+        /**
+         * Invalid witness data given.
+         */
+        BadWitness: PlainDescriptor<undefined>;
+        /**
+         * Minimum balance should be non-zero.
+         */
+        MinBalanceZero: PlainDescriptor<undefined>;
+        /**
+         * Unable to increment the consumer reference counters on the account. Either no provider
+         * reference exists to allow a non-zero balance of a non-self-sufficient asset, or one
+         * fewer then the maximum number of consumers has been reached.
+         */
+        UnavailableConsumer: PlainDescriptor<undefined>;
+        /**
+         * Invalid metadata given.
+         */
+        BadMetadata: PlainDescriptor<undefined>;
+        /**
+         * No approval exists that would allow the transfer.
+         */
+        Unapproved: PlainDescriptor<undefined>;
+        /**
+         * The source account would not survive the transfer and it needs to stay alive.
+         */
+        WouldDie: PlainDescriptor<undefined>;
+        /**
+         * The asset-account already exists.
+         */
+        AlreadyExists: PlainDescriptor<undefined>;
+        /**
+         * The asset-account doesn't have an associated deposit.
+         */
+        NoDeposit: PlainDescriptor<undefined>;
+        /**
+         * The operation would result in funds being burned.
+         */
+        WouldBurn: PlainDescriptor<undefined>;
+        /**
+         * The asset is a live asset and is actively being used. Usually emit for operations such
+         * as `start_destroy` which require the asset to be in a destroying state.
+         */
+        LiveAsset: PlainDescriptor<undefined>;
+        /**
+         * The asset is not live, and likely being destroyed.
+         */
+        AssetNotLive: PlainDescriptor<undefined>;
+        /**
+         * The asset status is not the expected status.
+         */
+        IncorrectStatus: PlainDescriptor<undefined>;
+        /**
+         * The asset should be frozen before the given operation.
+         */
+        NotFrozen: PlainDescriptor<undefined>;
+        /**
+         * Callback action resulted in error
+         */
+        CallbackFailed: PlainDescriptor<undefined>;
+        /**
+         * The asset ID must be equal to the [`NextAssetId`].
+         */
+        BadAssetId: PlainDescriptor<undefined>;
+        /**
+         * The asset cannot be destroyed because some accounts for this asset contain freezes.
+         */
+        ContainsFreezes: PlainDescriptor<undefined>;
+        /**
+         * The asset cannot be destroyed because some accounts for this asset contain holds.
+         */
+        ContainsHolds: PlainDescriptor<undefined>;
+        /**
+         * Tried setting too many reserves.
+         */
+        TooManyReserves: PlainDescriptor<undefined>;
+    };
+    AssetRate: {
+        /**
+         * The given asset ID is unknown.
+         */
+        UnknownAssetKind: PlainDescriptor<undefined>;
+        /**
+         * The given asset ID already has an assigned conversion rate and cannot be re-created.
+         */
+        AlreadyExists: PlainDescriptor<undefined>;
+        /**
+         * Overflow ocurred when calculating the inverse rate.
+         */
+        Overflow: PlainDescriptor<undefined>;
+    };
+    AssetsHolder: {
+        /**
+         * Number of holds on an account would exceed the count of `RuntimeHoldReason`.
+         */
+        TooManyHolds: PlainDescriptor<undefined>;
     };
     CollatorSelection: {
         /**
@@ -3334,7 +4338,7 @@ type IConstants = {
         /**
          * The maximum length of a block (in bytes).
          */
-        BlockLength: PlainDescriptor<Anonymize<If15el53dd76v9>>;
+        BlockLength: PlainDescriptor<Anonymize<Ibtil0ss5munbk>>;
         /**
          * Maximum number of block number to block hash mappings to keep (oldest pruned first).
          */
@@ -3445,6 +4449,40 @@ type IConstants = {
          */
         OperationalFeeMultiplier: PlainDescriptor<number>;
     };
+    Assets: {
+        /**
+         * Max number of items to destroy per `destroy_accounts` and `destroy_approvals` call.
+         *
+         * Must be configured to result in a weight that makes each call fit in a block.
+         */
+        RemoveItemsLimit: PlainDescriptor<number>;
+        /**
+         * The basic amount of funds that must be reserved for an asset.
+         */
+        AssetDeposit: PlainDescriptor<bigint>;
+        /**
+         * The amount of funds that must be reserved for a non-provider asset account to be
+         * maintained.
+         */
+        AssetAccountDeposit: PlainDescriptor<bigint>;
+        /**
+         * The basic amount of funds that must be reserved when adding metadata to your asset.
+         */
+        MetadataDepositBase: PlainDescriptor<bigint>;
+        /**
+         * The additional funds that must be reserved for the number of bytes you store in your
+         * metadata.
+         */
+        MetadataDepositPerByte: PlainDescriptor<bigint>;
+        /**
+         * The amount of funds that must be reserved when creating a new approval.
+         */
+        ApprovalDeposit: PlainDescriptor<bigint>;
+        /**
+         * The maximum length of a name or symbol stored on-chain.
+         */
+        StringLimit: PlainDescriptor<number>;
+    };
     CollatorSelection: {
         /**
          * Account Identifier from which the internal Pot is generated.
@@ -3484,7 +4522,8 @@ type IConstants = {
     Aura: {
         /**
          * The slot duration Aura should run with, expressed in milliseconds.
-         * The effective value of this type should not change while the chain is running.
+         *
+         * The effective value of this type can be changed with a runtime upgrade.
          *
          * For backwards compatibility either use [`MinimumPeriodTimesTwo`] or a const.
          */
@@ -3686,11 +4725,52 @@ type IConstants = {
     };
 };
 type IViewFns = {
+    MultiBlockMigrations: {
+        /**
+         * Returns the ongoing status of migrations.
+         */
+        ongoing_status: RuntimeDescriptor<[], Anonymize<I9vodnt2k1kha>>;
+        /**
+         * Returns progress information about the current migration, if any.
+         *
+         * This function provides detailed information about the current migration's progress,
+         * including the number of steps completed and the maximum allowed steps.
+         */
+        progress: RuntimeDescriptor<[], Anonymize<I4ao1le27fcisl>>;
+        /**
+         * Returns the storage prefixes affected by the current migration.
+         *
+         * Can be empty if the migration does not know or there are no prefixes.
+         */
+        affected_prefixes: RuntimeDescriptor<[], Anonymize<Itom7fk49o0c9>>;
+        /**
+         * Returns the comprehensive status of multi-block migrations.
+         */
+        status: RuntimeDescriptor<[], Anonymize<Ih4ursllob8fg>>;
+    };
+    Assets: {
+        /**
+         * Provide the asset details for asset `id`.
+         */
+        asset_details: RuntimeDescriptor<[id: Anonymize<If9iqq7i64mur8>], Anonymize<I6052turo9tavh>>;
+        /**
+         * Provide the balance of `who` for asset `id`.
+         */
+        balance_of: RuntimeDescriptor<[who: SS58String, id: Anonymize<If9iqq7i64mur8>], Anonymize<I35p85j063s0il>>;
+        /**
+         * Provide the configured metadata for asset `id`.
+         */
+        get_metadata: RuntimeDescriptor<[id: Anonymize<If9iqq7i64mur8>], Anonymize<Iemk0s5gdc9ruv>>;
+        /**
+         * Provide the configured reserves data for asset `id`.
+         */
+        get_reserves_data: RuntimeDescriptor<[id: Anonymize<If9iqq7i64mur8>], Anonymize<I35l6p7kq19mr0>>;
+    };
     Proxy: {
         /**
          * Check if a `RuntimeCall` is allowed for a given `ProxyType`.
          */
-        check_permissions: RuntimeDescriptor<[call: Anonymize<Ibc5lpi2vd4hkc>, proxy_type: Anonymize<Ieuemnllefri8h>], boolean>;
+        check_permissions: RuntimeDescriptor<[call: Anonymize<I8kpscpnfj8ea9>, proxy_type: Anonymize<Ieuemnllefri8h>], boolean>;
         /**
          * Check if one `ProxyType` is a subset of another `ProxyType`.
          */
@@ -3804,7 +4884,7 @@ type IRuntimeCalls = {
          * Returns an inclusion outcome which specifies if this extrinsic is included in
          * this block or not.
          */
-        apply_extrinsic: RuntimeDescriptor<[extrinsic: Binary], Anonymize<Icbehqsbn6kpnk>>;
+        apply_extrinsic: RuntimeDescriptor<[extrinsic: Binary], Anonymize<I4kraub1pfqlrf>>;
         /**
          * Finish the current block.
          */
@@ -3857,7 +4937,7 @@ type IRuntimeCalls = {
          *
          * Returns the concatenated SCALE encoded public keys.
          */
-        generate_session_keys: RuntimeDescriptor<[seed: Anonymize<Iabpgqcjikia83>], Binary>;
+        generate_session_keys: RuntimeDescriptor<[owner: Binary, seed: Anonymize<Iabpgqcjikia83>], Anonymize<I4ph3d1eepnmr1>>;
         /**
          * Decode the given public session keys.
          *
@@ -3911,11 +4991,11 @@ type IRuntimeCalls = {
         /**
          * Query information of a dispatch class, weight, and fee of a given encoded `Call`.
          */
-        query_call_info: RuntimeDescriptor<[call: Anonymize<Ibc5lpi2vd4hkc>, len: number], Anonymize<I6spmpef2c7svf>>;
+        query_call_info: RuntimeDescriptor<[call: Anonymize<I8kpscpnfj8ea9>, len: number], Anonymize<I6spmpef2c7svf>>;
         /**
          * Query fee details of a given encoded `Call`.
          */
-        query_call_fee_details: RuntimeDescriptor<[call: Anonymize<Ibc5lpi2vd4hkc>, len: number], Anonymize<Iei2mvq0mjvt81>>;
+        query_call_fee_details: RuntimeDescriptor<[call: Anonymize<I8kpscpnfj8ea9>, len: number], Anonymize<Iei2mvq0mjvt81>>;
         /**
          * Query the output of the current `WeightToFee` given some input.
          */
@@ -3965,6 +5045,8 @@ type IRuntimeCalls = {
          */
         query_weight_to_asset_fee: RuntimeDescriptor<[weight: Anonymize<I4q39t5hn830vp>, asset: XcmVersionedAssetId], Anonymize<I7ocn4njqde3v5>>;
         /**
+         * Query delivery fees V2.
+         *
          * Get delivery fees for sending a specific `message` to a `destination`.
          * These always come in a specific asset, defined by the chain.
          *
@@ -3974,7 +5056,7 @@ type IRuntimeCalls = {
          * * `destination`: The destination to send the message to. Different destinations may use
          * different senders that charge different fees.
          */
-        query_delivery_fees: RuntimeDescriptor<[destination: XcmVersionedLocation, message: XcmVersionedXcm], Anonymize<Iek7ha36da9mf5>>;
+        query_delivery_fees: RuntimeDescriptor<[destination: XcmVersionedLocation, message: XcmVersionedXcm, asset_id: XcmVersionedAssetId], Anonymize<Iek7ha36da9mf5>>;
     };
     /**
      * API for dry-running extrinsics and XCM programs to get the programs that need to be passed to the fees API.
@@ -3991,11 +5073,11 @@ type IRuntimeCalls = {
         /**
          * Dry run call V2.
          */
-        dry_run_call: RuntimeDescriptor<[origin: Anonymize<I9g869l9vmunib>, call: Anonymize<Ibc5lpi2vd4hkc>, result_xcms_version: number], Anonymize<Ibloopcnrra5ut>>;
+        dry_run_call: RuntimeDescriptor<[origin: Anonymize<I9g869l9vmunib>, call: Anonymize<I8kpscpnfj8ea9>, result_xcms_version: number], Anonymize<I5o9gllk91qjfe>>;
         /**
          * Dry run XCM program
          */
-        dry_run_xcm: RuntimeDescriptor<[origin_location: XcmVersionedLocation, xcm: XcmVersionedXcm], Anonymize<I5nrq1kedrdt2m>>;
+        dry_run_xcm: RuntimeDescriptor<[origin_location: XcmVersionedLocation, xcm: XcmVersionedXcm], Anonymize<I5gi8ihce46e67>>;
     };
     /**
      * API for useful conversions between XCM `Location` and `AccountId`.
@@ -4108,8 +5190,9 @@ type IRuntimeCalls = {
         preset_names: RuntimeDescriptor<[], Anonymize<I6lr8sctk0bi4e>>;
     };
 };
-type IAsset = PlainDescriptor<void>;
-export type DotPeopleDispatchError = Anonymize<If8ol865vkvlvc>;
+export type DotPeopleDispatchError = Anonymize<I3i0q0iii2v8bq>;
+type IAsset = PlainDescriptor<Anonymize<If9iqq7i64mur8>>;
+export type DotPeopleExtensions = {};
 type PalletsTypedef = {
     __storage: IStorage;
     __tx: ICalls;
@@ -4125,6 +5208,7 @@ export type DotPeople = {
     } & Promise<any>;
     metadataTypes: Promise<Uint8Array>;
     asset: IAsset;
+    extensions: DotPeopleExtensions;
     getMetadata: () => Promise<Uint8Array>;
     genesis: string | undefined;
 };
@@ -4137,20 +5221,144 @@ export type DotPeopleEvents = EventsFromPalletsDef<PalletsTypedef>;
 export type DotPeopleErrors = ErrorsFromPalletsDef<PalletsTypedef>;
 export type DotPeopleConstants = ConstFromPalletsDef<PalletsTypedef>;
 export type DotPeopleViewFns = ViewFnsFromPalletsDef<PalletsTypedef>;
-export type DotPeopleCallData = Anonymize<Ibc5lpi2vd4hkc> & {
+export type DotPeopleCallData = Anonymize<I8kpscpnfj8ea9> & {
     value: {
         type: string;
     };
 };
-export type DotPeopleWhitelistEntry = PalletKey | ApiKey<IRuntimeCalls> | `query.${NestedKey<PalletsTypedef['__storage']>}` | `tx.${NestedKey<PalletsTypedef['__tx']>}` | `event.${NestedKey<PalletsTypedef['__event']>}` | `error.${NestedKey<PalletsTypedef['__error']>}` | `const.${NestedKey<PalletsTypedef['__const']>}` | `view.${NestedKey<PalletsTypedef['__view']>}`;
-type PalletKey = `*.${keyof (IStorage & ICalls & IEvent & IError & IConstants & IRuntimeCalls & IViewFns)}`;
-type NestedKey<D extends Record<string, Record<string, any>>> = "*" | {
-    [P in keyof D & string]: `${P}.*` | {
-        [N in keyof D[P] & string]: `${P}.${N}`;
-    }[keyof D[P] & string];
-}[keyof D & string];
-type ApiKey<D extends Record<string, Record<string, any>>> = "api.*" | {
-    [P in keyof D & string]: `api.${P}.*` | {
-        [N in keyof D[P] & string]: `api.${P}.${N}`;
-    }[keyof D[P] & string];
+type AllInteractions = {
+    storage: {
+        System: ['Account', 'ExtrinsicCount', 'InherentsApplied', 'BlockWeight', 'BlockSize', 'BlockHash', 'ExtrinsicData', 'Number', 'ParentHash', 'Digest', 'Events', 'EventCount', 'EventTopics', 'LastRuntimeUpgrade', 'BlocksTillUpgrade', 'UpgradedToU32RefCount', 'UpgradedToTripleRefCount', 'ExecutionPhase', 'AuthorizedUpgrade', 'ExtrinsicWeightReclaimed'];
+        ParachainSystem: ['BlockWeightMode', 'PreviousCoreCount', 'UnincludedSegment', 'AggregatedUnincludedSegment', 'PendingValidationCode', 'NewValidationCode', 'ValidationData', 'DidSetValidationCode', 'LastRelayChainBlockNumber', 'UpgradeRestrictionSignal', 'UpgradeGoAhead', 'RelayStateProof', 'RelevantMessagingState', 'HostConfiguration', 'LastDmqMqcHead', 'LastHrmpMqcHeads', 'ProcessedDownwardMessages', 'LastProcessedDownwardMessage', 'HrmpWatermark', 'LastProcessedHrmpMessage', 'HrmpOutboundMessages', 'UpwardMessages', 'PendingUpwardMessages', 'PendingUpwardSignals', 'UpwardDeliveryFeeFactor', 'AnnouncedHrmpMessagesPerCandidate', 'ReservedXcmpWeightOverride', 'ReservedDmpWeightOverride', 'CustomValidationHeadData', 'PoVMessagesTracker'];
+        Timestamp: ['Now', 'DidUpdate'];
+        ParachainInfo: ['ParachainId'];
+        MultiBlockMigrations: ['Cursor', 'Historic'];
+        Balances: ['TotalIssuance', 'InactiveIssuance', 'Account', 'Locks', 'Reserves', 'Holds', 'Freezes'];
+        TransactionPayment: ['NextFeeMultiplier', 'StorageVersion', 'TxPaymentCredit'];
+        Assets: ['Asset', 'Account', 'Approvals', 'Metadata', 'Reserves', 'NextAssetId'];
+        AssetRate: ['ConversionRateToNative'];
+        AssetsHolder: ['Holds', 'BalancesOnHold'];
+        Authorship: ['Author'];
+        CollatorSelection: ['Invulnerables', 'CandidateList', 'LastAuthoredBlock', 'DesiredCandidates', 'CandidacyBond'];
+        Session: ['Validators', 'CurrentIndex', 'QueuedChanged', 'QueuedKeys', 'DisabledValidators', 'NextKeys', 'KeyOwner', 'ExternallySetKeys'];
+        Aura: ['Authorities', 'CurrentSlot'];
+        AuraExt: ['Authorities', 'RelaySlotInfo'];
+        XcmpQueue: ['InboundXcmpSuspended', 'OutboundXcmpStatus', 'OutboundXcmpMessages', 'SignalMessages', 'QueueConfig', 'QueueSuspended', 'DeliveryFeeFactor'];
+        PolkadotXcm: ['QueryCounter', 'Queries', 'AssetTraps', 'SafeXcmVersion', 'SupportedVersion', 'VersionNotifiers', 'VersionNotifyTargets', 'VersionDiscoveryQueue', 'CurrentMigration', 'RemoteLockedFungibles', 'LockedFungibles', 'XcmExecutionSuspended', 'ShouldRecordXcm', 'RecordedXcm', 'AuthorizedAliases'];
+        MessageQueue: ['BookStateFor', 'ServiceHead', 'Pages'];
+        Multisig: ['Multisigs'];
+        Proxy: ['Proxies', 'Announcements'];
+        Identity: ['IdentityOf', 'UsernameOf', 'SuperOf', 'SubsOf', 'Registrars', 'AuthorityOf', 'UsernameInfoOf', 'PendingUsernames', 'UnbindingUsernames'];
+    };
+    tx: {
+        System: ['remark', 'set_heap_pages', 'set_code', 'set_code_without_checks', 'set_storage', 'kill_storage', 'kill_prefix', 'remark_with_event', 'authorize_upgrade', 'authorize_upgrade_without_checks', 'apply_authorized_upgrade'];
+        ParachainSystem: ['set_validation_data', 'sudo_send_upward_message'];
+        Timestamp: ['set'];
+        MultiBlockMigrations: ['force_set_cursor', 'force_set_active_cursor', 'force_onboard_mbms', 'clear_historic'];
+        Balances: ['transfer_allow_death', 'force_transfer', 'transfer_keep_alive', 'transfer_all', 'force_unreserve', 'upgrade_accounts', 'force_set_balance', 'force_adjust_total_issuance', 'burn'];
+        Assets: ['create', 'force_create', 'start_destroy', 'destroy_accounts', 'destroy_approvals', 'finish_destroy', 'mint', 'burn', 'transfer', 'transfer_keep_alive', 'force_transfer', 'freeze', 'thaw', 'freeze_asset', 'thaw_asset', 'transfer_ownership', 'set_team', 'set_metadata', 'clear_metadata', 'force_set_metadata', 'force_clear_metadata', 'force_asset_status', 'approve_transfer', 'cancel_approval', 'force_cancel_approval', 'transfer_approved', 'touch', 'refund', 'set_min_balance', 'touch_other', 'refund_other', 'block', 'transfer_all', 'set_reserves'];
+        AssetRate: ['create', 'update', 'remove'];
+        CollatorSelection: ['set_invulnerables', 'set_desired_candidates', 'set_candidacy_bond', 'register_as_candidate', 'leave_intent', 'add_invulnerable', 'remove_invulnerable', 'update_bond', 'take_candidate_slot'];
+        Session: ['set_keys', 'purge_keys'];
+        XcmpQueue: ['suspend_xcm_execution', 'resume_xcm_execution', 'update_suspend_threshold', 'update_drop_threshold', 'update_resume_threshold'];
+        PolkadotXcm: ['send', 'teleport_assets', 'reserve_transfer_assets', 'execute', 'force_xcm_version', 'force_default_xcm_version', 'force_subscribe_version_notify', 'force_unsubscribe_version_notify', 'limited_reserve_transfer_assets', 'limited_teleport_assets', 'force_suspension', 'transfer_assets', 'claim_assets', 'transfer_assets_using_type_and_then', 'add_authorized_alias', 'remove_authorized_alias', 'remove_all_authorized_aliases'];
+        MessageQueue: ['reap_page', 'execute_overweight'];
+        Utility: ['batch', 'as_derivative', 'batch_all', 'dispatch_as', 'force_batch', 'with_weight', 'if_else', 'dispatch_as_fallible'];
+        Multisig: ['as_multi_threshold_1', 'as_multi', 'approve_as_multi', 'cancel_as_multi', 'poke_deposit'];
+        Proxy: ['proxy', 'add_proxy', 'remove_proxy', 'remove_proxies', 'create_pure', 'kill_pure', 'announce', 'remove_announcement', 'reject_announcement', 'proxy_announced', 'poke_deposit'];
+        Identity: ['add_registrar', 'set_identity', 'set_subs', 'clear_identity', 'request_judgement', 'cancel_request', 'set_fee', 'set_account_id', 'set_fields', 'provide_judgement', 'kill_identity', 'add_sub', 'rename_sub', 'remove_sub', 'quit_sub', 'add_username_authority', 'remove_username_authority', 'set_username_for', 'accept_username', 'remove_expired_approval', 'set_primary_username', 'unbind_username', 'remove_username', 'kill_username'];
+    };
+    events: {
+        System: ['ExtrinsicSuccess', 'ExtrinsicFailed', 'CodeUpdated', 'NewAccount', 'KilledAccount', 'Remarked', 'UpgradeAuthorized', 'RejectedInvalidAuthorizedUpgrade'];
+        ParachainSystem: ['ValidationFunctionStored', 'ValidationFunctionApplied', 'ValidationFunctionDiscarded', 'DownwardMessagesReceived', 'DownwardMessagesProcessed', 'UpwardMessageSent'];
+        MultiBlockMigrations: ['UpgradeStarted', 'UpgradeCompleted', 'UpgradeFailed', 'MigrationSkipped', 'MigrationAdvanced', 'MigrationCompleted', 'MigrationFailed', 'HistoricCleared'];
+        Balances: ['Endowed', 'DustLost', 'Transfer', 'BalanceSet', 'Reserved', 'Unreserved', 'ReserveRepatriated', 'Deposit', 'Withdraw', 'Slashed', 'Minted', 'MintedCredit', 'Burned', 'BurnedDebt', 'Suspended', 'Restored', 'Upgraded', 'Issued', 'Rescinded', 'Locked', 'Unlocked', 'Frozen', 'Thawed', 'TotalIssuanceForced', 'Held', 'BurnedHeld', 'TransferOnHold', 'TransferAndHold', 'Released', 'Unexpected'];
+        TransactionPayment: ['TransactionFeePaid'];
+        Assets: ['Created', 'Issued', 'Transferred', 'Burned', 'TeamChanged', 'OwnerChanged', 'Frozen', 'Thawed', 'AssetFrozen', 'AssetThawed', 'AccountsDestroyed', 'ApprovalsDestroyed', 'DestructionStarted', 'Destroyed', 'ForceCreated', 'MetadataSet', 'MetadataCleared', 'ApprovedTransfer', 'ApprovalCancelled', 'TransferredApproved', 'AssetStatusChanged', 'AssetMinBalanceChanged', 'Touched', 'Blocked', 'Deposited', 'Withdrawn', 'ReservesUpdated', 'ReservesRemoved', 'IssuedCredit', 'BurnedCredit', 'IssuedDebt', 'BurnedDebt'];
+        AssetRate: ['AssetRateCreated', 'AssetRateRemoved', 'AssetRateUpdated'];
+        AssetTxPayment: ['AssetTxFeePaid'];
+        AssetsHolder: ['Held', 'Released', 'Burned'];
+        CollatorSelection: ['NewInvulnerables', 'InvulnerableAdded', 'InvulnerableRemoved', 'NewDesiredCandidates', 'NewCandidacyBond', 'CandidateAdded', 'CandidateBondUpdated', 'CandidateRemoved', 'CandidateReplaced', 'InvalidInvulnerableSkipped'];
+        Session: ['NewSession', 'NewQueued', 'ValidatorDisabled', 'ValidatorReenabled'];
+        XcmpQueue: ['XcmpMessageSent'];
+        PolkadotXcm: ['Attempted', 'Sent', 'SendFailed', 'ProcessXcmError', 'UnexpectedResponse', 'ResponseReady', 'Notified', 'NotifyOverweight', 'NotifyDispatchError', 'NotifyDecodeFailed', 'InvalidResponder', 'InvalidResponderVersion', 'ResponseTaken', 'AssetsTrapped', 'VersionChangeNotified', 'SupportedVersionChanged', 'NotifyTargetSendFail', 'NotifyTargetMigrationFail', 'InvalidQuerierVersion', 'InvalidQuerier', 'VersionNotifyStarted', 'VersionNotifyRequested', 'VersionNotifyUnrequested', 'FeesPaid', 'AssetsClaimed', 'VersionMigrationFinished', 'AliasAuthorized', 'AliasAuthorizationRemoved', 'AliasesAuthorizationsRemoved'];
+        CumulusXcm: ['InvalidFormat', 'UnsupportedVersion', 'ExecutedDownward'];
+        MessageQueue: ['ProcessingFailed', 'Processed', 'OverweightEnqueued', 'PageReaped'];
+        Utility: ['BatchInterrupted', 'BatchCompleted', 'BatchCompletedWithErrors', 'ItemCompleted', 'ItemFailed', 'DispatchedAs', 'IfElseMainSuccess', 'IfElseFallbackCalled'];
+        Multisig: ['NewMultisig', 'MultisigApproval', 'MultisigExecuted', 'MultisigCancelled', 'DepositPoked'];
+        Proxy: ['ProxyExecuted', 'PureCreated', 'PureKilled', 'Announced', 'ProxyAdded', 'ProxyRemoved', 'DepositPoked'];
+        Identity: ['IdentitySet', 'IdentityCleared', 'IdentityKilled', 'JudgementRequested', 'JudgementUnrequested', 'JudgementGiven', 'RegistrarAdded', 'SubIdentityAdded', 'SubIdentitiesSet', 'SubIdentityRenamed', 'SubIdentityRemoved', 'SubIdentityRevoked', 'AuthorityAdded', 'AuthorityRemoved', 'UsernameSet', 'UsernameQueued', 'PreapprovalExpired', 'PrimaryUsernameSet', 'DanglingUsernameRemoved', 'UsernameUnbound', 'UsernameRemoved', 'UsernameKilled'];
+    };
+    errors: {
+        System: ['InvalidSpecName', 'SpecVersionNeedsToIncrease', 'FailedToExtractRuntimeVersion', 'NonDefaultComposite', 'NonZeroRefCount', 'CallFiltered', 'MultiBlockMigrationsOngoing', 'NothingAuthorized', 'Unauthorized'];
+        ParachainSystem: ['OverlappingUpgrades', 'ProhibitedByPolkadot', 'TooBig', 'ValidationDataNotAvailable', 'HostConfigurationNotAvailable', 'NotScheduled'];
+        MultiBlockMigrations: ['Ongoing'];
+        Balances: ['VestingBalance', 'LiquidityRestrictions', 'InsufficientBalance', 'ExistentialDeposit', 'Expendability', 'ExistingVestingSchedule', 'DeadAccount', 'TooManyReserves', 'TooManyHolds', 'TooManyFreezes', 'IssuanceDeactivated', 'DeltaZero'];
+        Assets: ['BalanceLow', 'NoAccount', 'NoPermission', 'Unknown', 'Frozen', 'InUse', 'BadWitness', 'MinBalanceZero', 'UnavailableConsumer', 'BadMetadata', 'Unapproved', 'WouldDie', 'AlreadyExists', 'NoDeposit', 'WouldBurn', 'LiveAsset', 'AssetNotLive', 'IncorrectStatus', 'NotFrozen', 'CallbackFailed', 'BadAssetId', 'ContainsFreezes', 'ContainsHolds', 'TooManyReserves'];
+        AssetRate: ['UnknownAssetKind', 'AlreadyExists', 'Overflow'];
+        AssetsHolder: ['TooManyHolds'];
+        CollatorSelection: ['TooManyCandidates', 'TooFewEligibleCollators', 'AlreadyCandidate', 'NotCandidate', 'TooManyInvulnerables', 'AlreadyInvulnerable', 'NotInvulnerable', 'NoAssociatedValidatorId', 'ValidatorNotRegistered', 'InsertToCandidateListFailed', 'RemoveFromCandidateListFailed', 'DepositTooLow', 'UpdateCandidateListFailed', 'InsufficientBond', 'TargetIsNotCandidate', 'IdenticalDeposit', 'InvalidUnreserve'];
+        Session: ['InvalidProof', 'NoAssociatedValidatorId', 'DuplicatedKey', 'NoKeys', 'NoAccount'];
+        XcmpQueue: ['BadQueueConfig', 'AlreadySuspended', 'AlreadyResumed', 'TooManyActiveOutboundChannels', 'TooBig'];
+        PolkadotXcm: ['Unreachable', 'SendFailure', 'Filtered', 'UnweighableMessage', 'DestinationNotInvertible', 'Empty', 'CannotReanchor', 'TooManyAssets', 'InvalidOrigin', 'BadVersion', 'BadLocation', 'NoSubscription', 'AlreadySubscribed', 'CannotCheckOutTeleport', 'LowBalance', 'TooManyLocks', 'AccountNotSovereign', 'FeesNotMet', 'LockNotFound', 'InUse', 'InvalidAssetUnknownReserve', 'InvalidAssetUnsupportedReserve', 'TooManyReserves', 'LocalExecutionIncomplete', 'TooManyAuthorizedAliases', 'ExpiresInPast', 'AliasNotFound', 'LocalExecutionIncompleteWithError'];
+        MessageQueue: ['NotReapable', 'NoPage', 'NoMessage', 'AlreadyProcessed', 'Queued', 'InsufficientWeight', 'TemporarilyUnprocessable', 'QueuePaused', 'RecursiveDisallowed'];
+        Utility: ['TooManyCalls'];
+        Multisig: ['MinimumThreshold', 'AlreadyApproved', 'NoApprovalsNeeded', 'TooFewSignatories', 'TooManySignatories', 'SignatoriesOutOfOrder', 'SenderInSignatories', 'NotFound', 'NotOwner', 'NoTimepoint', 'WrongTimepoint', 'UnexpectedTimepoint', 'MaxWeightTooLow', 'AlreadyStored'];
+        Proxy: ['TooMany', 'NotFound', 'NotProxy', 'Unproxyable', 'Duplicate', 'NoPermission', 'Unannounced', 'NoSelfProxy'];
+        Identity: ['TooManySubAccounts', 'NotFound', 'NotNamed', 'EmptyIndex', 'FeeChanged', 'NoIdentity', 'StickyJudgement', 'JudgementGiven', 'InvalidJudgement', 'InvalidIndex', 'InvalidTarget', 'TooManyRegistrars', 'AlreadyClaimed', 'NotSub', 'NotOwned', 'JudgementForDifferentIdentity', 'JudgementPaymentFailed', 'InvalidSuffix', 'NotUsernameAuthority', 'NoAllocation', 'InvalidSignature', 'RequiresSignature', 'InvalidUsername', 'UsernameTaken', 'NoUsername', 'NotExpired', 'TooEarly', 'NotUnbinding', 'AlreadyUnbinding', 'InsufficientPrivileges'];
+    };
+    constants: {
+        System: ['BlockWeights', 'BlockLength', 'BlockHashCount', 'DbWeight', 'Version', 'SS58Prefix'];
+        ParachainSystem: ['SelfParaId'];
+        Timestamp: ['MinimumPeriod'];
+        MultiBlockMigrations: ['CursorMaxLen', 'IdentifierMaxLen'];
+        Balances: ['ExistentialDeposit', 'MaxLocks', 'MaxReserves', 'MaxFreezes'];
+        TransactionPayment: ['OperationalFeeMultiplier'];
+        Assets: ['RemoveItemsLimit', 'AssetDeposit', 'AssetAccountDeposit', 'MetadataDepositBase', 'MetadataDepositPerByte', 'ApprovalDeposit', 'StringLimit'];
+        CollatorSelection: ['PotId', 'MaxCandidates', 'MinEligibleCollators', 'MaxInvulnerables', 'KickThreshold', 'pot_account'];
+        Session: ['KeyDeposit'];
+        Aura: ['SlotDuration'];
+        XcmpQueue: ['MaxInboundSuspended', 'MaxActiveOutboundChannels', 'MaxPageSize'];
+        PolkadotXcm: ['UniversalLocation', 'AdvertisedXcmVersion', 'MaxLockers', 'MaxRemoteLockConsumers'];
+        MessageQueue: ['HeapSize', 'MaxStale', 'ServiceWeight', 'IdleMaxServiceWeight'];
+        Utility: ['batched_calls_limit'];
+        Multisig: ['DepositBase', 'DepositFactor', 'MaxSignatories'];
+        Proxy: ['ProxyDepositBase', 'ProxyDepositFactor', 'MaxProxies', 'MaxPending', 'AnnouncementDepositBase', 'AnnouncementDepositFactor'];
+        Identity: ['BasicDeposit', 'ByteDeposit', 'UsernameDeposit', 'SubAccountDeposit', 'MaxSubAccounts', 'MaxRegistrars', 'PendingUsernameExpiration', 'UsernameGracePeriod', 'MaxSuffixLength', 'MaxUsernameLength'];
+    };
+    viewFns: {
+        MultiBlockMigrations: ['ongoing_status', 'progress', 'affected_prefixes', 'status'];
+        Assets: ['asset_details', 'balance_of', 'get_metadata', 'get_reserves_data'];
+        Proxy: ['check_permissions', 'is_superset'];
+    };
+    apis: {
+        AuraApi: ['slot_duration', 'authorities'];
+        RelayParentOffsetApi: ['relay_parent_offset'];
+        AuraUnincludedSegmentApi: ['can_build_upon'];
+        Core: ['version', 'execute_block', 'initialize_block'];
+        Metadata: ['metadata', 'metadata_at_version', 'metadata_versions'];
+        BlockBuilder: ['apply_extrinsic', 'finalize_block', 'inherent_extrinsics', 'check_inherents'];
+        TaggedTransactionQueue: ['validate_transaction'];
+        OffchainWorkerApi: ['offchain_worker'];
+        SessionKeys: ['generate_session_keys', 'decode_session_keys'];
+        RuntimeViewFunction: ['execute_view_function'];
+        AccountNonceApi: ['account_nonce'];
+        TransactionPaymentApi: ['query_info', 'query_fee_details', 'query_weight_to_fee', 'query_length_to_fee'];
+        TransactionPaymentCallApi: ['query_call_info', 'query_call_fee_details', 'query_weight_to_fee', 'query_length_to_fee'];
+        XcmPaymentApi: ['query_acceptable_payment_assets', 'query_xcm_weight', 'query_weight_to_asset_fee', 'query_delivery_fees'];
+        DryRunApi: ['dry_run_call', 'dry_run_xcm'];
+        LocationToAccountApi: ['convert_location'];
+        TrustedQueryApi: ['is_trusted_reserve', 'is_trusted_teleporter'];
+        AuthorizedAliasersApi: ['authorized_aliasers', 'is_authorized_alias'];
+        CollectCollationInfo: ['collect_collation_info'];
+        GetParachainInfo: ['parachain_id'];
+        GenesisBuilder: ['build_state', 'get_preset', 'preset_names'];
+    };
+};
+export type DotPeopleWhitelistEntry = PalletKey | `query.${NestedKey<AllInteractions['storage']>}` | `tx.${NestedKey<AllInteractions['tx']>}` | `event.${NestedKey<AllInteractions['events']>}` | `error.${NestedKey<AllInteractions['errors']>}` | `const.${NestedKey<AllInteractions['constants']>}` | `view.${NestedKey<AllInteractions['viewFns']>}` | `api.${NestedKey<AllInteractions['apis']>}`;
+type PalletKey = `*.${({
+    [K in keyof AllInteractions]: K extends 'apis' ? never : keyof AllInteractions[K];
+})[keyof AllInteractions]}`;
+type NestedKey<D extends Record<string, string[]>> = "*" | {
+    [P in keyof D & string]: `${P}.*` | `${P}.${D[P][number]}`;
 }[keyof D & string];

@@ -68,28 +68,24 @@ export async function fetchCoretimeData(
 	const peopleApi = peopleClient.getTypedApi(dotPeople);
 
 	try {
-		log("Fetching validator groups...");
-		const validatorGroups = await relayApi.query.ParaScheduler.ValidatorGroups.getValue();
-		const totalCores = validatorGroups.length;
-
-		log(`Fetching data for ${totalCores} cores...`);
-		const coreDescriptorPromises = Array.from({ length: totalCores }, (_, i) =>
-			relayApi.query.CoretimeAssignmentProvider.CoreDescriptors.getValue(i),
-		);
-
-		const [claimQueue, brokerReservations, brokerLeases, brokerSaleInfo, brokerStatus, ...coreDescriptors] =
+		log("Fetching coretime data...");
+		const [claimQueue, availabilityCores, brokerReservations, brokerLeases, brokerSaleInfo, brokerStatus, coreDescriptorEntries] =
 			await Promise.all([
-				relayApi.query.ParaScheduler.ClaimQueue.getValue(),
+				relayApi.apis.ParachainHost.claim_queue(),
+				relayApi.apis.ParachainHost.availability_cores(),
 				coretimeApi.query.Broker.Reservations.getValue(),
 				coretimeApi.query.Broker.Leases.getValue(),
 				coretimeApi.query.Broker.SaleInfo.getValue(),
 				coretimeApi.query.Broker.Status.getValue(),
-				...coreDescriptorPromises,
+				relayApi.query.ParaScheduler.CoreDescriptors.getValue(),
 			]);
+
+		const coreDescriptors = new Map(coreDescriptorEntries);
+		const totalCores = coreDescriptors.size;
 
 		// Collect all unique paraIds
 		const allParaIds = new Set<number>();
-		for (const desc of coreDescriptors) {
+		for (const desc of coreDescriptors.values()) {
 			if (desc.current_work) {
 				for (const [assignment] of desc.current_work.assignments) {
 					if (assignment.type === "Task") allParaIds.add(assignment.value!);
@@ -135,10 +131,10 @@ export async function fetchCoretimeData(
 		const paraIdToCores = new Map<number, number[]>();
 
 		for (let i = 0; i < totalCores; i++) {
-			const desc = coreDescriptors[i];
+			const desc = coreDescriptors.get(i);
 			const cqEntries = claimQueueMap.get(i) ?? [];
 
-			if (!desc.current_work) {
+			if (!desc || !desc.current_work) {
 				cores.push({
 					index: i,
 					assignment: "NoWork",
@@ -222,8 +218,21 @@ export async function fetchCoretimeData(
 		const noWorkCores = cores.filter((c) => c.assignment === "NoWork").length;
 		const mixedCores = cores.filter((c) => c.assignment === "Mixed").length;
 
+		let relayFreeCores = 0;
+		let relayOccupiedCores = 0;
+		let relayScheduledCores = 0;
+		for (const ac of availabilityCores) {
+			if (ac.type === "Free") relayFreeCores++;
+			else if (ac.type === "Occupied") relayOccupiedCores++;
+			else if (ac.type === "Scheduled") relayScheduledCores++;
+		}
+
 		const stats: Stats = {
 			totalCores,
+			relayCores: availabilityCores.length,
+			relayFreeCores,
+			relayOccupiedCores,
+			relayScheduledCores,
 			taskCores,
 			poolCores,
 			idleCores,

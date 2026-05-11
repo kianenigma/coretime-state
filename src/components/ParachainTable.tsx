@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { ParachainInfo } from "../types";
+import { InfoTip } from "./InfoTip";
 
 interface Props {
 	parachains: ParachainInfo[];
@@ -44,21 +45,33 @@ export function ParachainTable({ parachains }: Props) {
 
 	return (
 		<div className="panel">
-			<h2>Parachains ({parachains.length})</h2>
+			<h2>
+				Parachains ({parachains.length})
+				<InfoTip text="One row per parachain that appears in any Task assignment across broker cores. Source: union of CoreDescriptors[*].current_work.assignments[*].(Task).value, joined with Registrar.Paras (for manager) and the People-chain Identity pallet (for display name)." />
+			</h2>
 			<table className="para-table">
 				<thead>
 					<tr>
 						<th onClick={() => handleSort("paraId")}>
 							ParaId<span className="sort-arrow">{arrow("paraId")}</span>
+							<InfoTip text="Parachain ID. Source: Task assignment value in CoreDescriptors." />
 						</th>
 						<th onClick={() => handleSort("name")}>
 							Name<span className="sort-arrow">{arrow("name")}</span>
+							<InfoTip text="Display name resolved via the manager's identity on the People chain (Identity.IdentityOf, falling back through Identity.SuperOf for sub-identities)." />
 						</th>
-						<th>Manager</th>
+						<th>
+							Manager
+							<InfoTip text="Manager account. Source: Registrar.Paras(paraId).manager on the relay chain." />
+						</th>
 						<th onClick={() => handleSort("coreCount")}>
 							Cores<span className="sort-arrow">{arrow("coreCount")}</span>
+							<InfoTip text="Number of broker cores this parachain appears on. Computed by counting CoreDescriptors whose current_work contains a Task assignment for this paraId." />
 						</th>
-						<th>Core Indices</th>
+						<th>
+							Core Indices
+							<InfoTip text="The specific core indices (0…brokerCores−1) where this parachain has Task assignments." />
+						</th>
 					</tr>
 				</thead>
 				<tbody>

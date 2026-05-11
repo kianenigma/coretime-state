@@ -4,6 +4,7 @@ import { CoreGrid } from "./CoreGrid";
 import { ParachainTable } from "./ParachainTable";
 import { BrokerPanel } from "./BrokerPanel";
 import { CapacityAnalysis } from "./CapacityAnalysis";
+import { InfoTip } from "./InfoTip";
 
 interface Props {
 	data: CoretimeData;
@@ -15,7 +16,10 @@ export function Dashboard({ data, onRefresh }: Props) {
 		<>
 			<div className="header">
 				<h1>Polkadot Coretime State</h1>
-				<span className="subtitle">Live on-chain snapshot</span>
+				<span className="subtitle">
+					Live on-chain snapshot
+					<InfoTip text="Data is fetched live from three chains: the Polkadot relay (ParaScheduler + ParachainHost runtime API + Registrar), the Coretime parachain (Broker pallet), and the People chain (Identity pallet). Hover the ⓘ on any stat for the exact storage entry or formula used." />
+				</span>
 				<button
 					onClick={onRefresh}
 					style={{

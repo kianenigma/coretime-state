@@ -385,3 +385,95 @@ h1, h2, h3 {
 	font-size: 0.8rem;
 	color: var(--text-secondary);
 }
+
+/* Info tip — hover/focus reveals an inline bubble with the computation source */
+.info-tip {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0.375rem;
+	cursor: help;
+	user-select: none;
+	vertical-align: middle;
+}
+
+.info-tip-icon {
+	color: var(--text-muted);
+	font-size: 0.75rem;
+	transition: color 0.1s;
+	line-height: 1;
+}
+
+.info-tip:hover .info-tip-icon,
+.info-tip:focus .info-tip-icon {
+	color: var(--accent-blue);
+}
+
+.info-tip:focus {
+	outline: none;
+}
+
+.info-tip-bubble {
+	position: absolute;
+	bottom: calc(100% + 6px);
+	left: 50%;
+	transform: translateX(-50%);
+	background: var(--bg-primary);
+	color: var(--text-primary);
+	border: 1px solid var(--border);
+	border-radius: 6px;
+	padding: 0.5rem 0.65rem;
+	font-size: 0.72rem;
+	font-weight: 400;
+	line-height: 1.45;
+	letter-spacing: 0;
+	text-transform: none;
+	width: max-content;
+	max-width: 320px;
+	white-space: normal;
+	text-align: left;
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.1s ease;
+}
+
+.info-tip-bubble::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 5px solid transparent;
+	border-top-color: var(--border);
+}
+
+.info-tip:hover .info-tip-bubble,
+.info-tip:focus .info-tip-bubble {
+	opacity: 1;
+}
+
+/* Two-row stat layout: scope row (relay vs broker) above the per-category row */
+.stats-section {
+	margin-bottom: 1.5rem;
+}
+
+.stats-section-label {
+	font-size: 0.7rem;
+	color: var(--text-muted);
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	margin-bottom: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+
+.stat-card .label {
+	display: flex;
+	align-items: center;
+}
+
+.stat-card .value.red { color: var(--accent-red); }
+.stat-card .value.pink { color: var(--accent-pink); }

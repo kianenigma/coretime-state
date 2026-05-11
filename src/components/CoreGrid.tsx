@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { CoreInfo, ParachainInfo } from "../types";
+import { InfoTip } from "./InfoTip";
 
 interface Props {
 	cores: CoreInfo[];
@@ -46,7 +47,10 @@ export function CoreGrid({ cores, parachains }: Props) {
 
 	return (
 		<div className="panel">
-			<h2>Core Assignments</h2>
+			<h2>
+				Core Assignments
+				<InfoTip text="One cell per broker-managed core (indices 0…brokerCores−1). Color is derived from CoreDescriptors[i].current_work.assignments: Task = only Task entries, Pool = no Task but has Pool, Mixed = Task plus Pool/Idle, Idle = only Idle, NoWork = current_work absent. Hover any cell for the underlying paraIds and 57600ths-of-a-block ratios." />
+			</h2>
 			<div className="legend">
 				{LEGEND.map((l) => (
 					<div key={l.cls} className="legend-item">
