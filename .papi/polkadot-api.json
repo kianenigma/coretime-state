@@ -19,6 +19,24 @@
       "metadata": ".papi/metadata/dotPeople.scale",
       "genesis": "0x67fa177a097bfa18f77ea95ab56e9bcdfeb0e5b8a40e46298bb93e16b6fc5008",
       "codeHash": "0x3f0652ba1159157eff567b8e0e5987c8fc67a614f0909ce0f65f0d8a2b532864"
+    },
+    "ksm": {
+      "wsUrl": "wss://rpc.ibp.network/kusama",
+      "metadata": ".papi/metadata/ksm.scale",
+      "genesis": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+      "codeHash": "0x6434f13616e65084d99b48eb9e729696a19d0807c99eb2d6df566bf8bad084ab"
+    },
+    "ksmPeople": {
+      "wsUrl": "wss://kusama-people-rpc.polkadot.io",
+      "metadata": ".papi/metadata/ksmPeople.scale",
+      "genesis": "0xc1af4cb4eb3918e5db15086c0cc5ec17fb334f728b7c65dd44bfe1e174ff8b3f",
+      "codeHash": "0x75b13346b8ee5488fcc7486397469043ce0887169baf884f8c97fd986c3e4510"
+    },
+    "ksmCoretime": {
+      "wsUrl": "wss://sys.ibp.network/coretime-kusama",
+      "metadata": ".papi/metadata/ksmCoretime.scale",
+      "genesis": "0x638cd2b9af4b3bb54b8c1f0d22711fc89924ca93300f0caf25a580432b29d050",
+      "codeHash": "0x5acb028effa13d1d489c15d12fa6f8df5c0fd80844082cff07a7d358c214e179"
     }
   }
 }

@@ -1,7 +1,7 @@
-import { dot, dotCoretime, dotPeople } from "@polkadot-api/descriptors";
 import { createClient } from "polkadot-api";
 import { getWsProvider } from "polkadot-api/ws-provider";
 import type { CoretimeData, CoreInfo, ParachainInfo, BrokerInfo, Stats } from "../types";
+import type { NetworkConfig } from "../networks";
 
 function decodeIdentityData(data: { type: string; value?: unknown }): string | null {
 	if (data.type === "None" || data.type === "Raw0") return null;
@@ -51,21 +51,25 @@ async function resolveParaNames(
 }
 
 export async function fetchCoretimeData(
+	network: NetworkConfig,
 	onProgress?: (msg: string) => void,
 ): Promise<CoretimeData> {
 	const log = onProgress ?? (() => {});
 
-	log("Connecting to Polkadot relay chain...");
-	const relayClient = createClient(getWsProvider("wss://rpc.ibp.network/polkadot"));
-	const relayApi = relayClient.getTypedApi(dot);
+	log(`Connecting to ${network.label} relay chain...`);
+	const relayClient = createClient(getWsProvider(network.relayRpc));
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const relayApi = relayClient.getTypedApi(network.relayDescriptor) as any;
 
 	log("Connecting to Coretime chain...");
-	const coretimeClient = createClient(getWsProvider("wss://polkadot-coretime-rpc.polkadot.io"));
-	const coretimeApi = coretimeClient.getTypedApi(dotCoretime);
+	const coretimeClient = createClient(getWsProvider(network.coretimeRpc));
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const coretimeApi = coretimeClient.getTypedApi(network.coretimeDescriptor) as any;
 
 	log("Connecting to People chain...");
-	const peopleClient = createClient(getWsProvider("wss://polkadot-people-rpc.polkadot.io"));
-	const peopleApi = peopleClient.getTypedApi(dotPeople);
+	const peopleClient = createClient(getWsProvider(network.peopleRpc));
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const peopleApi = peopleClient.getTypedApi(network.peopleDescriptor) as any;
 
 	try {
 		log("Fetching coretime data...");
@@ -80,7 +84,8 @@ export async function fetchCoretimeData(
 				relayApi.query.ParaScheduler.CoreDescriptors.getValue(),
 			]);
 
-		const coreDescriptors = new Map(coreDescriptorEntries);
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
+		const coreDescriptors = new Map<number, any>(coreDescriptorEntries as Iterable<[number, any]>);
 		const totalCores = coreDescriptors.size;
 
 		// Collect all unique paraIds
