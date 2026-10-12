@@ -5,9 +5,10 @@ export type NetworkId = "polkadot" | "kusama";
 export interface NetworkConfig {
 	id: NetworkId;
 	label: string;
-	relayRpc: string;
-	coretimeRpc: string;
-	peopleRpc: string;
+	// Endpoints are tried in order; the provider rotates to the next one on failure.
+	relayRpc: string[];
+	coretimeRpc: string[];
+	peopleRpc: string[];
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	relayDescriptor: any;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -20,9 +21,9 @@ export const NETWORKS: Record<NetworkId, NetworkConfig> = {
 	polkadot: {
 		id: "polkadot",
 		label: "Polkadot",
-		relayRpc: "wss://rpc.ibp.network/polkadot",
-		coretimeRpc: "wss://polkadot-coretime-rpc.polkadot.io",
-		peopleRpc: "wss://polkadot-people-rpc.polkadot.io",
+		relayRpc: ["wss://rpc.polkadot.io", "wss://polkadot-rpc.n.dwellir.com", "wss://rpc.ibp.network/polkadot"],
+		coretimeRpc: ["wss://polkadot-coretime-rpc.polkadot.io", "wss://sys.ibp.network/coretime-polkadot"],
+		peopleRpc: ["wss://polkadot-people-rpc.polkadot.io", "wss://sys.ibp.network/people-polkadot"],
 		relayDescriptor: dot,
 		coretimeDescriptor: dotCoretime,
 		peopleDescriptor: dotPeople,
@@ -30,9 +31,9 @@ export const NETWORKS: Record<NetworkId, NetworkConfig> = {
 	kusama: {
 		id: "kusama",
 		label: "Kusama",
-		relayRpc: "wss://rpc.ibp.network/kusama",
-		coretimeRpc: "wss://sys.ibp.network/coretime-kusama",
-		peopleRpc: "wss://sys.ibp.network/people-kusama",
+		relayRpc: ["wss://kusama-rpc.polkadot.io", "wss://kusama-rpc.n.dwellir.com", "wss://rpc.ibp.network/kusama"],
+		coretimeRpc: ["wss://kusama-coretime-rpc.polkadot.io", "wss://sys.ibp.network/coretime-kusama"],
+		peopleRpc: ["wss://kusama-people-rpc.polkadot.io", "wss://sys.ibp.network/people-kusama"],
 		relayDescriptor: ksm,
 		coretimeDescriptor: ksmCoretime,
 		peopleDescriptor: ksmPeople,
