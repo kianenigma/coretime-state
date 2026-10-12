@@ -2,6 +2,7 @@ import { createClient } from "polkadot-api";
 import { getWsProvider } from "polkadot-api/ws-provider";
 import type { CoretimeData, CoreInfo, ParachainInfo, BrokerInfo, Stats } from "../types";
 import type { NetworkConfig } from "../networks";
+import { fetchSaleData } from "./fetchSaleData";
 
 function decodeIdentityData(data: { type: string; value?: unknown }): string | null {
 	if (data.type === "None" || data.type === "Raw0") return null;
@@ -73,7 +74,7 @@ export async function fetchCoretimeData(
 
 	try {
 		log("Fetching coretime data...");
-		const [claimQueue, availabilityCores, brokerReservations, brokerLeases, brokerSaleInfo, brokerStatus, coreDescriptorEntries] =
+		const [claimQueue, availabilityCores, brokerReservations, brokerLeases, brokerSaleInfo, brokerStatus, coreDescriptorEntries, relayFinalized] =
 			await Promise.all([
 				relayApi.apis.ParachainHost.claim_queue(),
 				relayApi.apis.ParachainHost.availability_cores(),
@@ -82,7 +83,17 @@ export async function fetchCoretimeData(
 				coretimeApi.query.Broker.SaleInfo.getValue(),
 				coretimeApi.query.Broker.Status.getValue(),
 				relayApi.query.ParaScheduler.CoreDescriptors.getValue(),
+				relayClient.getFinalizedBlock(),
 			]);
+
+		log("Fetching sale and renewal data...");
+		const sale = await fetchSaleData(
+			coretimeApi,
+			relayFinalized.number,
+			brokerReservations.length + brokerLeases.length,
+			brokerSaleInfo,
+			brokerStatus,
+		);
 
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const coreDescriptors = new Map<number, any>(coreDescriptorEntries as Iterable<[number, any]>);
@@ -97,6 +108,9 @@ export async function fetchCoretimeData(
 				}
 			}
 		}
+
+		// Parachains that only show up in the sale (e.g. fresh purchases) need names too
+		for (const row of sale?.rows ?? []) for (const pid of row.paraIds) allParaIds.add(pid);
 
 		// Fetch registrar info
 		log(`Resolving ${allParaIds.size} parachain identities...`);
@@ -115,6 +129,7 @@ export async function fetchCoretimeData(
 
 		log("Resolving names from People chain...");
 		const paraNames = await resolveParaNames(managerAccounts, peopleApi);
+		for (const row of sale?.rows ?? []) row.names = row.paraIds.map((pid) => paraNames.get(pid) ?? null);
 
 		// Build claim queue map
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -247,7 +262,7 @@ export async function fetchCoretimeData(
 		};
 
 		log("Done!");
-		return { cores, parachains, broker, stats };
+		return { cores, parachains, broker, sale, stats };
 	} finally {
 		relayClient.destroy();
 		coretimeClient.destroy();

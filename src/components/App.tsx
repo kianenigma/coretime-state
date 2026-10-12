@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { fetchCoretimeData } from "../api/fetchCoretimeData";
 import { Dashboard } from "./Dashboard";
 import type { CoretimeData } from "../types";
@@ -15,19 +15,24 @@ function readStoredNetwork(): NetworkId {
 
 export function App() {
 	const [networkId, setNetworkId] = useState<NetworkId>(readStoredNetwork);
-	const [data, setData] = useState<CoretimeData | null>(null);
+	// Tagged with the network it was loaded for, so a network switch never renders stale data.
+	const [loaded, setLoaded] = useState<{ id: NetworkId; data: CoretimeData } | null>(null);
 	const [error, setError] = useState<string | null>(null);
 	const [progress, setProgress] = useState("Initializing...");
+	// Only the most recent load may update state; earlier in-flight loads are ignored.
+	const latestLoad = useRef(0);
 
 	const load = useCallback(async (id: NetworkId) => {
-		setData(null);
+		const loadId = ++latestLoad.current;
+		const isLatest = () => loadId === latestLoad.current;
+		setLoaded(null);
 		setError(null);
 		setProgress("Initializing...");
 		try {
-			const result = await fetchCoretimeData(NETWORKS[id], setProgress);
-			setData(result);
+			const result = await fetchCoretimeData(NETWORKS[id], (msg) => isLatest() && setProgress(msg));
+			if (isLatest()) setLoaded({ id, data: result });
 		} catch (e) {
-			setError(e instanceof Error ? e.message : String(e));
+			if (isLatest()) setError(e instanceof Error ? e.message : String(e));
 		}
 	}, []);
 
@@ -39,6 +44,7 @@ export function App() {
 	}, [load, networkId]);
 
 	const network = NETWORKS[networkId];
+	const data = loaded?.id === networkId ? loaded.data : null;
 
 	if (error) {
 		return (

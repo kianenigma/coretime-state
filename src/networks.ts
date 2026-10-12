@@ -9,6 +9,7 @@ export interface NetworkConfig {
 	relayRpc: string[];
 	coretimeRpc: string[];
 	peopleRpc: string[];
+	token: { symbol: string; decimals: number };
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	relayDescriptor: any;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -27,6 +28,7 @@ export const NETWORKS: Record<NetworkId, NetworkConfig> = {
 		relayDescriptor: dot,
 		coretimeDescriptor: dotCoretime,
 		peopleDescriptor: dotPeople,
+		token: { symbol: "DOT", decimals: 10 },
 	},
 	kusama: {
 		id: "kusama",
@@ -37,6 +39,7 @@ export const NETWORKS: Record<NetworkId, NetworkConfig> = {
 		relayDescriptor: ksm,
 		coretimeDescriptor: ksmCoretime,
 		peopleDescriptor: ksmPeople,
+		token: { symbol: "KSM", decimals: 12 },
 	},
 };
 

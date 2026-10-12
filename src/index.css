@@ -529,3 +529,40 @@ h1, h2, h3 {
 
 .stat-card .value.red { color: var(--accent-red); }
 .stat-card .value.pink { color: var(--accent-pink); }
+
+/* Bulk sale & renewals panel */
+.sale-summary {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	column-gap: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.sale-table-wrap {
+	max-height: 420px;
+	overflow-y: auto;
+}
+
+.sale-table thead th {
+	position: sticky;
+	top: 0;
+	background: var(--bg-secondary);
+	cursor: default;
+}
+
+.sale-badge {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0 0.4rem;
+	font-size: 0.7rem;
+	font-weight: 600;
+	border: 1px solid currentColor;
+}
+
+.sale-badge.Renewed { color: var(--accent-green); }
+.sale-badge.Purchased { color: var(--accent-blue); }
+.sale-badge.RenewalPending { color: var(--accent-orange); }
+.sale-badge.NotRenewed { color: var(--accent-red); }
+
+.muted { color: var(--text-muted); }
+.small { font-size: 0.7rem; }

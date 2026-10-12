@@ -4,6 +4,7 @@ import { CoreGrid } from "./CoreGrid";
 import { ParachainTable } from "./ParachainTable";
 import { BrokerPanel } from "./BrokerPanel";
 import { CapacityAnalysis } from "./CapacityAnalysis";
+import { SalePanel } from "./SalePanel";
 import { InfoTip } from "./InfoTip";
 import { NETWORKS, type NetworkConfig, type NetworkId } from "../networks";
 
@@ -44,7 +45,8 @@ export function Dashboard({ data, network, onRefresh, onNetworkChange }: Props) 
 			</div>
 
 			<StatsCards stats={data.stats} />
-			<CoreGrid cores={data.cores} parachains={data.parachains} />
+			<CoreGrid cores={data.cores} parachains={data.parachains} sale={data.sale} token={network.token} />
+			{data.sale && <SalePanel sale={data.sale} token={network.token} />}
 
 			<div className="bottom-row">
 				<ParachainTable parachains={data.parachains} />

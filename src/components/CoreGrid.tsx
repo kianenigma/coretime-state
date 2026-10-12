@@ -1,10 +1,14 @@
 import { useState } from "react";
-import type { CoreInfo, ParachainInfo } from "../types";
+import type { CoreInfo, ParachainInfo, SaleInfo, SaleRow } from "../types";
+import type { NetworkConfig } from "../networks";
+import { formatBalance } from "../format";
 import { InfoTip } from "./InfoTip";
 
 interface Props {
 	cores: CoreInfo[];
 	parachains: ParachainInfo[];
+	sale: SaleInfo | null;
+	token: NetworkConfig["token"];
 }
 
 const LEGEND: { cls: string; label: string; color: string }[] = [
@@ -15,10 +19,24 @@ const LEGEND: { cls: string; label: string; color: string }[] = [
 	{ cls: "nowork", label: "No Work", color: "var(--bg-tertiary)" },
 ];
 
-export function CoreGrid({ cores, parachains }: Props) {
+export function CoreGrid({ cores, parachains, sale, token }: Props) {
 	const [hoveredCore, setHoveredCore] = useState<number | null>(null);
 
 	const paraMap = new Map(parachains.map((p) => [p.paraId, p]));
+	const saleByCore = new Map<number, SaleRow>();
+	for (const r of sale?.rows ?? []) if (r.currentCore !== null) saleByCore.set(r.currentCore, r);
+
+	function saleLine(core: CoreInfo): string | null {
+		const r = saleByCore.get(core.index);
+		if (!r) return null;
+		const price = r.price === null ? "" : formatBalance(r.price, token);
+		switch (r.kind) {
+			case "Renewed": return `Renewed → core ${r.nextCore} (next renewal ${price})`;
+			case "RenewalPending": return `Renewal pending: ${price}`;
+			case "NotRenewed": return "Not renewed for next region";
+			case "Purchased": return null;
+		}
+	}
 
 	function coreClass(core: CoreInfo): string {
 		switch (core.assignment) {
@@ -42,6 +60,8 @@ export function CoreGrid({ cores, parachains }: Props) {
 		} else {
 			lines.push(core.assignment);
 		}
+		const sl = saleLine(core);
+		if (sl) lines.push(sl);
 		return lines;
 	}
 
